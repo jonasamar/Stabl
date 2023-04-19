@@ -1,0 +1,101 @@
+,Fold selected features,Fold nb of features
+Fold 0,"['Granulocytes_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'Antithrombin.III', 'IL.1.R4', 'SLPI', 'VEGF121', 'PLXB2', 'X331.2264_8.1', 'X443.208_8.4']",12
+Fold 1,"['Granulocytes_STAT1_IFNa', 'Granulocytes', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'MMP.12', 'X331.2264_8.4', 'X443.208_8.4']",8
+Fold 2,"['CD69posCD56loCD16negNK_MAPKAPK2_unstim', 'Granulocytes_STAT1_IFNa', 'Bcells', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'IL.1.R4', 'MMP.12', 'PLXB2', 'X331.2264_8.4', 'X505.244_8.1']",11
+Fold 3,"['Granulocytes_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'IL.1.R4', 'PLXB2', 'X443.208_8.4']",7
+Fold 4,"['Granulocytes_STAT1_IFNa', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'PLXB2', 'X331.2264_8.1', 'X443.208_8.4']",8
+Fold 5,"['Granulocytes_STAT1_IFNa', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'SLPI', 'MMP.12', 'PLXB2', 'X193.0618_5.3', 'X331.2264_8.1', 'X443.208_8.4']",11
+Fold 6,"['Granulocytes_STAT1_IFNa', 'mDCs', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'MMP.12', 'X443.208_8.4']",8
+Fold 7,"['Granulocytes_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'IL.1.R4', 'X443.208_8.4']",6
+Fold 8,"['Granulocytes_S6_unstim', 'Granulocytes_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'IL.1.R4', 'MMP.12', 'PLXB2', 'X331.2264_8.4', 'X505.244_8.1']",10
+Fold 9,"['CD69posCD56loCD16negNK_MAPKAPK2_unstim', 'Granulocytes_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'MMP.12', 'PLXB2', 'X193.0618_5.3', 'X331.2264_8.1', 'X349.2371_7.5', 'X443.208_8.4']",13
+Fold 10,"['Granulocytes_CREB_GMCSF', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'SLPI', 'MMP.12', 'PLXB2', 'X349.2371_7.5', 'X443.208_8.4', 'X505.244_8.1']",12
+Fold 11,"['Granulocytes_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'IL.1.R4', 'X443.208_8.4']",6
+Fold 12,"['Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'IL.1.R4', 'SLPI', 'MMP.12', 'X505.244_8.1']",7
+Fold 13,"['Granulocytes_STAT1_IFNa', 'Bcells', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'IL.1.R4', 'MMP.12', 'X331.2264_8.4', 'X443.208_8.4']",9
+Fold 14,"['CCR2negncMCs_MAPKAPK2_GMCSF', 'Granulocytes_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'MMP.12', 'PLXB2', 'X443.208_8.4']",10
+Fold 15,"['Granulocytes_STAT1_IFNa', 'Granulocytes', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'OX2G', 'X349.2371_7.5', 'X443.208_8.4']",8
+Fold 16,"['TCRgdposT_STAT6_unstim', 'CD62LposCD4Tnaive_STAT5_unstim', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'MMP.12', 'PLXB2', 'X331.2264_8.1', 'X443.208_8.4']",11
+Fold 17,"['Granulocytes_CREB_GMCSF', 'Bcells', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'MMP.12', 'PLXB2', 'X349.2371_7.5', 'X443.208_8.4']",11
+Fold 18,"['Granulocytes', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'SLPI', 'VEGF121', 'X443.208_8.4']",7
+Fold 19,"['TCRgdposT_NFkB_unstim', 'Granulocytes_STAT1_IFNa', 'Granulocytes', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'MMP.12', 'X331.2264_8.4', 'X443.208_8.4']",9
+Fold 20,"['Granulocytes_CREB_GMCSF', 'Granulocytes_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'MMP.12', 'X443.208_8.4']",9
+Fold 21,"['Granulocytes', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'SLIK5', 'X443.208_8.4']",6
+Fold 22,"['Granulocytes_CREB_GMCSF', 'NKT', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'SLPI', 'X443.208_8.4']",9
+Fold 23,"['Granulocytes_CREB_GMCSF', 'Granulocytes_STAT1_IFNa', 'mDCs', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'MMP.12', 'X331.2264_8.1', 'X349.2371_7.5', 'X443.208_8.4']",12
+Fold 24,"['Granulocytes_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Cystatin.C', 'Siglec.6', 'IL.1.R4', 'SLPI', 'PLXB2', 'X331.2264_8.4', 'X505.244_8.1']",10
+Fold 25,"['Granulocytes', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'MMP.12', 'X443.208_8.4']",6
+Fold 26,"['Granulocytes_S6_unstim', 'Granulocytes_STAT1_IFNa', 'CCR5posCCR2posCD4Tem', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'PLXB2', 'X349.2371_7.5', 'X443.208_8.4']",11
+Fold 27,"['Granulocytes_STAT1_IFNa', 'NK_STAT1_IFNa', 'Granulocytes', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'MMP.12', 'X443.208_8.4']",8
+Fold 28,"['CD69posCD56loCD16negNK_MAPKAPK2_unstim', 'Granulocytes_CREB_GMCSF', 'Granulocytes_STAT1_IFNa', 'DCs_STAT6_IL246', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'SLPI', 'Angiogenin', 'PLXB2', 'X331.2264_8.1', 'X349.2371_7.5', 'X443.208_8.4']",15
+Fold 29,"['Granulocytes_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Cystatin.C', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'X331.2264_8.4', 'X443.208_8.4']",9
+Fold 30,"['Bcells', 'Granulocytes', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'MMP.12', 'X443.208_8.4']",7
+Fold 31,"['Granulocytes_S6_unstim', 'Granulocytes_STAT1_IFNa', 'Granulocytes', 'Siglec.6', 'IL.1.R4', 'X331.2264_8.4', 'X443.208_8.4']",7
+Fold 32,"['Granulocytes_S6_unstim', 'CD69posCD56loCD16negNK_MAPKAPK2_unstim', 'Granulocytes_STAT1_IFNa', 'CD69posCD56loCD16negNK_STAT1_IFNa', 'Bcells', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'IL.1.R4', 'MMP.12', 'VEGF121', 'Angiogenin', 'X443.208_8.4']",13
+Fold 33,"['Bcells', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'X443.208_8.4']",7
+Fold 34,"['Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'IL.1.R4', 'GRN', 'X331.2264_8.4', 'X443.208_8.4']",7
+Fold 35,"['NKT', 'Granulocytes', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'MMP.12', 'X443.208_8.4']",7
+Fold 36,"['Granulocytes', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'MMP.12', 'SLIK5', 'X443.208_8.4']",7
+Fold 37,"['Granulocytes_STAT1_IFNa', 'Granulocytes', 'Siglec.6', 'IL.1.R4', 'MMP.12', 'X331.2264_8.4', 'X443.208_8.4']",7
+Fold 38,"['Bcells', 'NKT', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'SLPI', 'PLXB2', 'X331.2264_8.1', 'X349.2371_7.5', 'X443.208_8.4']",12
+Fold 39,"['Granulocytes_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'PLXB2', 'X443.208_8.4']",8
+Fold 40,"['Granulocytes_S6_unstim', 'Granulocytes_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'X443.208_8.4']",8
+Fold 41,"['TCRgdposT_STAT6_unstim', 'Bcells', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'MMP.12', 'SLIK5', 'X349.2371_7.5', 'X443.208_8.4']",11
+Fold 42,"['Granulocytes_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'SLPI', 'PLXB2', 'X193.0618_5.3', 'X331.2264_8.1', 'X443.208_8.4']",11
+Fold 43,"['Granulocytes_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'IL.1.R4', 'SLPI', 'PLXB2', 'X331.2264_8.1', 'X349.2371_7.5', 'X443.208_8.4']",10
+Fold 44,"['TCRgdposT_STAT6_unstim', 'NEGR1', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'MMP.12', 'X349.2371_7.5', 'X443.208_8.4']",8
+Fold 45,"['NK_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'SPINT2', 'IL.1.R4', 'SLPI', 'X331.2264_8.4', 'X443.208_8.4']",9
+Fold 46,"['Bcells', 'Granulocytes', 'NEGR1', 'Angiopoietin.2', 'Siglec.6', 'IL.1.R4', 'MMP.12', 'X443.208_8.4']",8
+Fold 47,"['Granulocytes_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'X349.2371_7.5', 'X443.208_8.4']",8
+Fold 48,"['Granulocytes_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'SLPI', 'X349.2371_7.5', 'X443.208_8.4']",9
+Fold 49,"['Granulocytes_STAT1_IFNa', 'Bcells', 'Granulocytes', 'Angiopoietin.2', 'Cystatin.C', 'Siglec.6', 'IL.1.R4', 'MMP.12', 'GRN', 'PLXB2', 'X331.2264_8.4', 'X443.208_8.4', 'X505.244_8.1']",13
+Fold 50,"['Granulocytes_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'SLPI', 'PLXB2', 'X331.2264_8.1', 'X349.2371_7.5', 'X443.208_8.4']",11
+Fold 51,"['Granulocytes_STAT1_IFNa', 'Bcells', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'IL.1.R4', 'PLXB2', 'X331.2264_8.1', 'X349.2371_7.5', 'X443.208_8.4']",10
+Fold 52,"['Granulocytes_S6_unstim', 'Granulocytes_STAT1_IFNa', 'Granulocytes', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'MMP.12', 'X443.208_8.4']",8
+Fold 53,"['Granulocytes_STAT1_IFNa', 'CD69posCD56loCD16negNK_STAT5_IL246', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'X331.2264_8.1', 'X443.208_8.4']",9
+Fold 54,"['DCs_STAT6_IL246', 'Granulocytes', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'MMP.12', 'X443.208_8.4']",7
+Fold 55,"['CCR5posCCR2posCD4Tem', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'MMP.12', 'X349.2371_7.5', 'X443.208_8.4']",9
+Fold 56,"['Granulocytes_S6_unstim', 'Granulocytes_STAT1_IFNa', 'Granulocytes', 'NEGR1', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'MMP.12', 'PLXB2', 'X443.208_8.4']",10
+Fold 57,"['DCs_STAT6_IFNa', 'Bcells', 'Granulocytes', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'MMP.12', 'X443.208_8.4']",8
+Fold 58,"['Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'IL.1.R4', 'X331.2264_8.1', 'X443.208_8.4']",6
+Fold 59,"['Granulocytes_STAT1_IFNa', 'Granulocytes', 'Siglec.6', 'IL.1.R4', 'X331.2264_8.4', 'X443.208_8.4']",6
+Fold 60,"['Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'SLPI', 'MMP.12', 'X349.2371_7.5', 'X443.208_8.4']",9
+Fold 61,"['Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'IL.1.R4', 'PLXB2', 'X331.2264_8.1', 'X349.2371_7.5', 'X443.208_8.4']",8
+Fold 62,"['Granulocytes_STAT1_IFNa', 'DCs_STAT6_IL246', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'IL.1.R4', 'MMP.12', 'X443.208_8.4']",8
+Fold 63,"['Granulocytes_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'PLXB2', 'X331.2264_8.1', 'X349.2371_7.5', 'X443.208_8.4']",10
+Fold 64,"['Granulocytes_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'X349.2371_7.5', 'X443.208_8.4']",8
+Fold 65,"['Granulocytes_CREB_GMCSF', 'Granulocytes_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Cystatin.C', 'Siglec.6', 'discoidin.domain.receptor.1', 'IL.1.R4', 'X331.2264_8.4', 'X443.208_8.4']",10
+Fold 66,"['Granulocytes_CREB_GMCSF', 'Granulocytes_STAT1_IFNa', 'Granulocytes', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'X331.2264_8.1', 'X349.2371_7.5', 'X443.208_8.4']",9
+Fold 67,"['Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'IL.1.R4', 'PLXB2', 'X331.2264_8.1', 'X443.208_8.4']",7
+Fold 68,"['CD69posCD56loCD16negNK_MAPKAPK2_unstim', 'Granulocytes_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'IL.1.R4', 'PLXB2', 'X315.1951_9.7', 'X349.2371_7.5', 'X443.208_8.4']",10
+Fold 69,"['Granulocytes_S6_unstim', 'Granulocytes_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'X443.208_8.4']",8
+Fold 70,"['Granulocytes_CREB_GMCSF', 'Granulocytes_STAT1_IFNa', 'DCs_STAT6_IL246', 'mDCs', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'PAI.1', 'IL.1.R4', 'X443.208_8.4']",11
+Fold 71,"['Granulocytes_CREB_GMCSF', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'X331.2264_8.1', 'X443.208_8.4']",8
+Fold 72,"['Granulocytes_STAT1_IFNa', 'Bcells_STAT1_IFNa', 'Bcells', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'SLPI', 'PLXB2', 'X331.2264_8.1', 'X349.2371_7.5', 'X443.208_8.4', 'X461.2387_8.7']",14
+Fold 73,"['Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'X331.2264_8.4', 'X443.208_8.4']",7
+Fold 74,"['Granulocytes_S6_unstim', 'Granulocytes_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'MMP.12', 'X331.2264_8.1', 'X349.2371_7.5', 'X443.208_8.4']",11
+Fold 75,"['CD62LposCD4Tnaive_STAT3_unstim', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'MIC.1', 'MMP.12', 'PLXB2', 'X443.208_8.4']",10
+Fold 76,"['DCs_STAT6_IFNa', 'NK_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'SLPI', 'MMP.12', 'X193.0618_5.3', 'X349.2371_7.5', 'X443.208_8.4']",12
+Fold 77,"['Granulocytes_S6_unstim', 'Granulocytes_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'MMP.12', 'X193.0618_5.3', 'X443.208_8.4']",10
+Fold 78,"['Granulocytes_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'SLPI', 'MMP.12', 'PLXB2', 'X193.0618_5.3', 'X349.2371_7.5', 'X443.208_8.4']",12
+Fold 79,"['Granulocytes_S6_unstim', 'Granulocytes_STAT1_IFNa', 'Bcells', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'PLXB2', 'X331.2264_8.4', 'X443.208_8.4']",11
+Fold 80,"['Granulocytes_STAT1_IFNa', 'Bcells', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'SLPI', 'MMP.12', 'SLIK5', 'PLXB2', 'X349.2371_7.5', 'X443.208_8.4']",13
+Fold 81,"['Granulocytes_STAT1_IFNa', 'DCs_STAT6_IL246', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'SLPI', 'MMP.12', 'VEGF121', 'X443.208_8.4']",11
+Fold 82,"['Granulocytes_STAT1_IFNa', 'Bcells', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'MMP.12', 'X443.208_8.4']",9
+Fold 83,"['CCR2negncMCs_MAPKAPK2_GMCSF', 'DCs_STAT6_IFNa', 'Bcells', 'Granulocytes', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'MMP.12', 'X331.2264_8.4', 'X443.208_8.4']",10
+Fold 84,"['Granulocytes_STAT1_IFNa', 'CCR5posCCR2posCD4Tem', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'IL.1.R4', 'SLPI', 'X441.264_9.5', 'X443.208_8.4']",9
+Fold 85,"['Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'SLPI', 'MMP.12', 'X331.2264_8.4', 'X443.208_8.4']",9
+Fold 86,"['Granulocytes_S6_unstim', 'Granulocytes_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'IL.1.R4', 'X331.2264_8.4', 'X443.208_8.4']",8
+Fold 87,"['Granulocytes_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'SLPI', 'PLXB2', 'X331.2264_8.1', 'X349.2371_7.5', 'X443.208_8.4']",11
+Fold 88,"['TCRgdposT_STAT6_unstim', 'Granulocytes', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'MMP.12', 'X349.2371_7.5', 'X443.208_8.4']",8
+Fold 89,"['Granulocytes_STAT1_IFNa', 'CD69negCD56loCD16negNK_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'IL.1.R4', 'SLPI', 'PLXB2', 'X331.2264_8.1', 'X349.2371_7.5', 'X443.208_8.4']",11
+Fold 90,"['Granulocytes_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'Antithrombin.III', 'IL.1.R4', 'PLXB2', 'X331.2264_8.1', 'X349.2371_7.5', 'X443.208_8.4']",11
+Fold 91,"['Granulocytes_STAT1_IFNa', 'Bcells_STAT1_IFNa', 'Bcells', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'IL.1.R4', 'PLXB2', 'X349.2371_7.5', 'X443.208_8.4']",10
+Fold 92,"['NKT', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'SLPI', 'X443.208_8.4']",8
+Fold 93,"['Granulocytes_STAT1_IFNa', 'CCR5posCCR2posCD4Tem', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'PLXB2', 'X443.208_8.4']",9
+Fold 94,"['Granulocytes_CREB_GMCSF', 'CD69negCD56loCD16negNK_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'SLPI', 'PLXB2', 'X331.2264_8.1', 'X443.208_8.4', 'X461.2387_8.7']",12
+Fold 95,"['Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'SLPI', 'MMP.12', 'X443.208_8.4']",8
+Fold 96,"['NKT_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'PLXB2', 'X331.2264_8.1', 'X349.2371_7.5', 'X443.208_8.4']",10
+Fold 97,"['CD69posCD56loCD16negNK_MAPKAPK2_unstim', 'Granulocytes_STAT1_IFNa', 'Granulocytes', 'Cystatin.C', 'Siglec.6', 'Activin.A', 'IL.1.R4', 'MMP.12', 'X443.208_8.4']",9
+Fold 98,"['Granulocytes_S6_unstim', 'Granulocytes_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'IL.1.R4', 'MMP.12', 'X331.2264_8.1', 'X349.2371_7.5', 'X443.208_8.4']",10
+Fold 99,"['Granulocytes_STAT1_IFNa', 'Granulocytes', 'Angiopoietin.2', 'Siglec.6', 'IL.1.R4', 'MMP.12', 'X443.208_8.4']",7

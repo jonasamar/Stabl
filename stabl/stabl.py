@@ -304,7 +304,7 @@ def plot_stabl_path(
     -------
     figure, axis
     """
-
+        
     check_is_fitted(stabl, 'stabl_scores_')
 
     threshold = stabl.hard_threshold if new_hard_threshold is None else new_hard_threshold
