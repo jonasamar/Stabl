@@ -11,7 +11,6 @@ from sklearn.base import clone
 from stabl.stabl import Stabl, plot_stabl_path, plot_fdr_graph, save_stabl_results
 from stabl.preprocessing import LowInfoFilter, remove_low_info_samples
 
-%config InlineBackend.figure_formats=['retina']
 from stabl.multi_omic_pipelines import multi_omic_stabl, multi_omic_stabl_cv, late_fusion_lasso_cv
 from stabl.single_omic_pipelines import single_omic_stabl, single_omic_stabl_cv
 from stabl.pipelines_utils import compute_features_table

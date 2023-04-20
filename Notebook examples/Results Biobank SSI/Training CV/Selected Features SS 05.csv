@@ -1,0 +1,101 @@
+,Fold selected features,Fold nb of features
+Fold 0,"['unstim_CD4Trm_Frequency', 'IL246_Granulocytes_154Sm_STAT3', 'ALK']",3
+Fold 1,"['unstim_CD4Trm_Frequency', 'unstim_Tregnaive_Frequency']",2
+Fold 2,['unstim_CD4Trm_Frequency'],1
+Fold 3,['unstim_CD4Trm_Frequency'],1
+Fold 4,['unstim_CD4Trm_Frequency'],1
+Fold 5,['IL246_Granulocytes_154Sm_STAT3'],1
+Fold 6,['unstim_CD4Trm_Frequency'],1
+Fold 7,"['unstim_CD4Trm_Frequency', 'CCL3']",2
+Fold 8,"['unstim_CD4Trm_Frequency', 'WWOX']",2
+Fold 9,['unstim_CD4Trm_Frequency'],1
+Fold 10,['unstim_CD4Trm_Frequency'],1
+Fold 11,['unstim_CD4Trm_Frequency'],1
+Fold 12,"['unstim_CD4Trm_Frequency', 'ARL11', 'ALK']",3
+Fold 13,['unstim_CD4Trm_Frequency'],1
+Fold 14,['unstim_CD4Trm_Frequency'],1
+Fold 15,"['unstim_Th1naive_149Sm_CREB', 'unstim_CD4Trm_Frequency', 'IL246_Th1naive_153Eu_STAT1']",3
+Fold 16,"['unstim_CD4Trm_Frequency', 'CCL3']",2
+Fold 17,['unstim_CD4Trm_Frequency'],1
+Fold 18,"['unstim_CD4Trm_Frequency', 'IL246_Granulocytes_154Sm_STAT3', 'IRF6']",3
+Fold 19,"['unstim_CD4Trm_Frequency', 'IL246_Granulocytes_154Sm_STAT3']",2
+Fold 20,"['unstim_CD4Trm_Frequency', 'TNF_Th1_149Sm_CREB']",2
+Fold 21,['unstim_CD4Trm_Frequency'],1
+Fold 22,"['unstim_CD4Trm_Frequency', 'unstim_Tregnaive_Frequency']",2
+Fold 23,"['unstim_CD4Trm_Frequency', 'IL246_Granulocytes_154Sm_STAT3']",2
+Fold 24,['unstim_CD4Trm_Frequency'],1
+Fold 25,['unstim_CD4Trm_Frequency'],1
+Fold 26,"['unstim_CD4Trm_Frequency', 'LDLR', 'WWOX']",3
+Fold 27,"['unstim_CD4Tnaive_Frequency', 'unstim_CD4Trm_Frequency']",2
+Fold 28,"['unstim_CD4Trm_Frequency', 'IL246_Granulocytes_154Sm_STAT3']",2
+Fold 29,['unstim_CD4Trm_Frequency'],1
+Fold 30,"['unstim_CD4Trm_Frequency', 'WWOX']",2
+Fold 31,['unstim_CD4Trm_Frequency'],1
+Fold 32,"['unstim_CD4Trm_Frequency', 'IRF6']",2
+Fold 33,"['unstim_CD4Trm_Frequency', 'IL246_Granulocytes_154Sm_STAT3', 'TNF_ncMC_167Er_ERK']",3
+Fold 34,['unstim_CD4Trm_Frequency'],1
+Fold 35,['unstim_CD4Trm_Frequency'],1
+Fold 36,"['unstim_CD4Trm_Frequency', 'IL246_Granulocytes_154Sm_STAT3', 'LPS_Granulocytes_159Tb_MAPKAPK2']",3
+Fold 37,"['unstim_CD4Trm_Frequency', 'ALK']",2
+Fold 38,"['unstim_CD4Tnaive_Frequency', 'unstim_CD4Trm_Frequency']",2
+Fold 39,"['unstim_CD4Trm_Frequency', 'unstim_Tregnaive_Frequency', 'ALK']",3
+Fold 40,['unstim_CD4Trm_Frequency'],1
+Fold 41,"['unstim_Tregnaive_150Nd_STAT5', 'unstim_CD4Trm_Frequency', 'TNF_Th1_149Sm_CREB']",3
+Fold 42,['unstim_CD4Trm_Frequency'],1
+Fold 43,"['unstim_CD4Trm_Frequency', 'IL246_Granulocytes_154Sm_STAT3']",2
+Fold 44,"['IL246_Granulocytes_154Sm_STAT3', 'TNF_ncMC_167Er_ERK', 'IL1B']",3
+Fold 45,"['unstim_CD4Trm_Frequency', 'TNF_ncMC_167Er_ERK', 'LDLR']",3
+Fold 46,"['unstim_CD4Trm_Frequency', 'ALK']",2
+Fold 47,['unstim_CD4Trm_Frequency'],1
+Fold 48,['unstim_CD4Trm_Frequency'],1
+Fold 49,"['unstim_CD4Trm_Frequency', 'IL246_Granulocytes_154Sm_STAT3']",2
+Fold 50,"['unstim_CD4Trm_Frequency', 'unstim_Tregnaive_Frequency']",2
+Fold 51,"['unstim_CD4Trm_Frequency', 'IL1B']",2
+Fold 52,"['unstim_CD4Trm_Frequency', 'IL246_Granulocytes_154Sm_STAT3']",2
+Fold 53,"['unstim_CD4Trm_Frequency', 'IL246_Granulocytes_154Sm_STAT3']",2
+Fold 54,"['unstim_Tregnaive_150Nd_STAT5', 'unstim_CD4Trm_Frequency', 'LDLR']",3
+Fold 55,"['unstim_CD4Trm_Frequency', 'TNF_Th1_149Sm_CREB']",2
+Fold 56,"['unstim_CD4Trm_Frequency', 'IL246_Granulocytes_154Sm_STAT3', 'TNF_ncMC_167Er_ERK']",3
+Fold 57,"['unstim_CD4Trm_Frequency', 'IL246_Granulocytes_154Sm_STAT3']",2
+Fold 58,"['unstim_CD4Trm_Frequency', 'CNTN3']",2
+Fold 59,"['unstim_CD4Trm_Frequency', 'IL1B']",2
+Fold 60,['unstim_CD4Trm_Frequency'],1
+Fold 61,"['unstim_CD4Trm_Frequency', 'IL1B']",2
+Fold 62,"['unstim_CD4Trm_Frequency', 'IL246_Granulocytes_154Sm_STAT3']",2
+Fold 63,"['unstim_CD4Trm_Frequency', 'LDLR', 'IRF6']",3
+Fold 64,"['unstim_CD4Trm_Frequency', 'ARL11']",2
+Fold 65,['unstim_CD4Trm_Frequency'],1
+Fold 66,['unstim_CD4Trm_Frequency'],1
+Fold 67,['unstim_CD4Trm_Frequency'],1
+Fold 68,"['unstim_CD4Trm_Frequency', 'IL1B']",2
+Fold 69,"['unstim_CD4Trm_Frequency', 'IRF6']",2
+Fold 70,"['unstim_CD4Trm_Frequency', 'unstim_Tregnaive_Frequency']",2
+Fold 71,"['unstim_CD4Trm_Frequency', 'IL246_Granulocytes_154Sm_STAT3']",2
+Fold 72,"['unstim_CD4Trm_Frequency', 'CSF2']",2
+Fold 73,['unstim_CD4Trm_Frequency'],1
+Fold 74,['unstim_CD4Trm_Frequency'],1
+Fold 75,"['unstim_CD4Trm_Frequency', 'IL1B', 'ALK']",3
+Fold 76,"['unstim_CD4Trm_Frequency', 'ALK']",2
+Fold 77,['unstim_CD4Trm_Frequency'],1
+Fold 78,"['unstim_CD4Trm_Frequency', 'TNF_Th1_149Sm_CREB', 'WWOX']",3
+Fold 79,"['unstim_CD4Tnaive_Frequency', 'unstim_CD4Trm_Frequency']",2
+Fold 80,['unstim_CD4Trm_Frequency'],1
+Fold 81,"['unstim_CD4Trm_Frequency', 'CCL3', 'BIRC3']",3
+Fold 82,"['unstim_CD4Trm_Frequency', 'IL246_Granulocytes_154Sm_STAT3']",2
+Fold 83,"['unstim_CD4Trm_Frequency', 'IL1B']",2
+Fold 84,['unstim_CD4Trm_Frequency'],1
+Fold 85,['unstim_CD4Trm_Frequency'],1
+Fold 86,[],0
+Fold 87,"['unstim_CD4Trm_Frequency', 'unstim_CD56dimCD16posNK_Frequency']",2
+Fold 88,"['unstim_Tregnaive_150Nd_STAT5', 'unstim_CD4Trm_Frequency', 'IL246_Granulocytes_154Sm_STAT3']",3
+Fold 89,"['unstim_CD4Tnaive_Frequency', 'unstim_CD4Trm_Frequency']",2
+Fold 90,"['unstim_CD4Tnaive_Frequency', 'unstim_CD4Trm_Frequency']",2
+Fold 91,['unstim_CD4Trm_Frequency'],1
+Fold 92,['unstim_CD4Trm_Frequency'],1
+Fold 93,"['unstim_CD4Trm_Frequency', 'IL246_Granulocytes_154Sm_STAT3']",2
+Fold 94,['unstim_CD4Trm_Frequency'],1
+Fold 95,"['unstim_CD4Trm_Frequency', 'SAMHD1']",2
+Fold 96,"['unstim_CD4Trm_Frequency', 'IL246_Granulocytes_154Sm_STAT3']",2
+Fold 97,"['unstim_CD4Trm_Frequency', 'unstim_Tregnaive_Frequency', 'IL1B']",3
+Fold 98,['unstim_CD4Trm_Frequency'],1
+Fold 99,"['unstim_CD4Trm_Frequency', 'TNF_ncMC_167Er_ERK', 'WWOX', 'CSF2']",4

@@ -1,0 +1,46 @@
+=======================================================================
+Computation for 1000 features with 10 informative ones
+=======================================================================
+Starting the training for different subtraining sizes
+-----------------------------------------------------------------------
+n_samples = 30
+***********************************************************************
+Repetition of this experiment 1/50
+Repetition of this experiment 11/50
+Repetition of this experiment 21/50
+Repetition of this experiment 31/50
+Repetition of this experiment 41/50
+n_samples = 40
+***********************************************************************
+Repetition of this experiment 1/50
+Repetition of this experiment 11/50
+Repetition of this experiment 21/50
+Repetition of this experiment 31/50
+Repetition of this experiment 41/50
+n_samples = 50
+***********************************************************************
+Repetition of this experiment 1/50
+Repetition of this experiment 11/50
+Repetition of this experiment 21/50
+Repetition of this experiment 31/50
+Repetition of this experiment 41/50
+n_samples = 75
+***********************************************************************
+Repetition of this experiment 1/50
+Repetition of this experiment 11/50
+Repetition of this experiment 21/50
+Repetition of this experiment 31/50
+Repetition of this experiment 41/50
+n_samples = 100
+***********************************************************************
+Repetition of this experiment 1/50
+Repetition of this experiment 11/50
+Repetition of this experiment 21/50
+Repetition of this experiment 31/50
+Repetition of this experiment 41/50
+n_samples = 150
+***********************************************************************
+Repetition of this experiment 1/50
+Repetition of this experiment 11/50
+Repetition of this experiment 21/50
+Repetition of this experiment 31/50

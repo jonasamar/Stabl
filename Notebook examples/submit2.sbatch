@@ -1,0 +1,11 @@
+#!/bin/bash
+#SBATCH --job-name=CFRNABenchmarks.py
+#SBATCH --time=48:00:00
+#SBATCH --ntasks=1
+#SBATCH --mem-per-cpu=2G
+#SBATCH --output=CFRNABenchmarks.out
+#SBATCH --error=CFRNABenchmarks.err
+#SBATCH -p normal
+#SBATCH -c 1
+
+python3 CFRNABenchmarks.py
