@@ -239,7 +239,11 @@ def single_omic_stabl_cv(
 
         # __Lasso 1SE__
         if task_type == "binary":
-            best_c_corr = model.C_[0] - model.scores_[True].std() / np.sqrt(inner_splitter.get_n_splits())
+            new_best_c_corr = model.C_[0] - model.scores_[True].std() / np.sqrt(inner_splitter.get_n_splits())
+            if new_best_c_corr < 0:
+                best_c_corr = model.C_[0]
+            else:
+                best_c_corr = new_best_c_corr
             model = LogisticRegression(penalty='l1', solver='liblinear', C=best_c_corr, class_weight='balanced',
                                        max_iter=1_000_000)
 
