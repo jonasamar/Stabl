@@ -1,3 +1,6 @@
+import time
+start = time.time()
+
 import warnings
 warnings.filterwarnings('ignore')
 # Libraries
@@ -88,3 +91,6 @@ features_table = compute_features_table(
     task_type="binary")
 
 features_table.to_csv(Path(result_folder, "Training-Validation", "Table of features.csv"))
+
+duration = time.time() - start
+print('duration of the pipeline : ', duration)

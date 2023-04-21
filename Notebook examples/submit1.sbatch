@@ -8,6 +8,7 @@
 #SBATCH -p normal
 #SBATCH -c 32
 
+module load python/3.9.0
 python3 SSIBenchmarks.py
 
 

@@ -8,4 +8,5 @@
 #SBATCH -p normal
 #SBATCH -c 1
 
+module load python/3.9.0
 python3 CFRNABenchmarks.py
