@@ -244,9 +244,10 @@ def single_omic_stabl_cv(
                 best_c_corr = model.C_[0]
             else:
                 best_c_corr = new_best_c_corr
+            print('before model, C = ',best_c_corr )
             model = LogisticRegression(penalty='l1', solver='liblinear', C=best_c_corr, class_weight='balanced',
                                        max_iter=1_000_000)
-
+            print('after model, C = ',best_c_corr )
             predictions = model.fit(X_train, y_train).predict_proba(X_test)[:, 1]
 
         selected_features_dict["Lasso 1SE"].append(list(X_train.columns[np.where(model.coef_.flatten())]))
