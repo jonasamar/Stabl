@@ -247,8 +247,9 @@ def stroke_pipeline(time, cellpop):
                     # 'CD62LpImmatureNeutrophils', 'CD8Tcm', 'CD8Tem', 'CD8Tnaive',
                     # 'CD8Trm', 'gdTcells', 'intMC', 'mDC', 'MDSC', 'NKT', 'pDC',
                     # 'Th1mem', 'Th1naive', 'Tregmem', 'Tregnaive'
+# error : 'CD41hiCD61hiPLT', (no values...)
                     
-for cellpop in ['CD41hiCD61hiPLT', 'CD4Tcm',
+for cellpop in [ 'CD4Tcm',
                     'CD4Tem', 'CD4Tnaive', 'CD4Trm', 'CD56brightCD16nNKcells']:
     stroke_pipeline('P3', cellpop)
         

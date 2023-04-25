@@ -9,7 +9,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.linear_model import LassoCV, LogisticRegressionCV, LogisticRegression, LinearRegression, ElasticNetCV,\
     Lasso
 from sklearn.base import clone
-from sklearn.model_selection import RepeatedStratifiedKFold, RepeatedKFold
+from sklearn.model_selection import RepeatedStratifiedKFold, RepeatedKFold, LeaveOneOut
 from sklearn.preprocessing import StandardScaler
 from sklearn.svm import l1_min_c
 
@@ -106,7 +106,12 @@ def single_omic_stabl_cv(
 
     i = 1
     for train, test in outer_splitter.split(X, y, groups=outer_groups):
-        print(f" Iteration {i} over {outer_splitter.get_n_splits()} ".center(80, '*'), "\n")
+        # Jonas additional code in case outer_splitter is LeaveOneOut
+        if isinstance(outer_splitter, LeaveOneOut):
+            print(f" Iteration {i} over {X.shape[0]} ".center(80, '*'), "\n")
+        else:
+            print(f" Iteration {i} over {outer_splitter.get_n_splits()} ".center(80, '*'), "\n")
+        # end additional code
         train_idx, test_idx = y.iloc[train].index, y.iloc[test].index
 
         fold_selected_features = dict()
@@ -244,10 +249,8 @@ def single_omic_stabl_cv(
                 best_c_corr = model.C_[0]
             else:
                 best_c_corr = new_best_c_corr
-            print('before model, C = ',best_c_corr )
             model = LogisticRegression(penalty='l1', solver='liblinear', C=best_c_corr, class_weight='balanced',
                                        max_iter=1_000_000)
-            print('after model, C = ',best_c_corr )
             predictions = model.fit(X_train, y_train).predict_proba(X_test)[:, 1]
 
         selected_features_dict["Lasso 1SE"].append(list(X_train.columns[np.where(model.coef_.flatten())]))
@@ -281,13 +284,20 @@ def single_omic_stabl_cv(
     for model in models:
 
         jaccard_matrix_dict[model] = jaccard_matrix(selected_features_dict[model])
+        
+        # Jonas additional code in case outer_splitter is LeaveOneOut
+        if isinstance(outer_splitter, LeaveOneOut):
+            index=[f"Fold {i}" for i in range(X.shape[0])]
+        else:
+            index=[f"Fold {i}" for i in range(outer_splitter.get_n_splits())]
+        # end additional code
 
         formatted_features_dict[model] = pd.DataFrame(
             data={
                 "Fold selected features": selected_features_dict[model],
                 "Fold nb of features": [len(el) for el in selected_features_dict[model]]
             },
-            index=[f"Fold {i}" for i in range(outer_splitter.get_n_splits())]
+            index=index # Jonas'additional code linked to this parameter
         )
         formatted_features_dict[model].to_csv(Path(cv_res_path, f"Selected Features {model}.csv"))
 

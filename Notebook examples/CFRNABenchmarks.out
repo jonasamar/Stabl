@@ -63,3 +63,39 @@ This fold: 0 features selected for SS 08
 122 train samples, 37 test samples
 STABL finished (122 samples); 10 features selected
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 10 features selected for STABL
+This fold: 13 features selected for SS 03
+This fold: 5 features selected for SS 05
+This fold: 0 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************** Iteration 7 over 100 ***************************** 
+
+126 train samples, 33 test samples
+STABL finished (126 samples); 15 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 15 features selected for STABL
+This fold: 11 features selected for SS 03
+This fold: 2 features selected for SS 05
+This fold: 0 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************** Iteration 8 over 100 ***************************** 
+
+125 train samples, 34 test samples
+STABL finished (125 samples); 18 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 18 features selected for STABL
+This fold: 9 features selected for SS 03
+This fold: 2 features selected for SS 05
+This fold: 0 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************** Iteration 9 over 100 ***************************** 
+
+123 train samples, 36 test samples
+STABL finished (123 samples); 5 features selected
+
