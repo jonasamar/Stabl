@@ -1,0 +1,201 @@
+,Fold selected features,Fold nb of features
+Fold 0,"['CREB', 'S6']",2
+Fold 1,['S6'],1
+Fold 2,['S6'],1
+Fold 3,['S6'],1
+Fold 4,"['CREB', 'STAT3', 'S6', 'IkB', 'Frequency']",5
+Fold 5,"['CREB', 'S6']",2
+Fold 6,[],0
+Fold 7,['S6'],1
+Fold 8,['S6'],1
+Fold 9,['S6'],1
+Fold 10,[],0
+Fold 11,"['CREB', 'S6']",2
+Fold 12,[],0
+Fold 13,['S6'],1
+Fold 14,['S6'],1
+Fold 15,[],0
+Fold 16,"['CREB', 'STAT3', 'S6', 'IkB', 'Frequency']",5
+Fold 17,['S6'],1
+Fold 18,['S6'],1
+Fold 19,['S6'],1
+Fold 20,['S6'],1
+Fold 21,['S6'],1
+Fold 22,['S6'],1
+Fold 23,"['CREB', 'S6']",2
+Fold 24,['S6'],1
+Fold 25,[],0
+Fold 26,['S6'],1
+Fold 27,"['CREB', 'STAT3', 'S6', 'IkB', 'Frequency']",5
+Fold 28,['S6'],1
+Fold 29,['S6'],1
+Fold 30,"['CREB', 'S6']",2
+Fold 31,[],0
+Fold 32,[],0
+Fold 33,['S6'],1
+Fold 34,['S6'],1
+Fold 35,"['CREB', 'STAT3', 'S6', 'IkB', 'Frequency']",5
+Fold 36,['S6'],1
+Fold 37,[],0
+Fold 38,"['CREB', 'S6']",2
+Fold 39,['S6'],1
+Fold 40,['S6'],1
+Fold 41,"['CREB', 'STAT3', 'S6', 'IkB', 'Frequency']",5
+Fold 42,"['CREB', 'S6']",2
+Fold 43,"['CREB', 'S6']",2
+Fold 44,"['CREB', 'S6']",2
+Fold 45,['S6'],1
+Fold 46,['S6'],1
+Fold 47,[],0
+Fold 48,['S6'],1
+Fold 49,['S6'],1
+Fold 50,['S6'],1
+Fold 51,[],0
+Fold 52,['S6'],1
+Fold 53,[],0
+Fold 54,[],0
+Fold 55,['S6'],1
+Fold 56,['S6'],1
+Fold 57,['S6'],1
+Fold 58,['S6'],1
+Fold 59,"['CREB', 'STAT3', 'S6', 'IkB', 'Frequency']",5
+Fold 60,"['CREB', 'S6']",2
+Fold 61,['S6'],1
+Fold 62,['S6'],1
+Fold 63,"['CREB', 'STAT3', 'S6', 'IkB', 'Frequency']",5
+Fold 64,['S6'],1
+Fold 65,[],0
+Fold 66,['S6'],1
+Fold 67,[],0
+Fold 68,[],0
+Fold 69,['S6'],1
+Fold 70,"['CREB', 'S6']",2
+Fold 71,['S6'],1
+Fold 72,['S6'],1
+Fold 73,"['CREB', 'STAT3', 'S6', 'IkB', 'Frequency']",5
+Fold 74,['S6'],1
+Fold 75,['S6'],1
+Fold 76,['S6'],1
+Fold 77,[],0
+Fold 78,"['CREB', 'S6']",2
+Fold 79,['S6'],1
+Fold 80,"['CREB', 'S6']",2
+Fold 81,"['CREB', 'S6']",2
+Fold 82,['S6'],1
+Fold 83,['S6'],1
+Fold 84,"['CREB', 'S6']",2
+Fold 85,[],0
+Fold 86,[],0
+Fold 87,['S6'],1
+Fold 88,['S6'],1
+Fold 89,['S6'],1
+Fold 90,['S6'],1
+Fold 91,"['CREB', 'STAT3', 'S6', 'IkB', 'Frequency']",5
+Fold 92,[],0
+Fold 93,['S6'],1
+Fold 94,['S6'],1
+Fold 95,"['CREB', 'STAT3', 'S6', 'IkB', 'Frequency']",5
+Fold 96,['S6'],1
+Fold 97,['S6'],1
+Fold 98,[],0
+Fold 99,['S6'],1
+Fold 100,['S6'],1
+Fold 101,['S6'],1
+Fold 102,['S6'],1
+Fold 103,"['CREB', 'S6']",2
+Fold 104,['S6'],1
+Fold 105,['S6'],1
+Fold 106,[],0
+Fold 107,['S6'],1
+Fold 108,[],0
+Fold 109,"['CREB', 'S6']",2
+Fold 110,['S6'],1
+Fold 111,['S6'],1
+Fold 112,[],0
+Fold 113,['S6'],1
+Fold 114,"['CREB', 'STAT3', 'S6', 'IkB', 'Frequency']",5
+Fold 115,"['CREB', 'STAT3', 'S6', 'IkB', 'Frequency']",5
+Fold 116,['S6'],1
+Fold 117,"['CREB', 'S6']",2
+Fold 118,[],0
+Fold 119,['S6'],1
+Fold 120,[],0
+Fold 121,['S6'],1
+Fold 122,[],0
+Fold 123,['S6'],1
+Fold 124,[],0
+Fold 125,"['CREB', 'S6']",2
+Fold 126,['S6'],1
+Fold 127,"['CREB', 'S6']",2
+Fold 128,['S6'],1
+Fold 129,['S6'],1
+Fold 130,['S6'],1
+Fold 131,['S6'],1
+Fold 132,"['CREB', 'S6']",2
+Fold 133,['S6'],1
+Fold 134,[],0
+Fold 135,"['CREB', 'STAT3', 'S6', 'IkB', 'Frequency']",5
+Fold 136,['S6'],1
+Fold 137,['S6'],1
+Fold 138,"['CREB', 'STAT3', 'S6', 'IkB', 'Frequency']",5
+Fold 139,['S6'],1
+Fold 140,['S6'],1
+Fold 141,['S6'],1
+Fold 142,['S6'],1
+Fold 143,"['CREB', 'S6']",2
+Fold 144,[],0
+Fold 145,['S6'],1
+Fold 146,"['CREB', 'STAT3', 'S6', 'IkB', 'Frequency']",5
+Fold 147,[],0
+Fold 148,['S6'],1
+Fold 149,"['CREB', 'STAT3', 'S6', 'IkB', 'Frequency']",5
+Fold 150,['S6'],1
+Fold 151,[],0
+Fold 152,['S6'],1
+Fold 153,[],0
+Fold 154,['S6'],1
+Fold 155,"['CREB', 'S6']",2
+Fold 156,"['CREB', 'S6']",2
+Fold 157,[],0
+Fold 158,['S6'],1
+Fold 159,['S6'],1
+Fold 160,['S6'],1
+Fold 161,[],0
+Fold 162,"['CREB', 'STAT3', 'S6', 'IkB', 'Frequency']",5
+Fold 163,[],0
+Fold 164,"['CREB', 'S6']",2
+Fold 165,[],0
+Fold 166,['S6'],1
+Fold 167,"['CREB', 'STAT3', 'S6', 'IkB', 'Frequency']",5
+Fold 168,['S6'],1
+Fold 169,"['CREB', 'S6']",2
+Fold 170,"['CREB', 'S6']",2
+Fold 171,['S6'],1
+Fold 172,['S6'],1
+Fold 173,['S6'],1
+Fold 174,[],0
+Fold 175,['S6'],1
+Fold 176,['S6'],1
+Fold 177,['S6'],1
+Fold 178,[],0
+Fold 179,['S6'],1
+Fold 180,['S6'],1
+Fold 181,[],0
+Fold 182,['S6'],1
+Fold 183,['S6'],1
+Fold 184,"['CREB', 'STAT3', 'S6', 'IkB', 'Frequency']",5
+Fold 185,"['CREB', 'S6']",2
+Fold 186,['S6'],1
+Fold 187,"['CREB', 'S6']",2
+Fold 188,['S6'],1
+Fold 189,['S6'],1
+Fold 190,[],0
+Fold 191,['S6'],1
+Fold 192,"['CREB', 'STAT3', 'S6', 'IkB', 'Frequency']",5
+Fold 193,['S6'],1
+Fold 194,"['CREB', 'S6']",2
+Fold 195,[],0
+Fold 196,['S6'],1
+Fold 197,['S6'],1
+Fold 198,['S6'],1
+Fold 199,[],0

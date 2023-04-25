@@ -1,0 +1,201 @@
+,Fold selected features,Fold nb of features
+Fold 0,['CREB'],1
+Fold 1,[],0
+Fold 2,"['CREB', 'IkB']",2
+Fold 3,['CREB'],1
+Fold 4,"['CREB', 'Frequency']",2
+Fold 5,[],0
+Fold 6,[],0
+Fold 7,"['CREB', 'MAPKAPK2']",2
+Fold 8,[],0
+Fold 9,"['CREB', 'IkB', 'MAPKAPK2', 'Frequency']",4
+Fold 10,[],0
+Fold 11,[],0
+Fold 12,[],0
+Fold 13,[],0
+Fold 14,"['CREB', 'MAPKAPK2']",2
+Fold 15,['CREB'],1
+Fold 16,[],0
+Fold 17,"['CREB', 'MAPKAPK2']",2
+Fold 18,"['CREB', 'IkB']",2
+Fold 19,['CREB'],1
+Fold 20,[],0
+Fold 21,"['CREB', 'IkB', 'MAPKAPK2', 'Frequency']",4
+Fold 22,"['CREB', 'IkB']",2
+Fold 23,[],0
+Fold 24,"['CREB', 'MAPKAPK2']",2
+Fold 25,['CREB'],1
+Fold 26,"['CREB', 'IkB']",2
+Fold 27,[],0
+Fold 28,"['CREB', 'MAPKAPK2']",2
+Fold 29,['CREB'],1
+Fold 30,[],0
+Fold 31,[],0
+Fold 32,[],0
+Fold 33,"['CREB', 'MAPKAPK2']",2
+Fold 34,[],0
+Fold 35,"['CREB', 'Frequency']",2
+Fold 36,[],0
+Fold 37,[],0
+Fold 38,['CREB'],1
+Fold 39,['CREB'],1
+Fold 40,"['CREB', 'MAPKAPK2']",2
+Fold 41,[],0
+Fold 42,['CREB'],1
+Fold 43,[],0
+Fold 44,[],0
+Fold 45,[],0
+Fold 46,"['CREB', 'IkB', 'MAPKAPK2', 'Frequency']",4
+Fold 47,['CREB'],1
+Fold 48,"['CREB', 'MAPKAPK2']",2
+Fold 49,"['CREB', 'IkB']",2
+Fold 50,"['CREB', 'IkB']",2
+Fold 51,[],0
+Fold 52,['CREB'],1
+Fold 53,[],0
+Fold 54,[],0
+Fold 55,[],0
+Fold 56,"['CREB', 'MAPKAPK2']",2
+Fold 57,[],0
+Fold 58,['CREB'],1
+Fold 59,"['CREB', 'Frequency']",2
+Fold 60,['CREB'],1
+Fold 61,[],0
+Fold 62,['CREB'],1
+Fold 63,"['CREB', 'Frequency']",2
+Fold 64,[],0
+Fold 65,[],0
+Fold 66,"['CREB', 'MAPKAPK2']",2
+Fold 67,[],0
+Fold 68,['CREB'],1
+Fold 69,"['CREB', 'MAPKAPK2']",2
+Fold 70,[],0
+Fold 71,[],0
+Fold 72,"['CREB', 'IkB']",2
+Fold 73,[],0
+Fold 74,['CREB'],1
+Fold 75,"['CREB', 'MAPKAPK2']",2
+Fold 76,"['CREB', 'IkB', 'MAPKAPK2', 'Frequency']",4
+Fold 77,[],0
+Fold 78,[],0
+Fold 79,"['CREB', 'IkB']",2
+Fold 80,[],0
+Fold 81,[],0
+Fold 82,"['CREB', 'MAPKAPK2']",2
+Fold 83,[],0
+Fold 84,['CREB'],1
+Fold 85,['CREB'],1
+Fold 86,[],0
+Fold 87,"['CREB', 'IkB', 'MAPKAPK2', 'Frequency']",4
+Fold 88,['CREB'],1
+Fold 89,"['CREB', 'MAPKAPK2']",2
+Fold 90,[],0
+Fold 91,"['CREB', 'Frequency']",2
+Fold 92,[],0
+Fold 93,['CREB'],1
+Fold 94,[],0
+Fold 95,[],0
+Fold 96,"['CREB', 'IkB']",2
+Fold 97,"['CREB', 'IkB']",2
+Fold 98,[],0
+Fold 99,"['CREB', 'MAPKAPK2']",2
+Fold 100,"['CREB', 'MAPKAPK2']",2
+Fold 101,['CREB'],1
+Fold 102,"['CREB', 'MAPKAPK2']",2
+Fold 103,[],0
+Fold 104,"['CREB', 'IkB']",2
+Fold 105,"['CREB', 'IkB', 'MAPKAPK2', 'Frequency']",4
+Fold 106,[],0
+Fold 107,"['CREB', 'MAPKAPK2']",2
+Fold 108,[],0
+Fold 109,[],0
+Fold 110,[],0
+Fold 111,[],0
+Fold 112,[],0
+Fold 113,[],0
+Fold 114,[],0
+Fold 115,"['CREB', 'Frequency']",2
+Fold 116,['CREB'],1
+Fold 117,['CREB'],1
+Fold 118,['CREB'],1
+Fold 119,"['CREB', 'IkB']",2
+Fold 120,[],0
+Fold 121,"['CREB', 'MAPKAPK2']",2
+Fold 122,['CREB'],1
+Fold 123,"['CREB', 'IkB', 'MAPKAPK2', 'Frequency']",4
+Fold 124,[],0
+Fold 125,[],0
+Fold 126,"['CREB', 'MAPKAPK2']",2
+Fold 127,[],0
+Fold 128,"['CREB', 'MAPKAPK2']",2
+Fold 129,"['CREB', 'IkB']",2
+Fold 130,"['CREB', 'IkB']",2
+Fold 131,[],0
+Fold 132,['CREB'],1
+Fold 133,['CREB'],1
+Fold 134,[],0
+Fold 135,[],0
+Fold 136,[],0
+Fold 137,[],0
+Fold 138,"['CREB', 'Frequency']",2
+Fold 139,['CREB'],1
+Fold 140,[],0
+Fold 141,[],0
+Fold 142,['CREB'],1
+Fold 143,[],0
+Fold 144,"['CREB', 'MAPKAPK2']",2
+Fold 145,"['CREB', 'IkB']",2
+Fold 146,[],0
+Fold 147,[],0
+Fold 148,"['CREB', 'IkB', 'MAPKAPK2', 'Frequency']",4
+Fold 149,"['CREB', 'Frequency']",2
+Fold 150,"['CREB', 'MAPKAPK2']",2
+Fold 151,['CREB'],1
+Fold 152,['CREB'],1
+Fold 153,[],0
+Fold 154,[],0
+Fold 155,['CREB'],1
+Fold 156,[],0
+Fold 157,[],0
+Fold 158,"['CREB', 'IkB']",2
+Fold 159,"['CREB', 'MAPKAPK2']",2
+Fold 160,[],0
+Fold 161,[],0
+Fold 162,[],0
+Fold 163,[],0
+Fold 164,['CREB'],1
+Fold 165,[],0
+Fold 166,"['CREB', 'MAPKAPK2']",2
+Fold 167,"['CREB', 'Frequency']",2
+Fold 168,['CREB'],1
+Fold 169,[],0
+Fold 170,[],0
+Fold 171,"['CREB', 'IkB', 'MAPKAPK2', 'Frequency']",4
+Fold 172,[],0
+Fold 173,"['CREB', 'IkB']",2
+Fold 174,"['CREB', 'MAPKAPK2']",2
+Fold 175,[],0
+Fold 176,"['CREB', 'MAPKAPK2']",2
+Fold 177,"['CREB', 'IkB']",2
+Fold 178,['CREB'],1
+Fold 179,['CREB'],1
+Fold 180,"['CREB', 'MAPKAPK2']",2
+Fold 181,[],0
+Fold 182,['CREB'],1
+Fold 183,"['CREB', 'IkB']",2
+Fold 184,[],0
+Fold 185,[],0
+Fold 186,"['CREB', 'IkB', 'MAPKAPK2', 'Frequency']",4
+Fold 187,[],0
+Fold 188,[],0
+Fold 189,"['CREB', 'MAPKAPK2']",2
+Fold 190,['CREB'],1
+Fold 191,[],0
+Fold 192,"['CREB', 'Frequency']",2
+Fold 193,"['CREB', 'IkB']",2
+Fold 194,['CREB'],1
+Fold 195,[],0
+Fold 196,['CREB'],1
+Fold 197,"['CREB', 'MAPKAPK2']",2
+Fold 198,[],0
+Fold 199,[],0

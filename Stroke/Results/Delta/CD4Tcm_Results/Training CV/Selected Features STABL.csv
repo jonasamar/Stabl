@@ -1,0 +1,201 @@
+,Fold selected features,Fold nb of features
+Fold 0,"['STAT3', 'Frequency']",2
+Fold 1,[],0
+Fold 2,"['STAT3', 'Frequency']",2
+Fold 3,"['STAT3', 'Frequency']",2
+Fold 4,[],0
+Fold 5,['Frequency'],1
+Fold 6,"['STAT3', 'Frequency']",2
+Fold 7,"['STAT3', 'Frequency']",2
+Fold 8,[],0
+Fold 9,"['STAT3', 'Frequency']",2
+Fold 10,['Frequency'],1
+Fold 11,"['STAT3', 'Frequency']",2
+Fold 12,"['STAT3', 'Frequency']",2
+Fold 13,[],0
+Fold 14,"['STAT3', 'Frequency']",2
+Fold 15,"['STAT3', 'Frequency']",2
+Fold 16,"['STAT3', 'Frequency']",2
+Fold 17,"['STAT3', 'Frequency']",2
+Fold 18,"['CREB', 'STAT3', 'Frequency']",3
+Fold 19,['Frequency'],1
+Fold 20,[],0
+Fold 21,"['STAT3', 'Frequency']",2
+Fold 22,"['STAT3', 'Frequency']",2
+Fold 23,['Frequency'],1
+Fold 24,"['STAT3', 'Frequency']",2
+Fold 25,"['STAT3', 'Frequency']",2
+Fold 26,"['CREB', 'STAT3', 'Frequency']",3
+Fold 27,"['STAT3', 'Frequency']",2
+Fold 28,"['STAT3', 'Frequency']",2
+Fold 29,['Frequency'],1
+Fold 30,"['STAT3', 'Frequency']",2
+Fold 31,"['STAT3', 'Frequency']",2
+Fold 32,['Frequency'],1
+Fold 33,"['STAT3', 'Frequency']",2
+Fold 34,[],0
+Fold 35,[],0
+Fold 36,[],0
+Fold 37,"['STAT3', 'Frequency']",2
+Fold 38,"['STAT3', 'Frequency']",2
+Fold 39,"['STAT3', 'Frequency']",2
+Fold 40,"['STAT3', 'Frequency']",2
+Fold 41,"['STAT3', 'Frequency']",2
+Fold 42,"['STAT3', 'Frequency']",2
+Fold 43,"['STAT3', 'Frequency']",2
+Fold 44,['Frequency'],1
+Fold 45,[],0
+Fold 46,"['STAT3', 'Frequency']",2
+Fold 47,"['STAT3', 'Frequency']",2
+Fold 48,"['STAT3', 'Frequency']",2
+Fold 49,"['CREB', 'STAT3', 'Frequency']",3
+Fold 50,"['STAT3', 'Frequency']",2
+Fold 51,"['STAT3', 'Frequency']",2
+Fold 52,"['STAT3', 'Frequency']",2
+Fold 53,['Frequency'],1
+Fold 54,"['STAT3', 'Frequency']",2
+Fold 55,[],0
+Fold 56,"['STAT3', 'Frequency']",2
+Fold 57,[],0
+Fold 58,['Frequency'],1
+Fold 59,[],0
+Fold 60,"['STAT3', 'Frequency']",2
+Fold 61,[],0
+Fold 62,['Frequency'],1
+Fold 63,[],0
+Fold 64,[],0
+Fold 65,"['STAT3', 'Frequency']",2
+Fold 66,"['STAT3', 'Frequency']",2
+Fold 67,"['STAT3', 'Frequency']",2
+Fold 68,"['STAT3', 'Frequency']",2
+Fold 69,"['STAT3', 'Frequency']",2
+Fold 70,['Frequency'],1
+Fold 71,[],0
+Fold 72,"['STAT3', 'Frequency']",2
+Fold 73,"['STAT3', 'Frequency']",2
+Fold 74,"['STAT3', 'Frequency']",2
+Fold 75,"['STAT3', 'Frequency']",2
+Fold 76,"['STAT3', 'Frequency']",2
+Fold 77,['Frequency'],1
+Fold 78,"['STAT3', 'Frequency']",2
+Fold 79,"['CREB', 'STAT3', 'Frequency']",3
+Fold 80,['Frequency'],1
+Fold 81,"['STAT3', 'Frequency']",2
+Fold 82,"['STAT3', 'Frequency']",2
+Fold 83,[],0
+Fold 84,"['STAT3', 'Frequency']",2
+Fold 85,"['STAT3', 'Frequency']",2
+Fold 86,"['STAT3', 'Frequency']",2
+Fold 87,"['STAT3', 'Frequency']",2
+Fold 88,"['STAT3', 'Frequency']",2
+Fold 89,"['STAT3', 'Frequency']",2
+Fold 90,[],0
+Fold 91,[],0
+Fold 92,"['STAT3', 'Frequency']",2
+Fold 93,['Frequency'],1
+Fold 94,[],0
+Fold 95,"['STAT3', 'Frequency']",2
+Fold 96,"['CREB', 'STAT3', 'Frequency']",3
+Fold 97,"['STAT3', 'Frequency']",2
+Fold 98,['Frequency'],1
+Fold 99,"['STAT3', 'Frequency']",2
+Fold 100,"['STAT3', 'Frequency']",2
+Fold 101,"['STAT3', 'Frequency']",2
+Fold 102,"['STAT3', 'Frequency']",2
+Fold 103,['Frequency'],1
+Fold 104,"['STAT3', 'Frequency']",2
+Fold 105,"['STAT3', 'Frequency']",2
+Fold 106,"['STAT3', 'Frequency']",2
+Fold 107,"['STAT3', 'Frequency']",2
+Fold 108,['Frequency'],1
+Fold 109,"['STAT3', 'Frequency']",2
+Fold 110,[],0
+Fold 111,[],0
+Fold 112,"['STAT3', 'Frequency']",2
+Fold 113,[],0
+Fold 114,"['STAT3', 'Frequency']",2
+Fold 115,[],0
+Fold 116,['Frequency'],1
+Fold 117,"['STAT3', 'Frequency']",2
+Fold 118,"['STAT3', 'Frequency']",2
+Fold 119,"['CREB', 'STAT3', 'Frequency']",3
+Fold 120,['Frequency'],1
+Fold 121,"['STAT3', 'Frequency']",2
+Fold 122,"['STAT3', 'Frequency']",2
+Fold 123,"['STAT3', 'Frequency']",2
+Fold 124,"['STAT3', 'Frequency']",2
+Fold 125,['Frequency'],1
+Fold 126,"['STAT3', 'Frequency']",2
+Fold 127,"['STAT3', 'Frequency']",2
+Fold 128,"['STAT3', 'Frequency']",2
+Fold 129,"['STAT3', 'Frequency']",2
+Fold 130,"['CREB', 'STAT3', 'Frequency']",3
+Fold 131,[],0
+Fold 132,"['STAT3', 'Frequency']",2
+Fold 133,"['STAT3', 'Frequency']",2
+Fold 134,"['STAT3', 'Frequency']",2
+Fold 135,"['STAT3', 'Frequency']",2
+Fold 136,[],0
+Fold 137,[],0
+Fold 138,[],0
+Fold 139,['Frequency'],1
+Fold 140,[],0
+Fold 141,[],0
+Fold 142,"['STAT3', 'Frequency']",2
+Fold 143,['Frequency'],1
+Fold 144,"['STAT3', 'Frequency']",2
+Fold 145,"['STAT3', 'Frequency']",2
+Fold 146,"['STAT3', 'Frequency']",2
+Fold 147,"['STAT3', 'Frequency']",2
+Fold 148,"['STAT3', 'Frequency']",2
+Fold 149,[],0
+Fold 150,"['STAT3', 'Frequency']",2
+Fold 151,"['STAT3', 'Frequency']",2
+Fold 152,['Frequency'],1
+Fold 153,"['STAT3', 'Frequency']",2
+Fold 154,[],0
+Fold 155,"['STAT3', 'Frequency']",2
+Fold 156,"['STAT3', 'Frequency']",2
+Fold 157,['Frequency'],1
+Fold 158,"['CREB', 'STAT3', 'Frequency']",3
+Fold 159,"['STAT3', 'Frequency']",2
+Fold 160,[],0
+Fold 161,"['STAT3', 'Frequency']",2
+Fold 162,"['STAT3', 'Frequency']",2
+Fold 163,['Frequency'],1
+Fold 164,"['STAT3', 'Frequency']",2
+Fold 165,"['STAT3', 'Frequency']",2
+Fold 166,"['STAT3', 'Frequency']",2
+Fold 167,[],0
+Fold 168,"['STAT3', 'Frequency']",2
+Fold 169,['Frequency'],1
+Fold 170,"['STAT3', 'Frequency']",2
+Fold 171,"['STAT3', 'Frequency']",2
+Fold 172,[],0
+Fold 173,"['STAT3', 'Frequency']",2
+Fold 174,"['STAT3', 'Frequency']",2
+Fold 175,[],0
+Fold 176,"['STAT3', 'Frequency']",2
+Fold 177,"['CREB', 'STAT3', 'Frequency']",3
+Fold 178,"['STAT3', 'Frequency']",2
+Fold 179,['Frequency'],1
+Fold 180,"['STAT3', 'Frequency']",2
+Fold 181,"['STAT3', 'Frequency']",2
+Fold 182,"['STAT3', 'Frequency']",2
+Fold 183,"['STAT3', 'Frequency']",2
+Fold 184,"['STAT3', 'Frequency']",2
+Fold 185,['Frequency'],1
+Fold 186,"['STAT3', 'Frequency']",2
+Fold 187,"['STAT3', 'Frequency']",2
+Fold 188,[],0
+Fold 189,"['STAT3', 'Frequency']",2
+Fold 190,"['STAT3', 'Frequency']",2
+Fold 191,[],0
+Fold 192,[],0
+Fold 193,"['CREB', 'STAT3', 'Frequency']",3
+Fold 194,"['STAT3', 'Frequency']",2
+Fold 195,['Frequency'],1
+Fold 196,['Frequency'],1
+Fold 197,"['STAT3', 'Frequency']",2
+Fold 198,[],0
+Fold 199,"['STAT3', 'Frequency']",2

@@ -1,0 +1,201 @@
+,Fold selected features,Fold nb of features
+Fold 0,['MAPKAPK2'],1
+Fold 1,['STAT6'],1
+Fold 2,"['STAT6', 'MAPKAPK2']",2
+Fold 3,[],0
+Fold 4,"['CREB', 'IkB', 'STAT6', 'Frequency']",4
+Fold 5,[],0
+Fold 6,['STAT6'],1
+Fold 7,['MAPKAPK2'],1
+Fold 8,[],0
+Fold 9,['MAPKAPK2'],1
+Fold 10,[],0
+Fold 11,[],0
+Fold 12,[],0
+Fold 13,['STAT6'],1
+Fold 14,[],0
+Fold 15,[],0
+Fold 16,[],0
+Fold 17,['MAPKAPK2'],1
+Fold 18,[],0
+Fold 19,[],0
+Fold 20,['STAT6'],1
+Fold 21,['MAPKAPK2'],1
+Fold 22,"['STAT6', 'MAPKAPK2']",2
+Fold 23,[],0
+Fold 24,[],0
+Fold 25,[],0
+Fold 26,[],0
+Fold 27,[],0
+Fold 28,['MAPKAPK2'],1
+Fold 29,[],0
+Fold 30,[],0
+Fold 31,[],0
+Fold 32,[],0
+Fold 33,[],0
+Fold 34,[],0
+Fold 35,"['CREB', 'IkB', 'STAT6', 'Frequency']",4
+Fold 36,['STAT6'],1
+Fold 37,['STAT6'],1
+Fold 38,['MAPKAPK2'],1
+Fold 39,[],0
+Fold 40,[],0
+Fold 41,[],0
+Fold 42,['MAPKAPK2'],1
+Fold 43,[],0
+Fold 44,[],0
+Fold 45,[],0
+Fold 46,['MAPKAPK2'],1
+Fold 47,[],0
+Fold 48,[],0
+Fold 49,[],0
+Fold 50,"['STAT6', 'MAPKAPK2']",2
+Fold 51,[],0
+Fold 52,[],0
+Fold 53,[],0
+Fold 54,['STAT6'],1
+Fold 55,['STAT6'],1
+Fold 56,['MAPKAPK2'],1
+Fold 57,['STAT6'],1
+Fold 58,[],0
+Fold 59,"['CREB', 'IkB', 'STAT6', 'Frequency']",4
+Fold 60,['MAPKAPK2'],1
+Fold 61,[],0
+Fold 62,[],0
+Fold 63,"['CREB', 'IkB', 'STAT6', 'Frequency']",4
+Fold 64,['STAT6'],1
+Fold 65,['STAT6'],1
+Fold 66,[],0
+Fold 67,[],0
+Fold 68,[],0
+Fold 69,[],0
+Fold 70,[],0
+Fold 71,['STAT6'],1
+Fold 72,"['STAT6', 'MAPKAPK2']",2
+Fold 73,[],0
+Fold 74,[],0
+Fold 75,['MAPKAPK2'],1
+Fold 76,['MAPKAPK2'],1
+Fold 77,[],0
+Fold 78,[],0
+Fold 79,[],0
+Fold 80,[],0
+Fold 81,[],0
+Fold 82,[],0
+Fold 83,['STAT6'],1
+Fold 84,['MAPKAPK2'],1
+Fold 85,[],0
+Fold 86,[],0
+Fold 87,['MAPKAPK2'],1
+Fold 88,[],0
+Fold 89,[],0
+Fold 90,['STAT6'],1
+Fold 91,"['CREB', 'IkB', 'STAT6', 'Frequency']",4
+Fold 92,['STAT6'],1
+Fold 93,[],0
+Fold 94,[],0
+Fold 95,[],0
+Fold 96,[],0
+Fold 97,"['STAT6', 'MAPKAPK2']",2
+Fold 98,[],0
+Fold 99,['MAPKAPK2'],1
+Fold 100,['MAPKAPK2'],1
+Fold 101,[],0
+Fold 102,[],0
+Fold 103,[],0
+Fold 104,"['STAT6', 'MAPKAPK2']",2
+Fold 105,['MAPKAPK2'],1
+Fold 106,[],0
+Fold 107,[],0
+Fold 108,[],0
+Fold 109,[],0
+Fold 110,[],0
+Fold 111,['STAT6'],1
+Fold 112,['STAT6'],1
+Fold 113,['STAT6'],1
+Fold 114,[],0
+Fold 115,"['CREB', 'IkB', 'STAT6', 'Frequency']",4
+Fold 116,[],0
+Fold 117,['MAPKAPK2'],1
+Fold 118,[],0
+Fold 119,[],0
+Fold 120,[],0
+Fold 121,[],0
+Fold 122,[],0
+Fold 123,['MAPKAPK2'],1
+Fold 124,[],0
+Fold 125,[],0
+Fold 126,['MAPKAPK2'],1
+Fold 127,[],0
+Fold 128,[],0
+Fold 129,"['STAT6', 'MAPKAPK2']",2
+Fold 130,[],0
+Fold 131,['STAT6'],1
+Fold 132,['MAPKAPK2'],1
+Fold 133,[],0
+Fold 134,['STAT6'],1
+Fold 135,[],0
+Fold 136,[],0
+Fold 137,['STAT6'],1
+Fold 138,"['CREB', 'IkB', 'STAT6', 'Frequency']",4
+Fold 139,[],0
+Fold 140,['STAT6'],1
+Fold 141,[],0
+Fold 142,[],0
+Fold 143,[],0
+Fold 144,['MAPKAPK2'],1
+Fold 145,"['STAT6', 'MAPKAPK2']",2
+Fold 146,[],0
+Fold 147,['STAT6'],1
+Fold 148,['MAPKAPK2'],1
+Fold 149,"['CREB', 'IkB', 'STAT6', 'Frequency']",4
+Fold 150,['MAPKAPK2'],1
+Fold 151,[],0
+Fold 152,[],0
+Fold 153,[],0
+Fold 154,['STAT6'],1
+Fold 155,['MAPKAPK2'],1
+Fold 156,[],0
+Fold 157,[],0
+Fold 158,[],0
+Fold 159,[],0
+Fold 160,['STAT6'],1
+Fold 161,['STAT6'],1
+Fold 162,[],0
+Fold 163,[],0
+Fold 164,['MAPKAPK2'],1
+Fold 165,[],0
+Fold 166,[],0
+Fold 167,"['CREB', 'IkB', 'STAT6', 'Frequency']",4
+Fold 168,[],0
+Fold 169,[],0
+Fold 170,[],0
+Fold 171,['MAPKAPK2'],1
+Fold 172,['STAT6'],1
+Fold 173,"['STAT6', 'MAPKAPK2']",2
+Fold 174,['MAPKAPK2'],1
+Fold 175,[],0
+Fold 176,['MAPKAPK2'],1
+Fold 177,[],0
+Fold 178,[],0
+Fold 179,[],0
+Fold 180,[],0
+Fold 181,[],0
+Fold 182,[],0
+Fold 183,"['STAT6', 'MAPKAPK2']",2
+Fold 184,[],0
+Fold 185,[],0
+Fold 186,['MAPKAPK2'],1
+Fold 187,[],0
+Fold 188,[],0
+Fold 189,['MAPKAPK2'],1
+Fold 190,[],0
+Fold 191,['STAT6'],1
+Fold 192,"['CREB', 'IkB', 'STAT6', 'Frequency']",4
+Fold 193,[],0
+Fold 194,['MAPKAPK2'],1
+Fold 195,[],0
+Fold 196,[],0
+Fold 197,['MAPKAPK2'],1
+Fold 198,['STAT6'],1
+Fold 199,['STAT6'],1
