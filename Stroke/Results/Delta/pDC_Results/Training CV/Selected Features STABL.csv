@@ -1,0 +1,201 @@
+,Fold selected features,Fold nb of features
+Fold 0,"['S6', 'STAT3', 'MAPKAPK2']",3
+Fold 1,['MAPKAPK2'],1
+Fold 2,"['CREB', 'MAPKAPK2']",2
+Fold 3,['STAT3'],1
+Fold 4,"['STAT3', 'CREB', 'MAPKAPK2']",3
+Fold 5,[],0
+Fold 6,"['CREB', 'MAPKAPK2']",2
+Fold 7,[],0
+Fold 8,['MAPKAPK2'],1
+Fold 9,[],0
+Fold 10,"['STAT3', 'MAPKAPK2']",2
+Fold 11,[],0
+Fold 12,"['STAT3', 'CREB']",2
+Fold 13,"['STAT3', 'MAPKAPK2']",2
+Fold 14,[],0
+Fold 15,"['STAT3', 'CREB']",2
+Fold 16,[],0
+Fold 17,"['STAT3', 'CREB']",2
+Fold 18,['MAPKAPK2'],1
+Fold 19,[],0
+Fold 20,"['STAT3', 'MAPKAPK2']",2
+Fold 21,[],0
+Fold 22,"['CREB', 'MAPKAPK2']",2
+Fold 23,[],0
+Fold 24,[],0
+Fold 25,"['STAT3', 'CREB']",2
+Fold 26,['MAPKAPK2'],1
+Fold 27,[],0
+Fold 28,[],0
+Fold 29,[],0
+Fold 30,[],0
+Fold 31,"['STAT3', 'CREB']",2
+Fold 32,"['STAT3', 'MAPKAPK2']",2
+Fold 33,"['STAT3', 'CREB']",2
+Fold 34,['MAPKAPK2'],1
+Fold 35,"['STAT3', 'CREB', 'MAPKAPK2']",3
+Fold 36,['MAPKAPK2'],1
+Fold 37,"['CREB', 'MAPKAPK2']",2
+Fold 38,"['S6', 'STAT3', 'MAPKAPK2']",3
+Fold 39,['STAT3'],1
+Fold 40,"['STAT3', 'CREB']",2
+Fold 41,[],0
+Fold 42,"['S6', 'STAT3', 'MAPKAPK2']",3
+Fold 43,[],0
+Fold 44,[],0
+Fold 45,['MAPKAPK2'],1
+Fold 46,[],0
+Fold 47,"['STAT3', 'CREB']",2
+Fold 48,[],0
+Fold 49,['MAPKAPK2'],1
+Fold 50,"['CREB', 'MAPKAPK2']",2
+Fold 51,"['STAT3', 'CREB']",2
+Fold 52,['STAT3'],1
+Fold 53,"['STAT3', 'MAPKAPK2']",2
+Fold 54,"['CREB', 'MAPKAPK2']",2
+Fold 55,"['STAT3', 'MAPKAPK2']",2
+Fold 56,[],0
+Fold 57,['MAPKAPK2'],1
+Fold 58,[],0
+Fold 59,"['STAT3', 'CREB', 'MAPKAPK2']",3
+Fold 60,"['S6', 'STAT3', 'MAPKAPK2']",3
+Fold 61,['MAPKAPK2'],1
+Fold 62,[],0
+Fold 63,"['STAT3', 'CREB', 'MAPKAPK2']",3
+Fold 64,['MAPKAPK2'],1
+Fold 65,"['CREB', 'MAPKAPK2']",2
+Fold 66,[],0
+Fold 67,"['STAT3', 'CREB']",2
+Fold 68,"['STAT3', 'CREB']",2
+Fold 69,"['STAT3', 'CREB']",2
+Fold 70,[],0
+Fold 71,"['STAT3', 'MAPKAPK2']",2
+Fold 72,"['CREB', 'MAPKAPK2']",2
+Fold 73,[],0
+Fold 74,['STAT3'],1
+Fold 75,[],0
+Fold 76,[],0
+Fold 77,"['STAT3', 'MAPKAPK2']",2
+Fold 78,[],0
+Fold 79,['MAPKAPK2'],1
+Fold 80,[],0
+Fold 81,[],0
+Fold 82,"['STAT3', 'CREB']",2
+Fold 83,"['STAT3', 'MAPKAPK2']",2
+Fold 84,"['S6', 'STAT3', 'MAPKAPK2']",3
+Fold 85,"['STAT3', 'CREB']",2
+Fold 86,"['STAT3', 'CREB']",2
+Fold 87,[],0
+Fold 88,['STAT3'],1
+Fold 89,[],0
+Fold 90,['MAPKAPK2'],1
+Fold 91,"['STAT3', 'CREB', 'MAPKAPK2']",3
+Fold 92,"['CREB', 'MAPKAPK2']",2
+Fold 93,[],0
+Fold 94,['MAPKAPK2'],1
+Fold 95,[],0
+Fold 96,['MAPKAPK2'],1
+Fold 97,"['CREB', 'MAPKAPK2']",2
+Fold 98,"['STAT3', 'MAPKAPK2']",2
+Fold 99,[],0
+Fold 100,[],0
+Fold 101,['STAT3'],1
+Fold 102,[],0
+Fold 103,[],0
+Fold 104,"['CREB', 'MAPKAPK2']",2
+Fold 105,[],0
+Fold 106,"['STAT3', 'CREB']",2
+Fold 107,"['STAT3', 'CREB']",2
+Fold 108,"['STAT3', 'MAPKAPK2']",2
+Fold 109,[],0
+Fold 110,['MAPKAPK2'],1
+Fold 111,"['STAT3', 'MAPKAPK2']",2
+Fold 112,"['CREB', 'MAPKAPK2']",2
+Fold 113,['MAPKAPK2'],1
+Fold 114,[],0
+Fold 115,"['STAT3', 'CREB', 'MAPKAPK2']",3
+Fold 116,[],0
+Fold 117,"['S6', 'STAT3', 'MAPKAPK2']",3
+Fold 118,"['STAT3', 'CREB']",2
+Fold 119,['MAPKAPK2'],1
+Fold 120,"['STAT3', 'MAPKAPK2']",2
+Fold 121,"['STAT3', 'CREB']",2
+Fold 122,"['STAT3', 'CREB']",2
+Fold 123,[],0
+Fold 124,"['STAT3', 'CREB']",2
+Fold 125,[],0
+Fold 126,[],0
+Fold 127,[],0
+Fold 128,[],0
+Fold 129,"['CREB', 'MAPKAPK2']",2
+Fold 130,['MAPKAPK2'],1
+Fold 131,['MAPKAPK2'],1
+Fold 132,"['S6', 'STAT3', 'MAPKAPK2']",3
+Fold 133,['STAT3'],1
+Fold 134,"['CREB', 'MAPKAPK2']",2
+Fold 135,[],0
+Fold 136,['MAPKAPK2'],1
+Fold 137,"['STAT3', 'MAPKAPK2']",2
+Fold 138,"['STAT3', 'CREB', 'MAPKAPK2']",3
+Fold 139,[],0
+Fold 140,['MAPKAPK2'],1
+Fold 141,['MAPKAPK2'],1
+Fold 142,['STAT3'],1
+Fold 143,[],0
+Fold 144,[],0
+Fold 145,"['CREB', 'MAPKAPK2']",2
+Fold 146,[],0
+Fold 147,"['CREB', 'MAPKAPK2']",2
+Fold 148,[],0
+Fold 149,"['STAT3', 'CREB', 'MAPKAPK2']",3
+Fold 150,"['STAT3', 'CREB']",2
+Fold 151,"['STAT3', 'CREB']",2
+Fold 152,[],0
+Fold 153,"['STAT3', 'CREB']",2
+Fold 154,"['STAT3', 'MAPKAPK2']",2
+Fold 155,"['S6', 'STAT3', 'MAPKAPK2']",3
+Fold 156,[],0
+Fold 157,"['STAT3', 'MAPKAPK2']",2
+Fold 158,['MAPKAPK2'],1
+Fold 159,[],0
+Fold 160,['MAPKAPK2'],1
+Fold 161,"['CREB', 'MAPKAPK2']",2
+Fold 162,[],0
+Fold 163,"['STAT3', 'MAPKAPK2']",2
+Fold 164,"['S6', 'STAT3', 'MAPKAPK2']",3
+Fold 165,"['STAT3', 'CREB']",2
+Fold 166,[],0
+Fold 167,"['STAT3', 'CREB', 'MAPKAPK2']",3
+Fold 168,['STAT3'],1
+Fold 169,[],0
+Fold 170,[],0
+Fold 171,[],0
+Fold 172,"['STAT3', 'MAPKAPK2']",2
+Fold 173,"['CREB', 'MAPKAPK2']",2
+Fold 174,[],0
+Fold 175,['MAPKAPK2'],1
+Fold 176,"['STAT3', 'CREB']",2
+Fold 177,['MAPKAPK2'],1
+Fold 178,"['STAT3', 'CREB']",2
+Fold 179,[],0
+Fold 180,[],0
+Fold 181,"['STAT3', 'CREB']",2
+Fold 182,['STAT3'],1
+Fold 183,"['CREB', 'MAPKAPK2']",2
+Fold 184,[],0
+Fold 185,[],0
+Fold 186,[],0
+Fold 187,[],0
+Fold 188,['MAPKAPK2'],1
+Fold 189,[],0
+Fold 190,"['STAT3', 'CREB']",2
+Fold 191,['MAPKAPK2'],1
+Fold 192,"['STAT3', 'CREB', 'MAPKAPK2']",3
+Fold 193,['MAPKAPK2'],1
+Fold 194,"['S6', 'STAT3', 'MAPKAPK2']",3
+Fold 195,"['STAT3', 'MAPKAPK2']",2
+Fold 196,[],0
+Fold 197,"['STAT3', 'CREB']",2
+Fold 198,"['STAT3', 'MAPKAPK2']",2
+Fold 199,"['CREB', 'MAPKAPK2']",2

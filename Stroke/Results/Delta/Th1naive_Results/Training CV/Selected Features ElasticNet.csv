@@ -1,0 +1,201 @@
+,Fold selected features,Fold nb of features
+Fold 0,"['CREB', 'NFkB', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",9
+Fold 1,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 2,"['STAT5', 'IkB']",2
+Fold 3,['IkB'],1
+Fold 4,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 5,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 6,"['STAT6', 'STAT5', 'IkB']",3
+Fold 7,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 8,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 9,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 10,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 11,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 12,['IkB'],1
+Fold 13,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 14,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 15,['IkB'],1
+Fold 16,"['NFkB', 'IkB']",2
+Fold 17,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 18,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 19,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 20,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 21,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 22,"['STAT5', 'IkB']",2
+Fold 23,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 24,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 25,['IkB'],1
+Fold 26,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 27,"['NFkB', 'IkB']",2
+Fold 28,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 29,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 30,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 31,['IkB'],1
+Fold 32,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 33,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 34,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 35,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 36,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 37,"['STAT6', 'STAT5', 'IkB']",3
+Fold 38,"['CREB', 'NFkB', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",9
+Fold 39,['IkB'],1
+Fold 40,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 41,"['NFkB', 'IkB']",2
+Fold 42,"['CREB', 'NFkB', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",9
+Fold 43,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 44,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 45,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 46,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 47,['IkB'],1
+Fold 48,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 49,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 50,"['STAT5', 'IkB']",2
+Fold 51,['IkB'],1
+Fold 52,['IkB'],1
+Fold 53,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 54,"['STAT6', 'STAT5', 'IkB']",3
+Fold 55,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 56,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 57,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 58,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 59,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 60,"['CREB', 'NFkB', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",9
+Fold 61,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 62,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 63,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 64,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 65,"['STAT6', 'STAT5', 'IkB']",3
+Fold 66,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 67,['IkB'],1
+Fold 68,['IkB'],1
+Fold 69,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 70,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 71,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 72,"['STAT5', 'IkB']",2
+Fold 73,"['NFkB', 'IkB']",2
+Fold 74,['IkB'],1
+Fold 75,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 76,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 77,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 78,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 79,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 80,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 81,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 82,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 83,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 84,"['CREB', 'NFkB', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",9
+Fold 85,['IkB'],1
+Fold 86,['IkB'],1
+Fold 87,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 88,['IkB'],1
+Fold 89,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 90,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 91,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 92,"['STAT6', 'STAT5', 'IkB']",3
+Fold 93,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 94,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 95,"['NFkB', 'IkB']",2
+Fold 96,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 97,"['STAT5', 'IkB']",2
+Fold 98,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 99,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 100,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 101,['IkB'],1
+Fold 102,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 103,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 104,"['STAT5', 'IkB']",2
+Fold 105,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 106,['IkB'],1
+Fold 107,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 108,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 109,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 110,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 111,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 112,"['STAT6', 'STAT5', 'IkB']",3
+Fold 113,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 114,"['NFkB', 'IkB']",2
+Fold 115,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 116,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 117,"['CREB', 'NFkB', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",9
+Fold 118,['IkB'],1
+Fold 119,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 120,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 121,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 122,['IkB'],1
+Fold 123,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 124,['IkB'],1
+Fold 125,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 126,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 127,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 128,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 129,"['STAT5', 'IkB']",2
+Fold 130,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 131,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 132,"['CREB', 'NFkB', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",9
+Fold 133,['IkB'],1
+Fold 134,"['STAT6', 'STAT5', 'IkB']",3
+Fold 135,"['NFkB', 'IkB']",2
+Fold 136,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 137,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 138,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 139,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 140,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 141,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 142,['IkB'],1
+Fold 143,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 144,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 145,"['STAT5', 'IkB']",2
+Fold 146,"['NFkB', 'IkB']",2
+Fold 147,"['STAT6', 'STAT5', 'IkB']",3
+Fold 148,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 149,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 150,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 151,['IkB'],1
+Fold 152,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 153,['IkB'],1
+Fold 154,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 155,"['CREB', 'NFkB', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",9
+Fold 156,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 157,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 158,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 159,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 160,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 161,"['STAT6', 'STAT5', 'IkB']",3
+Fold 162,"['NFkB', 'IkB']",2
+Fold 163,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 164,"['CREB', 'NFkB', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",9
+Fold 165,['IkB'],1
+Fold 166,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 167,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 168,['IkB'],1
+Fold 169,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 170,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 171,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 172,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 173,"['STAT5', 'IkB']",2
+Fold 174,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 175,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 176,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 177,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 178,['IkB'],1
+Fold 179,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 180,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 181,['IkB'],1
+Fold 182,['IkB'],1
+Fold 183,"['STAT5', 'IkB']",2
+Fold 184,"['NFkB', 'IkB']",2
+Fold 185,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 186,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 187,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 188,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 189,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 190,['IkB'],1
+Fold 191,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 192,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 193,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 194,"['CREB', 'NFkB', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",9
+Fold 195,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 196,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 197,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 198,"['CREB', 'NFkB', 'ERK', 'STAT6', 'MAPKAPK2', 'STAT5', 'p38', 'STAT3', 'S6', 'IkB']",10
+Fold 199,"['STAT6', 'STAT5', 'IkB']",3
