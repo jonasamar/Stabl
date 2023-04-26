@@ -1,0 +1,8 @@
+,Selected by STABL,Selected by Lasso,Selected by Lasso 1SE,Selected by ElasticNet,Selected by SS 03,Selected by SS 05,Selected by SS 08,Train Mannwithney pvalues,Train T-test pvalues
+CREB,False,False,False,False,True,True,False,1.0,0.5749901238535511
+Frequency,False,False,False,False,True,True,False,0.7913367801006604,0.4117697811212985
+IkB,False,False,False,False,True,False,False,0.4273553138978077,0.4284153421240262
+MAPKAPK2,False,False,False,False,True,True,False,0.08897301170181328,0.7272155612107678
+NFkB,False,False,False,False,True,True,False,0.8501067391385259,0.5044750481507831
+STAT3,False,False,False,False,True,True,False,0.731782863391611,0.46637629707300343
+STAT5,True,False,False,False,True,True,True,0.3846730627355087,0.44714656675933906

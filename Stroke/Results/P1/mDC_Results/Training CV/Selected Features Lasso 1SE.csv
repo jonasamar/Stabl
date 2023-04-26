@@ -1,0 +1,201 @@
+,Fold selected features,Fold nb of features
+Fold 0,['Frequency'],1
+Fold 1,['Frequency'],1
+Fold 2,"['S6', 'Frequency']",2
+Fold 3,['Frequency'],1
+Fold 4,"['CREB', 'STAT3', 'S6', 'Frequency']",4
+Fold 5,"['STAT3', 'S6', 'Frequency']",3
+Fold 6,"['S6', 'Frequency']",2
+Fold 7,['Frequency'],1
+Fold 8,['Frequency'],1
+Fold 9,['Frequency'],1
+Fold 10,['Frequency'],1
+Fold 11,"['S6', 'Frequency']",2
+Fold 12,['Frequency'],1
+Fold 13,['Frequency'],1
+Fold 14,"['S6', 'Frequency']",2
+Fold 15,['Frequency'],1
+Fold 16,['Frequency'],1
+Fold 17,"['S6', 'Frequency']",2
+Fold 18,"['S6', 'Frequency']",2
+Fold 19,"['S6', 'Frequency']",2
+Fold 20,['Frequency'],1
+Fold 21,['Frequency'],1
+Fold 22,"['S6', 'Frequency']",2
+Fold 23,"['STAT3', 'S6', 'Frequency']",3
+Fold 24,"['S6', 'Frequency']",2
+Fold 25,['Frequency'],1
+Fold 26,"['S6', 'Frequency']",2
+Fold 27,['Frequency'],1
+Fold 28,['Frequency'],1
+Fold 29,"['S6', 'Frequency']",2
+Fold 30,"['S6', 'Frequency']",2
+Fold 31,['Frequency'],1
+Fold 32,['Frequency'],1
+Fold 33,"['S6', 'Frequency']",2
+Fold 34,['Frequency'],1
+Fold 35,"['CREB', 'STAT3', 'S6', 'Frequency']",4
+Fold 36,['Frequency'],1
+Fold 37,"['S6', 'Frequency']",2
+Fold 38,['Frequency'],1
+Fold 39,['Frequency'],1
+Fold 40,"['S6', 'Frequency']",2
+Fold 41,['Frequency'],1
+Fold 42,['Frequency'],1
+Fold 43,"['S6', 'Frequency']",2
+Fold 44,"['STAT3', 'S6', 'Frequency']",3
+Fold 45,['Frequency'],1
+Fold 46,['Frequency'],1
+Fold 47,['Frequency'],1
+Fold 48,"['S6', 'Frequency']",2
+Fold 49,"['S6', 'Frequency']",2
+Fold 50,"['S6', 'Frequency']",2
+Fold 51,['Frequency'],1
+Fold 52,['Frequency'],1
+Fold 53,['Frequency'],1
+Fold 54,"['S6', 'Frequency']",2
+Fold 55,['Frequency'],1
+Fold 56,['Frequency'],1
+Fold 57,['Frequency'],1
+Fold 58,"['S6', 'Frequency']",2
+Fold 59,"['CREB', 'STAT3', 'S6', 'Frequency']",4
+Fold 60,['Frequency'],1
+Fold 61,['Frequency'],1
+Fold 62,"['S6', 'Frequency']",2
+Fold 63,"['CREB', 'STAT3', 'S6', 'Frequency']",4
+Fold 64,['Frequency'],1
+Fold 65,"['S6', 'Frequency']",2
+Fold 66,"['S6', 'Frequency']",2
+Fold 67,['Frequency'],1
+Fold 68,['Frequency'],1
+Fold 69,"['S6', 'Frequency']",2
+Fold 70,"['STAT3', 'S6', 'Frequency']",3
+Fold 71,['Frequency'],1
+Fold 72,"['S6', 'Frequency']",2
+Fold 73,['Frequency'],1
+Fold 74,['Frequency'],1
+Fold 75,['Frequency'],1
+Fold 76,['Frequency'],1
+Fold 77,['Frequency'],1
+Fold 78,"['S6', 'Frequency']",2
+Fold 79,"['S6', 'Frequency']",2
+Fold 80,"['STAT3', 'S6', 'Frequency']",3
+Fold 81,"['S6', 'Frequency']",2
+Fold 82,"['S6', 'Frequency']",2
+Fold 83,['Frequency'],1
+Fold 84,['Frequency'],1
+Fold 85,['Frequency'],1
+Fold 86,['Frequency'],1
+Fold 87,['Frequency'],1
+Fold 88,['Frequency'],1
+Fold 89,"['S6', 'Frequency']",2
+Fold 90,['Frequency'],1
+Fold 91,"['CREB', 'STAT3', 'S6', 'Frequency']",4
+Fold 92,"['S6', 'Frequency']",2
+Fold 93,"['S6', 'Frequency']",2
+Fold 94,['Frequency'],1
+Fold 95,['Frequency'],1
+Fold 96,"['S6', 'Frequency']",2
+Fold 97,"['S6', 'Frequency']",2
+Fold 98,['Frequency'],1
+Fold 99,['Frequency'],1
+Fold 100,['Frequency'],1
+Fold 101,['Frequency'],1
+Fold 102,"['S6', 'Frequency']",2
+Fold 103,"['STAT3', 'S6', 'Frequency']",3
+Fold 104,"['S6', 'Frequency']",2
+Fold 105,['Frequency'],1
+Fold 106,['Frequency'],1
+Fold 107,"['S6', 'Frequency']",2
+Fold 108,['Frequency'],1
+Fold 109,"['S6', 'Frequency']",2
+Fold 110,['Frequency'],1
+Fold 111,['Frequency'],1
+Fold 112,"['S6', 'Frequency']",2
+Fold 113,['Frequency'],1
+Fold 114,['Frequency'],1
+Fold 115,"['CREB', 'STAT3', 'S6', 'Frequency']",4
+Fold 116,"['S6', 'Frequency']",2
+Fold 117,['Frequency'],1
+Fold 118,['Frequency'],1
+Fold 119,"['S6', 'Frequency']",2
+Fold 120,['Frequency'],1
+Fold 121,"['S6', 'Frequency']",2
+Fold 122,['Frequency'],1
+Fold 123,['Frequency'],1
+Fold 124,['Frequency'],1
+Fold 125,"['STAT3', 'S6', 'Frequency']",3
+Fold 126,['Frequency'],1
+Fold 127,"['S6', 'Frequency']",2
+Fold 128,"['S6', 'Frequency']",2
+Fold 129,"['S6', 'Frequency']",2
+Fold 130,"['S6', 'Frequency']",2
+Fold 131,['Frequency'],1
+Fold 132,['Frequency'],1
+Fold 133,['Frequency'],1
+Fold 134,"['S6', 'Frequency']",2
+Fold 135,['Frequency'],1
+Fold 136,['Frequency'],1
+Fold 137,['Frequency'],1
+Fold 138,"['CREB', 'STAT3', 'S6', 'Frequency']",4
+Fold 139,"['S6', 'Frequency']",2
+Fold 140,['Frequency'],1
+Fold 141,['Frequency'],1
+Fold 142,['Frequency'],1
+Fold 143,"['STAT3', 'S6', 'Frequency']",3
+Fold 144,['Frequency'],1
+Fold 145,"['S6', 'Frequency']",2
+Fold 146,['Frequency'],1
+Fold 147,"['S6', 'Frequency']",2
+Fold 148,['Frequency'],1
+Fold 149,"['CREB', 'STAT3', 'S6', 'Frequency']",4
+Fold 150,"['S6', 'Frequency']",2
+Fold 151,['Frequency'],1
+Fold 152,"['S6', 'Frequency']",2
+Fold 153,['Frequency'],1
+Fold 154,['Frequency'],1
+Fold 155,['Frequency'],1
+Fold 156,"['S6', 'Frequency']",2
+Fold 157,['Frequency'],1
+Fold 158,"['S6', 'Frequency']",2
+Fold 159,"['S6', 'Frequency']",2
+Fold 160,['Frequency'],1
+Fold 161,"['S6', 'Frequency']",2
+Fold 162,['Frequency'],1
+Fold 163,['Frequency'],1
+Fold 164,['Frequency'],1
+Fold 165,['Frequency'],1
+Fold 166,"['S6', 'Frequency']",2
+Fold 167,"['CREB', 'STAT3', 'S6', 'Frequency']",4
+Fold 168,['Frequency'],1
+Fold 169,"['STAT3', 'S6', 'Frequency']",3
+Fold 170,"['S6', 'Frequency']",2
+Fold 171,['Frequency'],1
+Fold 172,['Frequency'],1
+Fold 173,"['S6', 'Frequency']",2
+Fold 174,['Frequency'],1
+Fold 175,['Frequency'],1
+Fold 176,"['S6', 'Frequency']",2
+Fold 177,"['S6', 'Frequency']",2
+Fold 178,['Frequency'],1
+Fold 179,"['S6', 'Frequency']",2
+Fold 180,"['S6', 'Frequency']",2
+Fold 181,['Frequency'],1
+Fold 182,['Frequency'],1
+Fold 183,"['S6', 'Frequency']",2
+Fold 184,['Frequency'],1
+Fold 185,"['STAT3', 'S6', 'Frequency']",3
+Fold 186,['Frequency'],1
+Fold 187,"['S6', 'Frequency']",2
+Fold 188,['Frequency'],1
+Fold 189,['Frequency'],1
+Fold 190,['Frequency'],1
+Fold 191,['Frequency'],1
+Fold 192,"['CREB', 'STAT3', 'S6', 'Frequency']",4
+Fold 193,"['S6', 'Frequency']",2
+Fold 194,['Frequency'],1
+Fold 195,['Frequency'],1
+Fold 196,"['S6', 'Frequency']",2
+Fold 197,"['S6', 'Frequency']",2
+Fold 198,['Frequency'],1
+Fold 199,"['S6', 'Frequency']",2
