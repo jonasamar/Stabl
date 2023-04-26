@@ -246,11 +246,11 @@ def single_omic_stabl_cv(
         if task_type == "binary":
             new_best_c_corr = model.C_[0] - model.scores_[True].std() / np.sqrt(inner_splitter.get_n_splits())
             if new_best_c_corr < 0:
-                best_c_corr = model.C_[0]
+                best_c_corr = abs(model.C_[0])
             else:
                 best_c_corr = new_best_c_corr
             model = LogisticRegression(penalty='l1', solver='liblinear', C=best_c_corr, class_weight='balanced',
-                                       max_iter=1_000_000)
+                                       max_iter=2_000_000)
             predictions = model.fit(X_train, y_train).predict_proba(X_test)[:, 1]
 
         selected_features_dict["Lasso 1SE"].append(list(X_train.columns[np.where(model.coef_.flatten())]))
@@ -482,10 +482,14 @@ def single_omic_stabl(
 
     # __Lasso 1SE__
     if task_type == "binary":
-        best_c_corr = model_lasso.C_[0] - model_lasso.scores_[True].std() / np.sqrt(inner_splitter.get_n_splits())
+        new_best_c_corr = model_lasso.C_[0] - model_lasso.scores_[True].std() / np.sqrt(inner_splitter.get_n_splits())
+        if new_best_c_corr < 0:
+            best_c_corr = abs(model_lasso.C_[0])
+        else:
+            best_c_corr = new_best_c_corr
+        #best_c_corr = model_lasso.C_[0] - model_lasso.scores_[True].std() / np.sqrt(inner_splitter.get_n_splits())        
         model_lasso1se = LogisticRegression(penalty='l1', solver='liblinear', C=best_c_corr,
-                                            class_weight='balanced', max_iter=1_000_000
-                                            ).fit(X_train_std, y)
+                                            class_weight='balanced', max_iter=2_000_000).fit(X_train_std, y)
 
     selected_features_dict["Lasso 1SE"] += list(X_train_std.columns[np.where(model_lasso1se.coef_.flatten())])
 

@@ -135,7 +135,7 @@ def stroke_pipeline(time, cellpop):
     )
 
     stability_selection = clone(stabl).set_params(hard_threshold=.1, artificial_type = None)
-    outer_splitter = RepeatedKFold(n_splits=len(X), n_repeats=1, random_state=42)
+    outer_splitter = RepeatedKFold(n_splits=len(X), n_repeats=10, random_state=42)
     
     from stabl.single_omic_pipelines import single_omic_stabl_cv, single_omic_stabl
 
@@ -211,7 +211,7 @@ def stroke_pipeline(time, cellpop):
     
     from stabl.visualization import boxplot_features
 
-    os.makedirs(Path(result_folder, 'Univariate'))
+    os.makedirs(Path(result_folder, 'Univariate'), exist_ok=True)
 
     boxplot_features(
             SpearmanPvalue[:10].index,
