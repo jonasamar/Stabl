@@ -1,0 +1,201 @@
+,Fold selected features,Fold nb of features
+Fold 0,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 1,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 2,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 3,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 4,"['Frequency', 'NFkB']",2
+Fold 5,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 6,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 7,"['Frequency', 'S6', 'NFkB']",3
+Fold 8,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 9,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 10,"['Frequency', 'NFkB']",2
+Fold 11,"['Frequency', 'S6', 'NFkB']",3
+Fold 12,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 13,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 14,"['Frequency', 'S6', 'NFkB']",3
+Fold 15,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 16,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 17,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 18,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 19,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 20,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 21,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 22,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 23,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 24,"['Frequency', 'S6', 'NFkB']",3
+Fold 25,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 26,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 27,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 28,"['Frequency', 'S6', 'NFkB']",3
+Fold 29,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 30,"['Frequency', 'S6', 'NFkB']",3
+Fold 31,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 32,"['Frequency', 'NFkB']",2
+Fold 33,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 34,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 35,"['Frequency', 'NFkB']",2
+Fold 36,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 37,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 38,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 39,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 40,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 41,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 42,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 43,"['Frequency', 'S6', 'NFkB']",3
+Fold 44,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 45,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 46,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 47,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 48,"['Frequency', 'S6', 'NFkB']",3
+Fold 49,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 50,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 51,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 52,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 53,"['Frequency', 'NFkB']",2
+Fold 54,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 55,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 56,"['Frequency', 'S6', 'NFkB']",3
+Fold 57,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 58,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 59,"['Frequency', 'NFkB']",2
+Fold 60,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 61,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 62,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 63,"['Frequency', 'NFkB']",2
+Fold 64,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 65,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 66,"['Frequency', 'S6', 'NFkB']",3
+Fold 67,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 68,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 69,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 70,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 71,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 72,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 73,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 74,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 75,"['Frequency', 'S6', 'NFkB']",3
+Fold 76,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 77,"['Frequency', 'NFkB']",2
+Fold 78,"['Frequency', 'S6', 'NFkB']",3
+Fold 79,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 80,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 81,"['Frequency', 'S6', 'NFkB']",3
+Fold 82,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 83,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 84,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 85,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 86,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 87,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 88,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 89,"['Frequency', 'S6', 'NFkB']",3
+Fold 90,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 91,"['Frequency', 'NFkB']",2
+Fold 92,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 93,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 94,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 95,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 96,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 97,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 98,"['Frequency', 'NFkB']",2
+Fold 99,"['Frequency', 'S6', 'NFkB']",3
+Fold 100,"['Frequency', 'S6', 'NFkB']",3
+Fold 101,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 102,"['Frequency', 'S6', 'NFkB']",3
+Fold 103,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 104,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 105,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 106,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 107,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 108,"['Frequency', 'NFkB']",2
+Fold 109,"['Frequency', 'S6', 'NFkB']",3
+Fold 110,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 111,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 112,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 113,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 114,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 115,"['Frequency', 'NFkB']",2
+Fold 116,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 117,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 118,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 119,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 120,"['Frequency', 'NFkB']",2
+Fold 121,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 122,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 123,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 124,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 125,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 126,"['Frequency', 'S6', 'NFkB']",3
+Fold 127,"['Frequency', 'S6', 'NFkB']",3
+Fold 128,"['Frequency', 'S6', 'NFkB']",3
+Fold 129,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 130,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 131,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 132,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 133,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 134,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 135,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 136,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 137,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 138,"['Frequency', 'NFkB']",2
+Fold 139,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 140,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 141,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 142,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 143,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 144,"['Frequency', 'S6', 'NFkB']",3
+Fold 145,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 146,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 147,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 148,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 149,"['Frequency', 'NFkB']",2
+Fold 150,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 151,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 152,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 153,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 154,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 155,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 156,"['Frequency', 'S6', 'NFkB']",3
+Fold 157,"['Frequency', 'NFkB']",2
+Fold 158,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 159,"['Frequency', 'S6', 'NFkB']",3
+Fold 160,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 161,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 162,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 163,"['Frequency', 'NFkB']",2
+Fold 164,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 165,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 166,"['Frequency', 'S6', 'NFkB']",3
+Fold 167,"['Frequency', 'NFkB']",2
+Fold 168,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 169,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 170,"['Frequency', 'S6', 'NFkB']",3
+Fold 171,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 172,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 173,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 174,"['Frequency', 'S6', 'NFkB']",3
+Fold 175,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 176,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 177,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 178,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 179,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 180,"['Frequency', 'S6', 'NFkB']",3
+Fold 181,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 182,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 183,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 184,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 185,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 186,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 187,"['Frequency', 'S6', 'NFkB']",3
+Fold 188,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 189,"['Frequency', 'S6', 'NFkB']",3
+Fold 190,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 191,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 192,"['Frequency', 'NFkB']",2
+Fold 193,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 194,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 195,"['Frequency', 'NFkB']",2
+Fold 196,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 197,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 198,"['Frequency', 'CREB', 'S6', 'NFkB']",4
+Fold 199,"['Frequency', 'CREB', 'S6', 'NFkB']",4
