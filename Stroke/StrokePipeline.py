@@ -6,6 +6,7 @@ import numpy as np
 import pandas as pd
 from pathlib import Path
 import os
+import csv
 
 from sklearn.model_selection import LeaveOneOut, RepeatedStratifiedKFold, RepeatedKFold
 from sklearn.base import clone
@@ -14,9 +15,10 @@ from stabl.stabl import Stabl, plot_stabl_path, plot_fdr_graph, save_stabl_resul
 from stabl.preprocessing import LowInfoFilter, remove_low_info_samples
 
 ## Stabl pipelines
-from stabl.multi_omic_pipelines import multi_omic_stabl, multi_omic_stabl_cv
 from stabl.single_omic_pipelines import single_omic_stabl, single_omic_stabl_cv
-from stabl.pipelines_utils import compute_features_table
+from stabl.pipelines_utils import compute_features_table, save_plots
+from stabl.stacked_generalization import stacked_multi_omic
+from stabl.visualization import plot_prc, plot_roc
 
 # Data
 ## Importing dataset
@@ -263,4 +265,62 @@ def stroke_pipeline(time, cellpop):
                 writer.writerow(row)
                 
     return predictions_dict
+
+
+
+def stacked_generalization_time_model():
+    """Function to get predictions, weights and AUC of generalized 
+    models based on the predictions of the single omic models which 
+    were given by the stroke_pipeline function.
+    It saves all the results in the same file 'Results' that was used
+    to store the predictions of the single omic models.
+
+    Parameters
+    ----------
+
+    Returns
+    -------
+    """
+    Y = pd.read_csv("./Stroke/Data/P1/Bcells/y.csv", index_col=0)['0']
+    Y.name = 'outcome'
+    times = ['P1', 'P2', 'P3', 'Delta']
+    
+    for time in times:
+        print('**********************************************   ' + time + '    **********************************************')
+        # Collection of results of single omic models
+        ## Initialization
+        df_predictions = {}
+        for model in ['Lasso', 'Lasso 1SE', 'STABL', 'SS 03', 'SS 05', 'SS 08', 'ElasticNet']:
+            df_predictions[model] = pd.DataFrame()
+        ## Collecting results
+        print('     * collecting the results of the single omic models...')
+        for foldername in os.listdir(Path('./Stroke/Results', time)):
+            if not foldername.startswith('.'):
+                for model in ['Lasso', 'Lasso 1SE', 'STABL', 'SS 03', 'SS 05', 'SS 08', 'ElasticNet']:
+                    for file in os.listdir(Path('./Stroke/Results', time, foldername, 'Training CV', model)):
+                        if 'csv' in file:
+                            new_pred = pd.read_csv(Path('./Stroke/Results', time, foldername, 'Training CV', model, file), index_col=0)
+                            new_pred.columns = [foldername.replace('Results', 'predictions'), 'outcome']
+                            df_predictions[model] = pd.concat([df_predictions[model], new_pred[[foldername.replace('Results', 'predictions')]]], axis='columns') 
+        print('     * Done !')
         
+        print('     * collecting the results of the generalized models...')
+        # Collection of results of generalized models
+        generalized_models_preds = {}
+        generalized_models_weights = {}
+        for model in ['Lasso', 'Lasso 1SE', 'STABL', 'SS 03', 'SS 05', 'SS 08', 'ElasticNet']:
+            print('         -> ' + model)
+            generalized_models_preds[model], generalized_models_weights[model] = stacked_multi_omic(df_predictions[model], Y, task_type='binary')
+            generalized_models_preds[model] = generalized_models_preds[model]['Stacked Gen. Predictions']
+        print('     * Done !')
+        
+        print('     * Saving Results...')
+        # Saving Results
+        save_path = Path('./Stroke', 'Results', 'SG Time&Model ', time)
+        os.makedirs(save_path, exist_ok = True)
+        save_plots(generalized_models_preds, Y, task_type='binary', save_path=save_path)
+        for model in ['Lasso', 'Lasso 1SE', 'STABL', 'SS 03', 'SS 05', 'SS 08', 'ElasticNet']:
+            generalized_models_weights[model].sort_values('Associated weight', ascending=False).to_csv(Path(save_path, 'Lasso', 'weights.csv'))
+        print('     * Done !')
+        
+    return

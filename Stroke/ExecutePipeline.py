@@ -1,0 +1,3 @@
+from StrokePipeline import stacked_generalization_time_model
+
+stacked_generalization_time_model()
