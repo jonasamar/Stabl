@@ -320,7 +320,139 @@ def stacked_generalization_time_model():
         os.makedirs(save_path, exist_ok = True)
         save_plots(generalized_models_preds, Y, task_type='binary', save_path=save_path)
         for model in ['Lasso', 'Lasso 1SE', 'STABL', 'SS 03', 'SS 05', 'SS 08', 'ElasticNet']:
-            generalized_models_weights[model].sort_values('Associated weight', ascending=False).to_csv(Path(save_path, 'Lasso', 'weights.csv'))
+            generalized_models_weights[model].sort_values('Associated weight', ascending=False).to_csv(Path(save_path, model, 'weights.csv'))
         print('     * Done !')
         
     return
+
+
+########## MAX PIPELINE ##########
+
+import numpy as np
+import pandas as pd
+from sklearn.impute import SimpleImputer
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import StandardScaler
+from sklearn.feature_selection import VarianceThreshold
+from stabl.preprocessing import LowInfoFilter
+from stabl.stabl import Stabl, save_stabl_results
+from sklearn.base import clone
+from sklearn.linear_model import Lasso,ElasticNet,LogisticRegression
+from sklearn.model_selection import LeaveOneOut
+from scipy.stats import mannwhitneyu
+from stabl.visualization import scatterplot_features,boxplot_features
+from stabl.single_omic_pipelines import single_omic_stabl, single_omic_stabl_cv
+from pathlib import Path
+import argparse
+import os
+
+# lasso = Lasso(max_iter=int(1e6))
+# en05_05 = ElasticNet(max_iter=int(1e6))
+
+# stabl_regression = Stabl(
+#     base_estimator=clone(lasso),
+#     lambda_grid=np.logspace(0.01, 2, 30),
+#     lambda_name="alpha",
+#     artificial_type="knockoff",
+#     artificial_proportion=1,
+#     n_bootstraps=1000,
+#     random_state=42
+# )
+
+logit_lasso = LogisticRegression(penalty="l1", max_iter=int(1e6), solver="liblinear", class_weight="balanced")
+logit_en05 = LogisticRegression(penalty="elasticnet", l1_ratio = 0.5, max_iter=int(1e6), solver="saga", class_weight="balanced")
+
+stabl_class = Stabl(
+    base_estimator=clone(logit_lasso),
+    lambda_name="C",
+    lambda_grid=np.linspace(0.01, 1, 30),
+    artificial_type="knockoff",
+    fdr_threshold_range=np.arange(0.1, 1, 0.01),
+    n_bootstraps=1000,
+    random_state=42
+)
+
+stablList = [clone(stabl_class),clone(stabl_class).set_params(artificial_type="random_permutation"),
+             clone(stabl_class).set_params(base_estimator=clone(logit_en05)),
+             clone(stabl_class).set_params(base_estimator=clone(logit_en05),artificial_type="random_permutation")]
+stablNames = ["L-KF","L-RP","EN05-KF","EN05-RP"]
+
+outer_splitter = LeaveOneOut()
+
+stability_selection = clone(stabl_class).set_params(artificial_type=None, hard_threshold=0.3)
+
+
+def run(timePoint,stablIdx):
+    data = pd.read_csv("./Sample Data/Stroke/"+timePoint+".csv",index_col=0)
+    label = pd.read_csv("./Sample Data/Stroke/Label.csv",index_col=0).iloc[:,0]
+
+    preprocessing = Pipeline(
+        steps=[
+            ("lif", LowInfoFilter(0.2)),
+            ("variance", VarianceThreshold(0.01)),
+            ("impute", SimpleImputer(strategy="median")),
+            # ("std", StandardScaler())
+        ]
+    )
+    data = pd.DataFrame(
+        data=preprocessing.fit_transform(data),
+        index=data.index,
+        columns=preprocessing.get_feature_names_out()
+    )
+
+    preprocessing2 = Pipeline(
+        steps=[
+            ("std", StandardScaler())
+        ]
+    )
+
+    dataSTD = pd.DataFrame(
+        data=preprocessing2.fit_transform(data),
+        index=data.index,
+        columns=preprocessing2.get_feature_names_out()
+    )
+
+    resultFolderRoot = "./Results/V"+timePoint+ "/"
+    resultFolder = resultFolderRoot + stablNames[stablIdx]
+    resultFolderUnivariate = resultFolderRoot+"/Univariate/"
+    os.makedirs("./Results",exist_ok=True)
+    os.makedirs(resultFolderRoot, exist_ok=True)
+    os.makedirs(resultFolder, exist_ok=True)
+    os.makedirs(resultFolderUnivariate, exist_ok=True)
+
+    if stablIdx == 0:
+        vals1 = []
+        vals2 = []
+        for col in data.columns:
+            a,b = mannwhitneyu(data.loc[label == 0,col].to_numpy(),data.loc[label == 1,col].to_numpy())
+            vals1.append(a)
+            vals2.append(b)
+
+        res = pd.DataFrame(data=[vals1,vals2],index= ["Mann-Whitney U-test","p-value"],columns=data.columns)
+        res = res.sort_values(by="p-value",axis=1)
+        res.T.to_csv(Path(resultFolderUnivariate + "Mann-WhitneyU-testPval.csv"))
+        
+
+        boxplot_features(    list_of_features=res.columns[:10],
+        df_X=data[res.columns[:10]],
+        y=label,
+        show_fig=False,
+        export_file=True,
+        path = Path(resultFolderUnivariate)
+        )
+
+
+    single_omic_stabl_cv(
+    X=data,
+    y=label.astype(int),
+    outer_splitter=outer_splitter,
+    stabl=stablList[stablIdx],
+    stability_selection=stability_selection,
+    task_type="binary",
+    save_path=Path(resultFolder),
+)
+    stabl = clone(stablList[stablIdx])
+    stabl.fit(dataSTD,label.astype(int))
+
+
+    save_stabl_results(stabl,resultFolder+"/FinalSTABL/",dataSTD,label,task_type="binary")

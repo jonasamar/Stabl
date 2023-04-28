@@ -1,0 +1,27 @@
+,Associated weight
+pDC_predictions,9.608067101151324
+mDC_predictions,9.469773337051986
+Th1naive_predictions,8.769607072078951
+CD4Trm_predictions,8.64283892924529
+Bcells_predictions,8.17593487300019
+CCR2nncMC_predictions,8.105429500203895
+CD62LnAgedNeutrophils_predictions,7.893550999653191
+intMC_predictions,7.701217664375957
+CD61pCD41pPLT_predictions,6.785590577971558
+CD8Trm_predictions,6.614686617939133
+CD4Tnaive_predictions,6.584560798073125
+NKT_predictions,6.558424259776285
+CD8Tcm_predictions,6.482369044496885
+CCR2pcMC_predictions,5.368015994311019
+Tregnaive_predictions,4.286356961287822
+Tregmem_predictions,3.1203795336320947
+CD4Tcm_predictions,1.9857153737170907
+CD8Tem_predictions,1.3186661565769076
+CD56brightCD16nNKcells_predictions,1.3026788134014156
+Th1mem_predictions,1.2672186486246062
+MDSC_predictions,1.2364619385373543
+CD8Tnaive_predictions,1.1154968124523568
+gdTcells_predictions,0.7037293063173544
+CD4Tem_predictions,0.5393117393877966
+CD62LpImmatureNeutrophils_predictions,0.26159471285046254
+CD56dimCD16pNKcells_predictions,0.11189604777588458
