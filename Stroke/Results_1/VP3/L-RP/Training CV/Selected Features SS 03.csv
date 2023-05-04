@@ -1,0 +1,21 @@
+,Fold selected features,Fold nb of features
+Fold 0,['CD4Tnaive_Frequency'],1
+Fold 1,['CD4Tnaive_Frequency'],1
+Fold 2,"['CD4Tnaive_Frequency', 'pDC_MAPKAPK2']",2
+Fold 3,['CD4Tnaive_Frequency'],1
+Fold 4,['CD4Tnaive_Frequency'],1
+Fold 5,"['CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",2
+Fold 6,"['CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",2
+Fold 7,['CD4Tnaive_Frequency'],1
+Fold 8,['CD4Tnaive_Frequency'],1
+Fold 9,"['CD4Tnaive_Frequency', 'Th1mem_STAT6']",2
+Fold 10,['CD4Tnaive_Frequency'],1
+Fold 11,[],0
+Fold 12,['CD4Tnaive_Frequency'],1
+Fold 13,['CD4Tnaive_Frequency'],1
+Fold 14,['CD4Tnaive_Frequency'],1
+Fold 15,['CD4Tnaive_Frequency'],1
+Fold 16,['CD4Tnaive_Frequency'],1
+Fold 17,"['Bcells_Frequency', 'CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",3
+Fold 18,['CD4Tnaive_Frequency'],1
+Fold 19,['CD4Tnaive_Frequency'],1

@@ -1,0 +1,21 @@
+,Fold selected features,Fold nb of features
+Fold 0,['Th1naive_IkB'],1
+Fold 1,['Th1naive_IkB'],1
+Fold 2,[],0
+Fold 3,[],0
+Fold 4,['CD41hiCD61hiPLT_p38'],1
+Fold 5,[],0
+Fold 6,"['CD41hiCD61hiPLT_p38', 'Th1naive_IkB']",2
+Fold 7,"['CD41hiCD61hiPLT_p38', 'Th1naive_IkB']",2
+Fold 8,[],0
+Fold 9,"['CD41hiCD61hiPLT_p38', 'Th1naive_IkB']",2
+Fold 10,[],0
+Fold 11,[],0
+Fold 12,['Th1naive_IkB'],1
+Fold 13,['Th1naive_IkB'],1
+Fold 14,['Th1naive_IkB'],1
+Fold 15,"['CD41hiCD61hiPLT_p38', 'Th1naive_IkB']",2
+Fold 16,['Tregmem_Frequency'],1
+Fold 17,[],0
+Fold 18,"['CD41hiCD61hiPLT_p38', 'Th1naive_IkB']",2
+Fold 19,"['CD41hiCD61hiPLT_p38', 'Th1naive_IkB']",2

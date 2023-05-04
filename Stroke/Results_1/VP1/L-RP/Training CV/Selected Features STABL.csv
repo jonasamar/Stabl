@@ -1,0 +1,21 @@
+,Fold selected features,Fold nb of features
+Fold 0,"['CCR2nncMC_Frequency', 'CD56brightCD16nNKcells_Frequency', 'Th1mem_S6', 'Th1naive_CREB']",4
+Fold 1,"['Th1naive_CREB', 'Th1naive_S6']",2
+Fold 2,"['CCR2nncMC_Frequency', 'CD56brightCD16nNKcells_Frequency', 'Th1mem_S6', 'Th1naive_CREB']",4
+Fold 3,"['CCR2nncMC_S6', 'CCR2nncMC_Frequency', 'CCR2pcMC_Frequency', 'CD4Tnaive_Frequency', 'CD56brightCD16nNKcells_Frequency', 'CD62LnAgedNeutrophils_S6', 'mDC_Frequency', 'Th1mem_S6', 'Th1naive_CREB', 'Th1naive_S6']",10
+Fold 4,"['CCR2nncMC_Frequency', 'Th1mem_S6', 'Th1naive_CREB', 'Th1naive_S6']",4
+Fold 5,"['CCR2nncMC_Frequency', 'CD56dimCD16pNKcells_Frequency', 'CD62LnAgedNeutrophils_S6', 'Th1mem_S6', 'Th1naive_CREB']",5
+Fold 6,"['CCR2nncMC_Frequency', 'CD56dimCD16pNKcells_Frequency', 'CD62LnAgedNeutrophils_S6', 'CD62LpImmatureNeutrophils_S6', 'mDC_S6', 'mDC_Frequency', 'Th1mem_S6']",7
+Fold 7,"['CCR2nncMC_Frequency', 'Th1mem_S6', 'Th1naive_CREB']",3
+Fold 8,"['Th1mem_S6', 'Th1naive_CREB']",2
+Fold 9,"['Th1mem_S6', 'Th1naive_CREB']",2
+Fold 10,"['CCR2nncMC_Frequency', 'CD62LnAgedNeutrophils_S6', 'mDC_S6', 'mDC_Frequency', 'Th1mem_S6', 'Th1naive_CREB']",6
+Fold 11,"['CCR2nncMC_Frequency', 'CD62LnAgedNeutrophils_S6', 'Th1mem_S6', 'Th1naive_CREB']",4
+Fold 12,"['CCR2nncMC_Frequency', 'CD62LnAgedNeutrophils_S6', 'Th1mem_S6', 'Th1naive_CREB']",4
+Fold 13,"['CCR2nncMC_Frequency', 'CD62LpImmatureNeutrophils_S6', 'mDC_Frequency', 'Th1mem_S6', 'Th1naive_CREB']",5
+Fold 14,"['CCR2nncMC_Frequency', 'CD62LnAgedNeutrophils_S6', 'mDC_Frequency', 'Th1mem_S6', 'Th1naive_CREB']",5
+Fold 15,"['CCR2nncMC_Frequency', 'Th1mem_S6', 'Th1naive_CREB']",3
+Fold 16,"['CCR2nncMC_Frequency', 'CD62LnAgedNeutrophils_S6', 'Th1mem_S6', 'Th1naive_CREB']",4
+Fold 17,"['CCR2nncMC_Frequency', 'Th1mem_S6', 'Th1naive_CREB']",3
+Fold 18,"['CCR2nncMC_Frequency', 'CD62LnAgedNeutrophils_S6']",2
+Fold 19,"['CCR2nncMC_Frequency', 'CD62LnAgedNeutrophils_S6', 'CD62LpImmatureNeutrophils_Frequency', 'Th1mem_S6', 'Th1naive_CREB']",5

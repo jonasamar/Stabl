@@ -1,0 +1,201 @@
+,Fold selected features,Fold nb of features
+Fold 0,['CD4Tnaive_Frequency'],1
+Fold 1,"['Bcells_Frequency', 'CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",3
+Fold 2,['CD4Tnaive_Frequency'],1
+Fold 3,['CD4Tnaive_Frequency'],1
+Fold 4,['CD4Tnaive_Frequency'],1
+Fold 5,"['CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",2
+Fold 6,[],0
+Fold 7,['CD4Tnaive_Frequency'],1
+Fold 8,['CD4Tnaive_Frequency'],1
+Fold 9,['CD4Tnaive_Frequency'],1
+Fold 10,['CD4Tnaive_Frequency'],1
+Fold 11,"['CD4Tnaive_Frequency', 'pDC_MAPKAPK2']",2
+Fold 12,"['CD4Tnaive_Frequency', 'Th1mem_STAT6']",2
+Fold 13,['CD4Tnaive_Frequency'],1
+Fold 14,['CD4Tnaive_Frequency'],1
+Fold 15,['CD4Tnaive_Frequency'],1
+Fold 16,['CD4Tnaive_Frequency'],1
+Fold 17,['CD4Tnaive_Frequency'],1
+Fold 18,['CD4Tnaive_Frequency'],1
+Fold 19,"['CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",2
+Fold 20,['CD4Tnaive_Frequency'],1
+Fold 21,['CD4Tnaive_Frequency'],1
+Fold 22,['CD4Tnaive_Frequency'],1
+Fold 23,"['CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",2
+Fold 24,['CD4Tnaive_Frequency'],1
+Fold 25,['CD4Tnaive_Frequency'],1
+Fold 26,['CD4Tnaive_Frequency'],1
+Fold 27,['CD4Tnaive_Frequency'],1
+Fold 28,['CD4Tnaive_Frequency'],1
+Fold 29,"['CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",2
+Fold 30,"['CD4Tnaive_Frequency', 'pDC_MAPKAPK2']",2
+Fold 31,"['CD4Tnaive_Frequency', 'Th1mem_STAT6']",2
+Fold 32,['CD4Tnaive_Frequency'],1
+Fold 33,['CD4Tnaive_Frequency'],1
+Fold 34,['CD4Tnaive_Frequency'],1
+Fold 35,['CD4Tnaive_Frequency'],1
+Fold 36,"['Bcells_Frequency', 'CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",3
+Fold 37,[],0
+Fold 38,['CD4Tnaive_Frequency'],1
+Fold 39,['CD4Tnaive_Frequency'],1
+Fold 40,['CD4Tnaive_Frequency'],1
+Fold 41,['CD4Tnaive_Frequency'],1
+Fold 42,['CD4Tnaive_Frequency'],1
+Fold 43,"['CD4Tnaive_Frequency', 'pDC_MAPKAPK2']",2
+Fold 44,"['CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",2
+Fold 45,['CD4Tnaive_Frequency'],1
+Fold 46,['CD4Tnaive_Frequency'],1
+Fold 47,['CD4Tnaive_Frequency'],1
+Fold 48,['CD4Tnaive_Frequency'],1
+Fold 49,['CD4Tnaive_Frequency'],1
+Fold 50,['CD4Tnaive_Frequency'],1
+Fold 51,"['CD4Tnaive_Frequency', 'Th1mem_STAT6']",2
+Fold 52,['CD4Tnaive_Frequency'],1
+Fold 53,['CD4Tnaive_Frequency'],1
+Fold 54,[],0
+Fold 55,['CD4Tnaive_Frequency'],1
+Fold 56,['CD4Tnaive_Frequency'],1
+Fold 57,"['Bcells_Frequency', 'CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",3
+Fold 58,"['CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",2
+Fold 59,['CD4Tnaive_Frequency'],1
+Fold 60,['CD4Tnaive_Frequency'],1
+Fold 61,['CD4Tnaive_Frequency'],1
+Fold 62,"['CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",2
+Fold 63,['CD4Tnaive_Frequency'],1
+Fold 64,"['Bcells_Frequency', 'CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",3
+Fold 65,[],0
+Fold 66,['CD4Tnaive_Frequency'],1
+Fold 67,"['CD4Tnaive_Frequency', 'Th1mem_STAT6']",2
+Fold 68,['CD4Tnaive_Frequency'],1
+Fold 69,['CD4Tnaive_Frequency'],1
+Fold 70,"['CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",2
+Fold 71,['CD4Tnaive_Frequency'],1
+Fold 72,['CD4Tnaive_Frequency'],1
+Fold 73,['CD4Tnaive_Frequency'],1
+Fold 74,['CD4Tnaive_Frequency'],1
+Fold 75,['CD4Tnaive_Frequency'],1
+Fold 76,['CD4Tnaive_Frequency'],1
+Fold 77,['CD4Tnaive_Frequency'],1
+Fold 78,"['CD4Tnaive_Frequency', 'pDC_MAPKAPK2']",2
+Fold 79,['CD4Tnaive_Frequency'],1
+Fold 80,"['CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",2
+Fold 81,"['CD4Tnaive_Frequency', 'pDC_MAPKAPK2']",2
+Fold 82,['CD4Tnaive_Frequency'],1
+Fold 83,['CD4Tnaive_Frequency'],1
+Fold 84,['CD4Tnaive_Frequency'],1
+Fold 85,['CD4Tnaive_Frequency'],1
+Fold 86,"['CD4Tnaive_Frequency', 'Th1mem_STAT6']",2
+Fold 87,['CD4Tnaive_Frequency'],1
+Fold 88,['CD4Tnaive_Frequency'],1
+Fold 89,['CD4Tnaive_Frequency'],1
+Fold 90,"['Bcells_Frequency', 'CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",3
+Fold 91,['CD4Tnaive_Frequency'],1
+Fold 92,[],0
+Fold 93,"['CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",2
+Fold 94,['CD4Tnaive_Frequency'],1
+Fold 95,['CD4Tnaive_Frequency'],1
+Fold 96,['CD4Tnaive_Frequency'],1
+Fold 97,['CD4Tnaive_Frequency'],1
+Fold 98,['CD4Tnaive_Frequency'],1
+Fold 99,['CD4Tnaive_Frequency'],1
+Fold 100,['CD4Tnaive_Frequency'],1
+Fold 101,['CD4Tnaive_Frequency'],1
+Fold 102,['CD4Tnaive_Frequency'],1
+Fold 103,"['CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",2
+Fold 104,['CD4Tnaive_Frequency'],1
+Fold 105,['CD4Tnaive_Frequency'],1
+Fold 106,"['CD4Tnaive_Frequency', 'Th1mem_STAT6']",2
+Fold 107,['CD4Tnaive_Frequency'],1
+Fold 108,['CD4Tnaive_Frequency'],1
+Fold 109,"['CD4Tnaive_Frequency', 'pDC_MAPKAPK2']",2
+Fold 110,['CD4Tnaive_Frequency'],1
+Fold 111,['CD4Tnaive_Frequency'],1
+Fold 112,[],0
+Fold 113,"['Bcells_Frequency', 'CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",3
+Fold 114,['CD4Tnaive_Frequency'],1
+Fold 115,['CD4Tnaive_Frequency'],1
+Fold 116,"['CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",2
+Fold 117,['CD4Tnaive_Frequency'],1
+Fold 118,['CD4Tnaive_Frequency'],1
+Fold 119,['CD4Tnaive_Frequency'],1
+Fold 120,['CD4Tnaive_Frequency'],1
+Fold 121,['CD4Tnaive_Frequency'],1
+Fold 122,['CD4Tnaive_Frequency'],1
+Fold 123,['CD4Tnaive_Frequency'],1
+Fold 124,"['CD4Tnaive_Frequency', 'Th1mem_STAT6']",2
+Fold 125,"['CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",2
+Fold 126,['CD4Tnaive_Frequency'],1
+Fold 127,"['CD4Tnaive_Frequency', 'pDC_MAPKAPK2']",2
+Fold 128,['CD4Tnaive_Frequency'],1
+Fold 129,['CD4Tnaive_Frequency'],1
+Fold 130,['CD4Tnaive_Frequency'],1
+Fold 131,"['Bcells_Frequency', 'CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",3
+Fold 132,['CD4Tnaive_Frequency'],1
+Fold 133,['CD4Tnaive_Frequency'],1
+Fold 134,[],0
+Fold 135,['CD4Tnaive_Frequency'],1
+Fold 136,['CD4Tnaive_Frequency'],1
+Fold 137,['CD4Tnaive_Frequency'],1
+Fold 138,['CD4Tnaive_Frequency'],1
+Fold 139,"['CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",2
+Fold 140,"['Bcells_Frequency', 'CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",3
+Fold 141,['CD4Tnaive_Frequency'],1
+Fold 142,['CD4Tnaive_Frequency'],1
+Fold 143,"['CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",2
+Fold 144,['CD4Tnaive_Frequency'],1
+Fold 145,['CD4Tnaive_Frequency'],1
+Fold 146,['CD4Tnaive_Frequency'],1
+Fold 147,[],0
+Fold 148,['CD4Tnaive_Frequency'],1
+Fold 149,['CD4Tnaive_Frequency'],1
+Fold 150,['CD4Tnaive_Frequency'],1
+Fold 151,['CD4Tnaive_Frequency'],1
+Fold 152,"['CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",2
+Fold 153,"['CD4Tnaive_Frequency', 'Th1mem_STAT6']",2
+Fold 154,['CD4Tnaive_Frequency'],1
+Fold 155,['CD4Tnaive_Frequency'],1
+Fold 156,"['CD4Tnaive_Frequency', 'pDC_MAPKAPK2']",2
+Fold 157,['CD4Tnaive_Frequency'],1
+Fold 158,['CD4Tnaive_Frequency'],1
+Fold 159,['CD4Tnaive_Frequency'],1
+Fold 160,"['Bcells_Frequency', 'CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",3
+Fold 161,[],0
+Fold 162,['CD4Tnaive_Frequency'],1
+Fold 163,['CD4Tnaive_Frequency'],1
+Fold 164,['CD4Tnaive_Frequency'],1
+Fold 165,"['CD4Tnaive_Frequency', 'Th1mem_STAT6']",2
+Fold 166,['CD4Tnaive_Frequency'],1
+Fold 167,['CD4Tnaive_Frequency'],1
+Fold 168,['CD4Tnaive_Frequency'],1
+Fold 169,"['CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",2
+Fold 170,"['CD4Tnaive_Frequency', 'pDC_MAPKAPK2']",2
+Fold 171,['CD4Tnaive_Frequency'],1
+Fold 172,['CD4Tnaive_Frequency'],1
+Fold 173,['CD4Tnaive_Frequency'],1
+Fold 174,['CD4Tnaive_Frequency'],1
+Fold 175,['CD4Tnaive_Frequency'],1
+Fold 176,['CD4Tnaive_Frequency'],1
+Fold 177,['CD4Tnaive_Frequency'],1
+Fold 178,['CD4Tnaive_Frequency'],1
+Fold 179,"['CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",2
+Fold 180,['CD4Tnaive_Frequency'],1
+Fold 181,"['CD4Tnaive_Frequency', 'Th1mem_STAT6']",2
+Fold 182,['CD4Tnaive_Frequency'],1
+Fold 183,['CD4Tnaive_Frequency'],1
+Fold 184,['CD4Tnaive_Frequency'],1
+Fold 185,"['CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",2
+Fold 186,['CD4Tnaive_Frequency'],1
+Fold 187,"['CD4Tnaive_Frequency', 'pDC_MAPKAPK2']",2
+Fold 188,['CD4Tnaive_Frequency'],1
+Fold 189,['CD4Tnaive_Frequency'],1
+Fold 190,['CD4Tnaive_Frequency'],1
+Fold 191,"['Bcells_Frequency', 'CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",3
+Fold 192,['CD4Tnaive_Frequency'],1
+Fold 193,['CD4Tnaive_Frequency'],1
+Fold 194,['CD4Tnaive_Frequency'],1
+Fold 195,['CD4Tnaive_Frequency'],1
+Fold 196,"['CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",2
+Fold 197,['CD4Tnaive_Frequency'],1
+Fold 198,['CD4Tnaive_Frequency'],1
+Fold 199,[],0

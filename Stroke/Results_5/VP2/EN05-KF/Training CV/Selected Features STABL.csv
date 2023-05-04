@@ -1,0 +1,21 @@
+,Fold selected features,Fold nb of features
+Fold 0,"['CD62LnAgedNeutrophils_S6', 'CD62LpImmatureNeutrophils_S6']",2
+Fold 1,"['CD4Tnaive_Frequency', 'CD56dimCD16pNKcells_Frequency', 'CD62LnAgedNeutrophils_S6', 'CD62LpImmatureNeutrophils_CREB', 'CD62LpImmatureNeutrophils_S6', 'gdTcells_Frequency', 'MDSC_Frequency', 'Th1naive_CREB', 'Th1naive_S6']",9
+Fold 2,"['CCR2nncMC_Frequency', 'CCR2pcMC_Frequency', 'CD4Tnaive_Frequency', 'CD4Trm_Frequency', 'CD56dimCD16pNKcells_Frequency', 'CD62LnAgedNeutrophils_S6', 'CD62LpImmatureNeutrophils_S6', 'gdTcells_Frequency', 'MDSC_Frequency', 'Th1naive_CREB', 'Th1naive_S6']",11
+Fold 3,"['CCR2pcMC_Frequency', 'CD4Tnaive_Frequency', 'CD56dimCD16pNKcells_Frequency', 'CD62LnAgedNeutrophils_S6', 'CD62LpImmatureNeutrophils_S6', 'Th1naive_S6']",6
+Fold 4,"['CD4Tnaive_Frequency', 'CD62LnAgedNeutrophils_S6', 'CD62LpImmatureNeutrophils_S6', 'Th1naive_S6']",4
+Fold 5,"['CCR2nncMC_Frequency', 'CCR2pcMC_Frequency', 'CD4Tnaive_Frequency', 'CD4Trm_Frequency', 'CD56dimCD16pNKcells_Frequency', 'CD62LnAgedNeutrophils_S6', 'CD62LpImmatureNeutrophils_S6', 'CD8Tcm_Frequency', 'gdTcells_Frequency', 'mDC_STAT3', 'MDSC_Frequency', 'Th1naive_CREB', 'Th1naive_S6']",13
+Fold 6,"['CD56dimCD16pNKcells_Frequency', 'CD62LnAgedNeutrophils_S6', 'CD62LpImmatureNeutrophils_S6']",3
+Fold 7,"['CCR2nncMC_Frequency', 'CCR2pcMC_Frequency', 'CD62LnAgedNeutrophils_S6', 'CD62LpImmatureNeutrophils_CREB', 'CD62LpImmatureNeutrophils_S6', 'Th1naive_S6']",6
+Fold 8,[],0
+Fold 9,[],0
+Fold 10,[],0
+Fold 11,"['CD62LnAgedNeutrophils_S6', 'CD62LpImmatureNeutrophils_S6']",2
+Fold 12,"['CCR2pcMC_Frequency', 'CD4Tnaive_Frequency', 'CD4Trm_Frequency', 'CD56dimCD16pNKcells_Frequency', 'CD62LnAgedNeutrophils_S6', 'CD62LpImmatureNeutrophils_CREB', 'CD62LpImmatureNeutrophils_S6', 'Th1naive_S6']",8
+Fold 13,"['CD62LnAgedNeutrophils_S6', 'CD62LpImmatureNeutrophils_S6']",2
+Fold 14,"['Bcells_Frequency', 'CCR2nncMC_Frequency', 'CCR2pcMC_STAT3', 'CCR2pcMC_Frequency', 'CD4Tnaive_Frequency', 'CD4Trm_Frequency', 'CD56dimCD16pNKcells_Frequency', 'CD62LnAgedNeutrophils_CREB', 'CD62LnAgedNeutrophils_S6', 'CD62LpImmatureNeutrophils_CREB', 'CD62LpImmatureNeutrophils_S6', 'CD8Tcm_Frequency', 'intMC_Frequency', 'mDC_STAT3', 'MDSC_STAT3', 'MDSC_Frequency', 'Th1naive_S6']",17
+Fold 15,"['CCR2nncMC_Frequency', 'CCR2pcMC_Frequency', 'CD41hiCD61hiPLT_S6', 'CD4Tnaive_Frequency', 'CD56dimCD16pNKcells_Frequency', 'CD62LnAgedNeutrophils_S6', 'CD62LpImmatureNeutrophils_S6', 'CD62LpImmatureNeutrophils_Frequency', 'CD8Tcm_Frequency', 'gdTcells_Frequency', 'Th1naive_CREB', 'Th1naive_S6']",12
+Fold 16,[],0
+Fold 17,"['Bcells_Frequency', 'CCR2nncMC_Frequency', 'CCR2pcMC_MAPKAPK2', 'CCR2pcMC_Frequency', 'CD41hiCD61hiPLT_S6', 'CD4Tem_Frequency', 'CD4Tnaive_Frequency', 'CD4Trm_Frequency', 'CD56dimCD16pNKcells_Frequency', 'CD62LnAgedNeutrophils_S6', 'CD62LpImmatureNeutrophils_CREB', 'CD62LpImmatureNeutrophils_S6', 'gdTcells_Frequency', 'mDC_STAT3', 'MDSC_Frequency', 'Th1naive_S6']",16
+Fold 18,[],0
+Fold 19,[],0

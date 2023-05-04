@@ -1,3 +1,4 @@
-from StrokePipeline import stacked_generalization_time_model
+from StrokePipeline import run
 
-stacked_generalization_time_model()
+for idx in range(4):
+    run('P1', idx)

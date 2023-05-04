@@ -1,0 +1,16 @@
+,Feature Name
+Feature n°1,Bcells_Frequency
+Feature n°2,CCR2nncMC_Frequency
+Feature n°3,CCR2pcMC_Frequency
+Feature n°4,CD4Tnaive_Frequency
+Feature n°5,CD56dimCD16pNKcells_Frequency
+Feature n°6,CD62LnAgedNeutrophils_p38
+Feature n°7,CD62LnAgedNeutrophils_S6
+Feature n°8,CD62LpImmatureNeutrophils_Frequency
+Feature n°9,CD8Tem_Frequency
+Feature n°10,CD8Tnaive_Frequency
+Feature n°11,gdTcells_Frequency
+Feature n°12,intMC_Frequency
+Feature n°13,MDSC_Frequency
+Feature n°14,Th1naive_STAT3
+Feature n°15,Th1naive_IkB

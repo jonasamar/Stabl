@@ -1,0 +1,21 @@
+,Fold selected features,Fold nb of features
+Fold 0,"['CD41hiCD61hiPLT_p38', 'Th1naive_IkB']",2
+Fold 1,"['CD41hiCD61hiPLT_p38', 'Th1naive_IkB']",2
+Fold 2,"['CD41hiCD61hiPLT_p38', 'Tregmem_Frequency']",2
+Fold 3,['Tregmem_Frequency'],1
+Fold 4,"['CD41hiCD61hiPLT_p38', 'Tregmem_Frequency']",2
+Fold 5,['CD41hiCD61hiPLT_p38'],1
+Fold 6,"['CD41hiCD61hiPLT_p38', 'Th1naive_IkB', 'Tregmem_Frequency']",3
+Fold 7,"['CD41hiCD61hiPLT_p38', 'Th1naive_IkB']",2
+Fold 8,['CD41hiCD61hiPLT_p38'],1
+Fold 9,"['CD41hiCD61hiPLT_p38', 'Th1naive_IkB']",2
+Fold 10,['Tregmem_Frequency'],1
+Fold 11,[],0
+Fold 12,"['Th1naive_IkB', 'Tregmem_Frequency']",2
+Fold 13,"['CD41hiCD61hiPLT_p38', 'Th1naive_IkB']",2
+Fold 14,"['Th1naive_CREB', 'Tregmem_Frequency']",2
+Fold 15,"['CD41hiCD61hiPLT_p38', 'Th1naive_IkB', 'Tregmem_Frequency']",3
+Fold 16,"['CD4Tem_Frequency', 'Tregmem_Frequency']",2
+Fold 17,"['CD41hiCD61hiPLT_p38', 'Tregmem_Frequency']",2
+Fold 18,"['CD41hiCD61hiPLT_p38', 'Th1naive_IkB']",2
+Fold 19,"['CD41hiCD61hiPLT_p38', 'Th1naive_IkB']",2

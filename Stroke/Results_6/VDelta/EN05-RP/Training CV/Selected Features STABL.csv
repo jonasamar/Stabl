@@ -1,0 +1,21 @@
+,Fold selected features,Fold nb of features
+Fold 0,['Th1naive_IkB'],1
+Fold 1,[],0
+Fold 2,[],0
+Fold 3,"['CD8Tem_Frequency', 'Tregmem_Frequency']",2
+Fold 4,"['Bcells_p38', 'Bcells_Frequency', 'CCR2nncMC_Frequency', 'CCR2pcMC_CREB', 'CCR2pcMC_p38', 'CCR2pcMC_MAPKAPK2', 'CCR2pcMC_Frequency', 'CD41hiCD61hiPLT_p38', 'CD41hiCD61hiPLT_S6', 'CD4Tcm_STAT3', 'CD4Tcm_Frequency', 'CD4Tem_Frequency', 'CD4Tnaive_STAT3', 'CD4Tnaive_Frequency', 'CD62LnAgedNeutrophils_p38', 'CD62LpImmatureNeutrophils_CREB', 'CD62LpImmatureNeutrophils_Frequency', 'CD8Tcm_Frequency', 'CD8Tem_Frequency', 'CD8Trm_Frequency', 'gdTcells_Frequency', 'intMC_CREB', 'intMC_p38', 'intMC_Frequency', 'mDC_CREB', 'mDC_p38', 'mDC_Frequency', 'MDSC_CREB', 'MDSC_p38', 'MDSC_MAPKAPK2', 'MDSC_Frequency', 'Th1naive_CREB', 'Th1naive_p38', 'Th1naive_STAT3', 'Th1naive_S6', 'Th1naive_MAPKAPK2', 'Tregmem_Frequency', 'Tregnaive_STAT3']",38
+Fold 5,[],0
+Fold 6,[],0
+Fold 7,[],0
+Fold 8,[],0
+Fold 9,[],0
+Fold 10,[],0
+Fold 11,[],0
+Fold 12,['CD4Tem_Frequency'],1
+Fold 13,[],0
+Fold 14,[],0
+Fold 15,[],0
+Fold 16,[],0
+Fold 17,[],0
+Fold 18,[],0
+Fold 19,"['CD41hiCD61hiPLT_p38', 'CD8Tem_Frequency', 'CD8Trm_Frequency', 'Th1naive_IkB']",4

@@ -1,0 +1,21 @@
+,Fold selected features,Fold nb of features
+Fold 0,[],0
+Fold 1,[],0
+Fold 2,"['Bcells_Frequency', 'CCR2nncMC_Frequency', 'CCR2pcMC_Frequency', 'CD4Tnaive_Frequency', 'CD62LnAgedNeutrophils_S6', 'CD62LpImmatureNeutrophils_Frequency', 'intMC_Frequency', 'MDSC_Frequency']",8
+Fold 3,[],0
+Fold 4,[],0
+Fold 5,[],0
+Fold 6,[],0
+Fold 7,[],0
+Fold 8,[],0
+Fold 9,"['CCR2nncMC_Frequency', 'CCR2pcMC_Frequency', 'CD4Tnaive_Frequency', 'CD62LnAgedNeutrophils_S6', 'CD62LpImmatureNeutrophils_Frequency', 'intMC_Frequency']",6
+Fold 10,[],0
+Fold 11,[],0
+Fold 12,[],0
+Fold 13,[],0
+Fold 14,[],0
+Fold 15,"['Bcells_Frequency', 'CCR2pcMC_Frequency', 'CD4Tnaive_Frequency', 'CD62LnAgedNeutrophils_S6', 'CD8Tcm_Frequency', 'CD8Tnaive_Frequency', 'gdTcells_Frequency']",7
+Fold 16,"['Bcells_Frequency', 'CCR2pcMC_Frequency', 'CD4Tnaive_Frequency', 'CD62LnAgedNeutrophils_S6', 'CD8Tcm_Frequency', 'CD8Tnaive_Frequency', 'gdTcells_Frequency', 'intMC_Frequency', 'Th1naive_IkB']",9
+Fold 17,[],0
+Fold 18,[],0
+Fold 19,[],0

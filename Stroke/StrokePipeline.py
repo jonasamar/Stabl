@@ -391,25 +391,25 @@ def run(timePoint,stablIdx):
             ("lif", LowInfoFilter(0.2)),
             ("variance", VarianceThreshold(0.01)),
             ("impute", SimpleImputer(strategy="median")),
-            # ("std", StandardScaler())
-        ]
-    )
-    data = pd.DataFrame(
-        data=preprocessing.fit_transform(data),
-        index=data.index,
-        columns=preprocessing.get_feature_names_out()
-    )
-
-    preprocessing2 = Pipeline(
-        steps=[
             ("std", StandardScaler())
         ]
     )
+    # data = pd.DataFrame(
+    #     data=preprocessing.fit_transform(data),
+    #     index=data.index,
+    #     columns=preprocessing.get_feature_names_out()
+    # )
+
+    # preprocessing2 = Pipeline(
+    #     steps=[
+    #         ("std", StandardScaler())
+    #     ]
+    # )
 
     dataSTD = pd.DataFrame(
-        data=preprocessing2.fit_transform(data),
+        data=preprocessing.fit_transform(data),
         index=data.index,
-        columns=preprocessing2.get_feature_names_out()
+        columns=preprocessing.get_feature_names_out()
     )
 
     resultFolderRoot = "./Results/V"+timePoint+ "/"
@@ -450,7 +450,7 @@ def run(timePoint,stablIdx):
     stability_selection=stability_selection,
     task_type="binary",
     save_path=Path(resultFolder),
-)
+    )
     stabl = clone(stablList[stablIdx])
     stabl.fit(dataSTD,label.astype(int))
 

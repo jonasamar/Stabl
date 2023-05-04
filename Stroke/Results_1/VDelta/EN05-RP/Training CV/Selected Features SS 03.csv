@@ -1,0 +1,21 @@
+,Fold selected features,Fold nb of features
+Fold 0,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB', 'Tregnaive_STAT6']",4
+Fold 1,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 2,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 3,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 4,"['CD41hiCD61hiPLT_MAPKAPK2', 'gdTcells_NFkB', 'Tregnaive_STAT6']",3
+Fold 5,['gdTcells_NFkB'],1
+Fold 6,"['CD62LpImmatureNeutrophils_Frequency', 'gdTcells_NFkB', 'Tregnaive_STAT6']",3
+Fold 7,[],0
+Fold 8,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 9,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 10,['gdTcells_NFkB'],1
+Fold 11,"['gdTcells_NFkB', 'gdTcells_Frequency', 'Th1naive_IkB', 'Th1naive_STAT6']",4
+Fold 12,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 13,"['CD61pCD41pPLT_S6', 'gdTcells_NFkB']",2
+Fold 14,"['gdTcells_NFkB', 'Th1mem_ERK', 'Tregnaive_STAT6']",3
+Fold 15,"['CD56dimCD16pNKcells_NFkB', 'gdTcells_Frequency', 'Th1naive_STAT5', 'Tregnaive_STAT6']",4
+Fold 16,['gdTcells_NFkB'],1
+Fold 17,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 18,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 19,"['CD8Trm_Frequency', 'gdTcells_Frequency', 'Th1naive_IkB', 'Tregnaive_STAT6']",4

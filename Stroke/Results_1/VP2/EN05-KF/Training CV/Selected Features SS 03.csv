@@ -1,0 +1,21 @@
+,Fold selected features,Fold nb of features
+Fold 0,"['CCR2nncMC_S6', 'CD62LpImmatureNeutrophils_IkB', 'intMC_S6']",3
+Fold 1,[],0
+Fold 2,['CCR2nncMC_S6'],1
+Fold 3,"['CCR2nncMC_S6', 'CCR2nncMC_NFkB']",2
+Fold 4,"['CCR2nncMC_S6', 'CD41hiCD61hiPLT_MAPKAPK2', 'intMC_S6']",3
+Fold 5,"['CCR2nncMC_S6', 'CD4Trm_STAT6', 'intMC_S6']",3
+Fold 6,"['CCR2nncMC_S6', 'intMC_S6']",2
+Fold 7,"['CCR2nncMC_S6', 'intMC_S6']",2
+Fold 8,[],0
+Fold 9,"['CCR2nncMC_S6', 'intMC_S6']",2
+Fold 10,"['CCR2nncMC_S6', 'CD62LpImmatureNeutrophils_IkB', 'intMC_S6']",3
+Fold 11,"['CCR2nncMC_NFkB', 'CD62LpImmatureNeutrophils_IkB']",2
+Fold 12,"['CCR2nncMC_S6', 'CD62LpImmatureNeutrophils_IkB', 'intMC_S6']",3
+Fold 13,"['CCR2nncMC_S6', 'CD62LpImmatureNeutrophils_IkB']",2
+Fold 14,"['CCR2nncMC_S6', 'intMC_S6']",2
+Fold 15,"['CCR2nncMC_S6', 'CCR2nncMC_NFkB', 'CD62LpImmatureNeutrophils_IkB', 'intMC_S6']",4
+Fold 16,"['CCR2nncMC_S6', 'CD62LpImmatureNeutrophils_IkB', 'intMC_S6']",3
+Fold 17,"['CCR2nncMC_S6', 'intMC_S6']",2
+Fold 18,"['CCR2nncMC_S6', 'CD62LpImmatureNeutrophils_IkB']",2
+Fold 19,['CCR2nncMC_S6'],1

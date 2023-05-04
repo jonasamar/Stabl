@@ -1,0 +1,201 @@
+,Fold selected features,Fold nb of features
+Fold 0,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB', 'Tregnaive_STAT6']",4
+Fold 1,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 2,"['CD56dimCD16pNKcells_NFkB', 'gdTcells_Frequency', 'Th1naive_STAT5', 'Tregnaive_STAT6']",4
+Fold 3,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 4,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 5,['gdTcells_NFkB'],1
+Fold 6,"['gdTcells_NFkB', 'gdTcells_Frequency', 'Th1naive_IkB', 'Th1naive_STAT6']",4
+Fold 7,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 8,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 9,['gdTcells_NFkB'],1
+Fold 10,"['CD61pCD41pPLT_S6', 'gdTcells_NFkB']",2
+Fold 11,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 12,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 13,"['CD8Trm_Frequency', 'gdTcells_Frequency', 'Th1naive_IkB', 'Tregnaive_STAT6']",4
+Fold 14,"['CD41hiCD61hiPLT_MAPKAPK2', 'gdTcells_NFkB', 'Tregnaive_STAT6']",3
+Fold 15,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 16,[],0
+Fold 17,['gdTcells_NFkB'],1
+Fold 18,"['gdTcells_NFkB', 'Th1mem_ERK', 'Tregnaive_STAT6']",3
+Fold 19,"['CD62LpImmatureNeutrophils_Frequency', 'gdTcells_NFkB']",2
+Fold 20,"['CD8Trm_Frequency', 'gdTcells_Frequency', 'Th1naive_IkB', 'Tregnaive_STAT6']",4
+Fold 21,['gdTcells_NFkB'],1
+Fold 22,"['CD56dimCD16pNKcells_NFkB', 'gdTcells_Frequency', 'Th1naive_STAT5', 'Tregnaive_STAT6']",4
+Fold 23,['gdTcells_NFkB'],1
+Fold 24,"['CD41hiCD61hiPLT_MAPKAPK2', 'gdTcells_NFkB', 'Tregnaive_STAT6']",3
+Fold 25,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 26,"['gdTcells_NFkB', 'Th1mem_ERK', 'Tregnaive_STAT6']",3
+Fold 27,[],0
+Fold 28,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 29,"['CD62LpImmatureNeutrophils_Frequency', 'gdTcells_NFkB']",2
+Fold 30,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 31,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 32,"['CD61pCD41pPLT_S6', 'gdTcells_NFkB']",2
+Fold 33,['gdTcells_NFkB'],1
+Fold 34,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 35,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 36,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 37,"['gdTcells_NFkB', 'gdTcells_Frequency', 'Th1naive_IkB', 'Th1naive_STAT6']",4
+Fold 38,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB', 'Tregnaive_STAT6']",4
+Fold 39,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 40,['gdTcells_NFkB'],1
+Fold 41,[],0
+Fold 42,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB', 'Tregnaive_STAT6']",4
+Fold 43,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 44,['gdTcells_NFkB'],1
+Fold 45,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 46,['gdTcells_NFkB'],1
+Fold 47,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 48,"['CD41hiCD61hiPLT_MAPKAPK2', 'gdTcells_NFkB', 'Tregnaive_STAT6']",3
+Fold 49,"['gdTcells_NFkB', 'Th1mem_ERK', 'Tregnaive_STAT6']",3
+Fold 50,"['CD56dimCD16pNKcells_NFkB', 'gdTcells_Frequency', 'Th1naive_STAT5', 'Tregnaive_STAT6']",4
+Fold 51,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 52,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 53,"['CD61pCD41pPLT_S6', 'gdTcells_NFkB']",2
+Fold 54,"['gdTcells_NFkB', 'gdTcells_Frequency', 'Th1naive_IkB', 'Th1naive_STAT6']",4
+Fold 55,"['CD8Trm_Frequency', 'gdTcells_Frequency', 'Th1naive_IkB', 'Tregnaive_STAT6']",4
+Fold 56,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 57,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 58,"['CD62LpImmatureNeutrophils_Frequency', 'gdTcells_NFkB', 'Tregnaive_STAT6']",3
+Fold 59,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 60,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB', 'Tregnaive_STAT6']",4
+Fold 61,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 62,"['CD62LpImmatureNeutrophils_Frequency', 'gdTcells_NFkB']",2
+Fold 63,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 64,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 65,"['gdTcells_NFkB', 'gdTcells_Frequency', 'Th1naive_IkB', 'Th1naive_STAT6']",4
+Fold 66,"['CD41hiCD61hiPLT_MAPKAPK2', 'gdTcells_NFkB', 'Tregnaive_STAT6']",3
+Fold 67,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 68,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 69,"['gdTcells_NFkB', 'Th1naive_STAT5']",2
+Fold 70,['gdTcells_NFkB'],1
+Fold 71,"['CD8Trm_Frequency', 'gdTcells_Frequency', 'Th1naive_IkB', 'Tregnaive_STAT6']",4
+Fold 72,"['CD56dimCD16pNKcells_NFkB', 'gdTcells_Frequency', 'Th1naive_STAT5', 'Tregnaive_STAT6']",4
+Fold 73,[],0
+Fold 74,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 75,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 76,['gdTcells_NFkB'],1
+Fold 77,"['CD61pCD41pPLT_S6', 'gdTcells_NFkB']",2
+Fold 78,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 79,"['gdTcells_NFkB', 'Th1mem_ERK', 'Tregnaive_STAT6']",3
+Fold 80,['gdTcells_NFkB'],1
+Fold 81,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 82,['gdTcells_NFkB'],1
+Fold 83,"['CD8Trm_Frequency', 'gdTcells_Frequency', 'Th1naive_IkB', 'Tregnaive_STAT6']",4
+Fold 84,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB', 'Tregnaive_STAT6']",4
+Fold 85,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 86,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 87,['gdTcells_NFkB'],1
+Fold 88,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 89,"['CD41hiCD61hiPLT_MAPKAPK2', 'gdTcells_NFkB', 'Tregnaive_STAT6']",3
+Fold 90,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 91,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 92,"['gdTcells_NFkB', 'gdTcells_Frequency', 'Th1naive_IkB', 'Th1naive_STAT6']",4
+Fold 93,"['CD62LpImmatureNeutrophils_Frequency', 'gdTcells_NFkB', 'Tregnaive_STAT6']",3
+Fold 94,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 95,[],0
+Fold 96,"['gdTcells_NFkB', 'Th1mem_ERK', 'Tregnaive_STAT6']",3
+Fold 97,"['CD56dimCD16pNKcells_NFkB', 'gdTcells_Frequency', 'Th1naive_STAT5', 'Tregnaive_STAT6']",4
+Fold 98,"['CD61pCD41pPLT_S6', 'gdTcells_NFkB']",2
+Fold 99,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 100,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 101,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 102,"['CD41hiCD61hiPLT_MAPKAPK2', 'gdTcells_NFkB', 'Tregnaive_STAT6']",3
+Fold 103,['gdTcells_NFkB'],1
+Fold 104,"['CD56dimCD16pNKcells_NFkB', 'gdTcells_Frequency', 'Th1naive_STAT5', 'Tregnaive_STAT6']",4
+Fold 105,['gdTcells_NFkB'],1
+Fold 106,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 107,['gdTcells_NFkB'],1
+Fold 108,"['CD61pCD41pPLT_S6', 'gdTcells_NFkB']",2
+Fold 109,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 110,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 111,"['CD8Trm_Frequency', 'gdTcells_Frequency', 'Th1naive_IkB', 'Tregnaive_STAT6']",4
+Fold 112,"['gdTcells_NFkB', 'gdTcells_Frequency', 'Th1naive_IkB', 'Th1naive_STAT6']",4
+Fold 113,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 114,[],0
+Fold 115,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 116,"['CD62LpImmatureNeutrophils_Frequency', 'gdTcells_NFkB', 'Tregnaive_STAT6']",3
+Fold 117,"['gdTcells_NFkB', 'Th1mem_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB', 'Tregnaive_STAT6']",5
+Fold 118,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 119,"['gdTcells_NFkB', 'Th1mem_ERK', 'Tregnaive_STAT6']",3
+Fold 120,"['CD61pCD41pPLT_S6', 'gdTcells_NFkB']",2
+Fold 121,['gdTcells_NFkB'],1
+Fold 122,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 123,['gdTcells_NFkB'],1
+Fold 124,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 125,['gdTcells_NFkB'],1
+Fold 126,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 127,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 128,"['CD41hiCD61hiPLT_MAPKAPK2', 'gdTcells_NFkB', 'Tregnaive_STAT6']",3
+Fold 129,"['CD56dimCD16pNKcells_NFkB', 'gdTcells_Frequency', 'Th1naive_STAT5', 'Tregnaive_STAT6']",4
+Fold 130,"['gdTcells_NFkB', 'Th1mem_ERK', 'Tregnaive_STAT6']",3
+Fold 131,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 132,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB', 'Tregnaive_STAT6']",4
+Fold 133,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 134,"['gdTcells_NFkB', 'gdTcells_Frequency', 'Th1naive_IkB', 'Th1naive_STAT6']",4
+Fold 135,[],0
+Fold 136,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 137,"['CD8Trm_Frequency', 'gdTcells_Frequency', 'Th1naive_IkB', 'Tregnaive_STAT6']",4
+Fold 138,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 139,"['CD62LpImmatureNeutrophils_Frequency', 'gdTcells_NFkB']",2
+Fold 140,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 141,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 142,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 143,['gdTcells_NFkB'],1
+Fold 144,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 145,"['CD56dimCD16pNKcells_NFkB', 'gdTcells_Frequency', 'Th1naive_STAT5', 'Tregnaive_STAT6']",4
+Fold 146,[],0
+Fold 147,"['gdTcells_NFkB', 'gdTcells_Frequency', 'Th1naive_IkB', 'Th1naive_STAT6']",4
+Fold 148,['gdTcells_NFkB'],1
+Fold 149,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 150,['gdTcells_NFkB'],1
+Fold 151,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 152,"['CD62LpImmatureNeutrophils_Frequency', 'gdTcells_NFkB', 'Tregnaive_STAT6']",3
+Fold 153,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 154,"['CD8Trm_Frequency', 'gdTcells_Frequency', 'Th1naive_IkB', 'Tregnaive_STAT6']",4
+Fold 155,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB', 'Tregnaive_STAT6']",4
+Fold 156,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 157,"['CD61pCD41pPLT_S6', 'gdTcells_NFkB']",2
+Fold 158,"['gdTcells_NFkB', 'Th1mem_ERK', 'Tregnaive_STAT6']",3
+Fold 159,"['CD41hiCD61hiPLT_MAPKAPK2', 'gdTcells_NFkB', 'Tregnaive_STAT6']",3
+Fold 160,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 161,"['gdTcells_NFkB', 'gdTcells_Frequency', 'Th1naive_IkB', 'Th1naive_STAT6']",4
+Fold 162,[],0
+Fold 163,"['CD61pCD41pPLT_S6', 'gdTcells_NFkB']",2
+Fold 164,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB', 'Tregnaive_STAT6']",4
+Fold 165,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 166,"['CD41hiCD61hiPLT_MAPKAPK2', 'gdTcells_NFkB', 'Tregnaive_STAT6']",3
+Fold 167,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 168,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 169,['gdTcells_NFkB'],1
+Fold 170,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 171,['gdTcells_NFkB'],1
+Fold 172,"['CD8Trm_Frequency', 'gdTcells_Frequency', 'Th1naive_IkB', 'Tregnaive_STAT6']",4
+Fold 173,"['CD56dimCD16pNKcells_NFkB', 'gdTcells_Frequency', 'Th1naive_STAT5', 'Tregnaive_STAT6']",4
+Fold 174,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 175,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 176,['gdTcells_NFkB'],1
+Fold 177,"['gdTcells_NFkB', 'Th1mem_ERK', 'Tregnaive_STAT6']",3
+Fold 178,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 179,"['CD62LpImmatureNeutrophils_Frequency', 'gdTcells_NFkB', 'Tregnaive_STAT6']",3
+Fold 180,"['CD41hiCD61hiPLT_MAPKAPK2', 'gdTcells_NFkB', 'Tregnaive_STAT6']",3
+Fold 181,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 182,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 183,"['CD56dimCD16pNKcells_NFkB', 'gdTcells_Frequency', 'Th1naive_STAT5', 'Tregnaive_STAT6']",4
+Fold 184,[],0
+Fold 185,['gdTcells_NFkB'],1
+Fold 186,['gdTcells_NFkB'],1
+Fold 187,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 188,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 189,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB']",3
+Fold 190,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 191,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 192,"['gdTcells_NFkB', 'Th1naive_IkB']",2
+Fold 193,"['gdTcells_NFkB', 'Th1mem_ERK', 'Tregnaive_STAT6']",3
+Fold 194,"['gdTcells_NFkB', 'Th1naive_STAT5', 'Th1naive_IkB', 'Tregnaive_STAT6']",4
+Fold 195,"['CD61pCD41pPLT_S6', 'gdTcells_NFkB']",2
+Fold 196,"['CD62LpImmatureNeutrophils_Frequency', 'gdTcells_NFkB']",2
+Fold 197,['gdTcells_NFkB'],1
+Fold 198,"['CD8Trm_Frequency', 'gdTcells_Frequency', 'Th1naive_IkB', 'Tregnaive_STAT6']",4
+Fold 199,"['gdTcells_NFkB', 'gdTcells_Frequency', 'Th1naive_IkB', 'Th1naive_STAT6']",4

@@ -1,0 +1,21 @@
+,Fold selected features,Fold nb of features
+Fold 0,"['Bcells_Frequency', 'CD41hiCD61hiPLT_p38', 'CD41hiCD61hiPLT_S6', 'CD4Tem_Frequency', 'CD56dimCD16pNKcells_Frequency', 'CD62LpImmatureNeutrophils_CREB', 'CD8Tnaive_Frequency', 'gdTcells_Frequency', 'mDC_Frequency', 'Th1naive_p38', 'Th1naive_S6', 'Th1naive_IkB', 'Tregmem_Frequency']",13
+Fold 1,"['Bcells_Frequency', 'CD41hiCD61hiPLT_p38', 'CD41hiCD61hiPLT_S6', 'CD4Tem_Frequency', 'CD62LpImmatureNeutrophils_CREB', 'CD62LpImmatureNeutrophils_Frequency', 'CD8Tnaive_Frequency', 'gdTcells_Frequency', 'intMC_Frequency', 'mDC_Frequency', 'MDSC_Frequency', 'Th1naive_p38', 'Th1naive_S6', 'Th1naive_IkB', 'Tregmem_Frequency', 'Tregnaive_STAT3']",16
+Fold 2,['CD41hiCD61hiPLT_p38'],1
+Fold 3,"['CCR2nncMC_Frequency', 'CCR2pcMC_Frequency', 'CD41hiCD61hiPLT_S6', 'CD4Tem_Frequency', 'CD56dimCD16pNKcells_Frequency', 'CD8Tem_Frequency', 'CD8Trm_Frequency', 'gdTcells_Frequency', 'mDC_Frequency', 'MDSC_Frequency', 'Th1naive_CREB', 'Th1naive_p38', 'Tregmem_Frequency']",13
+Fold 4,[],0
+Fold 5,[],0
+Fold 6,"['CD41hiCD61hiPLT_p38', 'CD41hiCD61hiPLT_S6', 'CD4Tem_Frequency', 'CD62LpImmatureNeutrophils_Frequency', 'CD8Tnaive_Frequency', 'gdTcells_Frequency', 'intMC_Frequency', 'mDC_Frequency', 'Th1naive_p38', 'Th1naive_S6', 'Th1naive_IkB', 'Tregmem_Frequency']",12
+Fold 7,"['CD41hiCD61hiPLT_p38', 'CD41hiCD61hiPLT_S6', 'CD4Tcm_STAT3', 'CD4Tem_Frequency', 'CD4Tnaive_Frequency', 'CD62LpImmatureNeutrophils_Frequency', 'CD8Tnaive_Frequency', 'gdTcells_Frequency', 'mDC_Frequency', 'Th1naive_p38', 'Th1naive_S6', 'Th1naive_IkB', 'Tregmem_Frequency', 'Tregnaive_STAT3']",14
+Fold 8,[],0
+Fold 9,"['CD41hiCD61hiPLT_p38', 'CD41hiCD61hiPLT_S6', 'CD4Tcm_STAT3', 'CD4Tem_Frequency', 'CD62LpImmatureNeutrophils_Frequency', 'gdTcells_Frequency', 'intMC_Frequency', 'Th1naive_IkB', 'Tregmem_Frequency']",9
+Fold 10,[],0
+Fold 11,[],0
+Fold 12,[],0
+Fold 13,"['CCR2nncMC_Frequency', 'CD41hiCD61hiPLT_p38', 'CD8Tem_Frequency', 'Th1naive_IkB']",4
+Fold 14,"['CD41hiCD61hiPLT_p38', 'CD4Tem_Frequency', 'CD62LpImmatureNeutrophils_Frequency', 'CD8Tnaive_Frequency', 'CD8Trm_Frequency', 'gdTcells_Frequency', 'mDC_Frequency', 'Th1naive_CREB', 'Th1naive_S6', 'Th1naive_IkB', 'Tregmem_Frequency']",11
+Fold 15,"['CD41hiCD61hiPLT_p38', 'CD41hiCD61hiPLT_S6', 'CD4Tem_Frequency', 'CD62LpImmatureNeutrophils_Frequency', 'gdTcells_Frequency', 'mDC_Frequency', 'Th1naive_p38', 'Th1naive_S6', 'Th1naive_IkB', 'Tregmem_Frequency', 'Tregnaive_STAT3']",11
+Fold 16,"['CD41hiCD61hiPLT_p38', 'CD4Tcm_Frequency', 'CD4Tem_Frequency', 'CD56dimCD16pNKcells_Frequency', 'CD8Tem_Frequency', 'CD8Tnaive_Frequency', 'gdTcells_Frequency', 'intMC_Frequency', 'MDSC_Frequency', 'Th1naive_CREB', 'Th1naive_p38', 'Tregmem_Frequency']",12
+Fold 17,"['CD41hiCD61hiPLT_p38', 'CD4Tem_Frequency', 'CD62LnAgedNeutrophils_p38', 'CD62LpImmatureNeutrophils_CREB', 'CD8Tem_Frequency', 'CD8Tnaive_Frequency', 'gdTcells_Frequency', 'mDC_Frequency', 'Th1naive_CREB', 'Th1naive_p38', 'Tregmem_Frequency', 'Tregnaive_STAT3']",12
+Fold 18,"['CD41hiCD61hiPLT_p38', 'CD41hiCD61hiPLT_S6', 'CD4Tem_Frequency', 'CD62LpImmatureNeutrophils_Frequency', 'CD8Tnaive_Frequency', 'gdTcells_Frequency', 'mDC_Frequency', 'Th1naive_p38', 'Th1naive_IkB', 'Tregmem_Frequency', 'Tregnaive_STAT3']",11
+Fold 19,"['CD41hiCD61hiPLT_p38', 'CD41hiCD61hiPLT_S6', 'CD4Tcm_STAT3', 'CD8Tem_Frequency', 'CD8Trm_Frequency', 'gdTcells_Frequency', 'Th1naive_IkB', 'Tregmem_Frequency']",8

@@ -1,0 +1,21 @@
+,Fold selected features,Fold nb of features
+Fold 0,"['Bcells_Frequency', 'CCR2nncMC_S6', 'CD41hiCD61hiPLT_CREB', 'CD41hiCD61hiPLT_p38', 'CD41hiCD61hiPLT_MAPKAPK2', 'CD4Tem_Frequency', 'CD4Trm_STAT6', 'CD56brightCD16nNKcells_CREB', 'CD56dimCD16pNKcells_NFkB', 'CD61pCD41pPLT_S6', 'CD62LpImmatureNeutrophils_Frequency', 'CD8Tcm_CREB', 'CD8Tcm_STAT3', 'CD8Tem_Frequency', 'CD8Trm_Frequency', 'gdTcells_NFkB', 'gdTcells_Frequency', 'mDC_ERK', 'NKT_NFkB', 'pDC_STAT3', 'pDC_MAPKAPK2', 'Th1mem_p38', 'Th1mem_IkB', 'Th1mem_NFkB', 'Th1naive_STAT5', 'Th1naive_p38', 'Th1naive_IkB', 'Th1naive_NFkB', 'Th1naive_STAT6', 'Tregmem_Frequency', 'Tregnaive_CREB', 'Tregnaive_STAT6']",32
+Fold 1,[],0
+Fold 2,[],0
+Fold 3,[],0
+Fold 4,"['CD41hiCD61hiPLT_p38', 'CD41hiCD61hiPLT_MAPKAPK2']",2
+Fold 5,[],0
+Fold 6,[],0
+Fold 7,[],0
+Fold 8,[],0
+Fold 9,[],0
+Fold 10,[],0
+Fold 11,[],0
+Fold 12,[],0
+Fold 13,[],0
+Fold 14,"['CCR2nncMC_S6', 'CCR2pcMC_CREB', 'CD41hiCD61hiPLT_CREB', 'CD41hiCD61hiPLT_p38', 'CD41hiCD61hiPLT_MAPKAPK2', 'CD4Tcm_Frequency', 'CD4Tem_Frequency', 'CD4Trm_NFkB', 'CD4Trm_STAT6', 'CD56brightCD16nNKcells_CREB', 'CD56dimCD16pNKcells_NFkB', 'CD61pCD41pPLT_S6', 'CD62LnAgedNeutrophils_IkB', 'CD62LpImmatureNeutrophils_Frequency', 'CD8Tcm_CREB', 'CD8Tcm_STAT3', 'CD8Tem_Frequency', 'CD8Trm_Frequency', 'gdTcells_NFkB', 'gdTcells_Frequency', 'intMC_CREB', 'MDSC_CREB', 'MDSC_ERK', 'MDSC_MAPKAPK2', 'NKT_NFkB', 'pDC_STAT3', 'Th1mem_CREB', 'Th1mem_NFkB', 'Th1mem_ERK', 'Th1naive_CREB', 'Th1naive_STAT5', 'Th1naive_S6', 'Th1naive_IkB', 'Th1naive_NFkB', 'Tregmem_Frequency', 'Tregnaive_STAT6']",36
+Fold 15,[],0
+Fold 16,"['CD41hiCD61hiPLT_CREB', 'CD41hiCD61hiPLT_p38', 'CD41hiCD61hiPLT_MAPKAPK2', 'CD4Tem_STAT3', 'CD4Tem_Frequency', 'CD56brightCD16nNKcells_MAPKAPK2', 'CD56dimCD16pNKcells_NFkB', 'CD61pCD41pPLT_S6', 'CD62LpImmatureNeutrophils_Frequency', 'CD8Tcm_CREB', 'CD8Tcm_STAT3', 'CD8Tem_Frequency', 'gdTcells_NFkB', 'pDC_STAT3', 'Th1naive_IkB', 'Tregmem_Frequency']",16
+Fold 17,"['CD41hiCD61hiPLT_MAPKAPK2', 'Th1naive_IkB']",2
+Fold 18,[],0
+Fold 19,"['CD41hiCD61hiPLT_p38', 'CD41hiCD61hiPLT_MAPKAPK2', 'CD4Tem_STAT3', 'CD8Tem_Frequency', 'CD8Trm_Frequency', 'gdTcells_NFkB', 'gdTcells_Frequency', 'pDC_STAT3', 'Th1naive_IkB', 'Tregnaive_STAT6']",10

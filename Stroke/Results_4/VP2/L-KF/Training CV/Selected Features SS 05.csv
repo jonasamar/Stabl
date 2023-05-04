@@ -1,0 +1,21 @@
+,Fold selected features,Fold nb of features
+Fold 0,"['CCR2nncMC_S6', 'CD41hiCD61hiPLT_MAPKAPK2', 'CD4Trm_STAT6', 'CD62LpImmatureNeutrophils_IkB', 'intMC_S6']",5
+Fold 1,"['CD41hiCD61hiPLT_MAPKAPK2', 'CD4Tnaive_Frequency', 'CD62LpImmatureNeutrophils_IkB', 'intMC_S6']",4
+Fold 2,"['CCR2nncMC_S6', 'CD41hiCD61hiPLT_MAPKAPK2', 'CD4Trm_STAT6', 'CD62LpImmatureNeutrophils_IkB', 'intMC_S6', 'Th1naive_S6']",6
+Fold 3,"['CCR2nncMC_S6', 'CD41hiCD61hiPLT_MAPKAPK2', 'CD4Tnaive_Frequency', 'CD4Trm_STAT6', 'CD62LpImmatureNeutrophils_IkB', 'intMC_S6']",6
+Fold 4,"['CCR2nncMC_S6', 'CD41hiCD61hiPLT_MAPKAPK2', 'CD4Tnaive_Frequency', 'CD62LpImmatureNeutrophils_IkB', 'intMC_S6']",5
+Fold 5,"['CCR2nncMC_S6', 'CCR2pcMC_Frequency', 'CD41hiCD61hiPLT_MAPKAPK2', 'CD4Trm_STAT6', 'CD62LpImmatureNeutrophils_IkB', 'intMC_S6']",6
+Fold 6,"['CCR2nncMC_S6', 'CCR2nncMC_NFkB', 'CD41hiCD61hiPLT_MAPKAPK2', 'intMC_S6', 'Tregmem_STAT5']",5
+Fold 7,"['CCR2nncMC_S6', 'CD41hiCD61hiPLT_MAPKAPK2', 'CD4Trm_STAT6', 'CD62LpImmatureNeutrophils_IkB', 'intMC_S6']",5
+Fold 8,"['CCR2nncMC_S6', 'CD41hiCD61hiPLT_MAPKAPK2', 'CD4Tnaive_Frequency', 'CD4Trm_STAT6', 'CD62LpImmatureNeutrophils_IkB']",5
+Fold 9,"['CCR2nncMC_S6', 'CD41hiCD61hiPLT_MAPKAPK2', 'CD4Trm_STAT6', 'CD62LpImmatureNeutrophils_IkB', 'intMC_S6']",5
+Fold 10,"['CCR2nncMC_S6', 'CD41hiCD61hiPLT_MAPKAPK2', 'CD4Trm_STAT6', 'CD62LpImmatureNeutrophils_IkB', 'intMC_S6', 'mDC_S6', 'Th1naive_S6']",7
+Fold 11,"['CCR2nncMC_S6', 'CCR2nncMC_NFkB', 'CD41hiCD61hiPLT_MAPKAPK2', 'CD4Trm_Frequency', 'CD62LpImmatureNeutrophils_IkB', 'intMC_S6']",6
+Fold 12,"['CCR2nncMC_S6', 'CD41hiCD61hiPLT_MAPKAPK2', 'CD62LpImmatureNeutrophils_IkB', 'intMC_S6']",4
+Fold 13,"['CCR2nncMC_S6', 'CD41hiCD61hiPLT_MAPKAPK2', 'CD4Trm_STAT6', 'CD62LpImmatureNeutrophils_IkB', 'intMC_S6']",5
+Fold 14,"['CCR2nncMC_S6', 'CD41hiCD61hiPLT_MAPKAPK2', 'CD4Trm_STAT6', 'CD62LpImmatureNeutrophils_IkB', 'intMC_S6']",5
+Fold 15,"['CCR2nncMC_S6', 'CCR2nncMC_NFkB', 'CD41hiCD61hiPLT_MAPKAPK2', 'CD4Trm_STAT6', 'CD62LpImmatureNeutrophils_IkB', 'intMC_S6']",6
+Fold 16,"['CCR2nncMC_S6', 'CD41hiCD61hiPLT_MAPKAPK2', 'CD4Trm_STAT6', 'CD62LpImmatureNeutrophils_IkB', 'intMC_S6']",5
+Fold 17,"['CCR2nncMC_S6', 'CD41hiCD61hiPLT_MAPKAPK2', 'CD62LpImmatureNeutrophils_IkB', 'gdTcells_Frequency', 'intMC_S6']",5
+Fold 18,"['CCR2nncMC_S6', 'CD41hiCD61hiPLT_MAPKAPK2', 'CD4Trm_STAT6', 'CD62LpImmatureNeutrophils_IkB', 'intMC_S6']",5
+Fold 19,"['CCR2nncMC_S6', 'CD41hiCD61hiPLT_MAPKAPK2', 'CD62LpImmatureNeutrophils_IkB']",3

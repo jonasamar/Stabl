@@ -1,0 +1,21 @@
+,Fold selected features,Fold nb of features
+Fold 0,[],0
+Fold 1,[],0
+Fold 2,"['CD4Tnaive_Frequency', 'pDC_MAPKAPK2']",2
+Fold 3,['CD4Tnaive_Frequency'],1
+Fold 4,[],0
+Fold 5,[],0
+Fold 6,[],0
+Fold 7,"['CCR2nncMC_Frequency', 'CCR2pcMC_Frequency', 'CD4Tnaive_Frequency', 'CD4Trm_S6', 'CD56brightCD16nNKcells_Frequency', 'CD62LnAgedNeutrophils_S6', 'CD62LpImmatureNeutrophils_Frequency', 'intMC_S6', 'pDC_STAT5', 'Th1naive_NFkB', 'Th1naive_ERK', 'Tregnaive_STAT5']",12
+Fold 8,[],0
+Fold 9,[],0
+Fold 10,[],0
+Fold 11,[],0
+Fold 12,[],0
+Fold 13,[],0
+Fold 14,['CD4Tnaive_Frequency'],1
+Fold 15,"['CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",2
+Fold 16,[],0
+Fold 17,"['CCR2pcMC_Frequency', 'CD4Tnaive_Frequency']",2
+Fold 18,[],0
+Fold 19,[],0

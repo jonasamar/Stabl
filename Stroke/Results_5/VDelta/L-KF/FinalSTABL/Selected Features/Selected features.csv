@@ -1,0 +1,16 @@
+,Feature Name
+Feature n°1,CCR2nncMC_Frequency
+Feature n°2,CD41hiCD61hiPLT_p38
+Feature n°3,CD41hiCD61hiPLT_S6
+Feature n°4,CD4Tcm_Frequency
+Feature n°5,CD56dimCD16pNKcells_Frequency
+Feature n°6,CD62LpImmatureNeutrophils_Frequency
+Feature n°7,CD8Tem_Frequency
+Feature n°8,CD8Tnaive_Frequency
+Feature n°9,CD8Trm_Frequency
+Feature n°10,gdTcells_Frequency
+Feature n°11,intMC_Frequency
+Feature n°12,mDC_Frequency
+Feature n°13,Th1naive_CREB
+Feature n°14,Th1naive_MAPKAPK2
+Feature n°15,Tregmem_Frequency
