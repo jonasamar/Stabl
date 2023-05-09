@@ -1,0 +1,301 @@
+***************************** Iteration 1 over 20 ****************************** 
+
+54 train samples, 14 test samples
+L-KF finished (54 samples); 22 features selected
+
+L-RP finished (54 samples); 10 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 22 features selected for L-KF
+This fold: 10 features selected for L-RP
+This fold: 1 features selected for SS 03
+This fold: 0 features selected for SS 05
+This fold: 0 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************** Iteration 2 over 20 ****************************** 
+
+54 train samples, 14 test samples
+L-KF finished (54 samples); 9 features selected
+
+L-RP finished (54 samples); 13 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 9 features selected for L-KF
+This fold: 13 features selected for L-RP
+This fold: 4 features selected for SS 03
+This fold: 0 features selected for SS 05
+This fold: 0 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************** Iteration 3 over 20 ****************************** 
+
+54 train samples, 14 test samples
+L-KF finished (54 samples); 9 features selected
+
+L-RP finished (54 samples); 7 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 9 features selected for L-KF
+This fold: 7 features selected for L-RP
+This fold: 2 features selected for SS 03
+This fold: 0 features selected for SS 05
+This fold: 0 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************** Iteration 4 over 20 ****************************** 
+
+55 train samples, 13 test samples
+L-KF finished (55 samples); 28 features selected
+
+L-RP finished (55 samples); 4 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 28 features selected for L-KF
+This fold: 4 features selected for L-RP
+This fold: 5 features selected for SS 03
+This fold: 1 features selected for SS 05
+This fold: 0 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************** Iteration 5 over 20 ****************************** 
+
+55 train samples, 13 test samples
+L-KF finished (55 samples); 3 features selected
+
+L-RP finished (55 samples); 6 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 3 features selected for L-KF
+This fold: 6 features selected for L-RP
+This fold: 5 features selected for SS 03
+This fold: 2 features selected for SS 05
+This fold: 0 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************** Iteration 6 over 20 ****************************** 
+
+54 train samples, 14 test samples
+L-KF finished (54 samples); 4 features selected
+
+L-RP finished (54 samples); 8 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 4 features selected for L-KF
+This fold: 8 features selected for L-RP
+This fold: 3 features selected for SS 03
+This fold: 0 features selected for SS 05
+This fold: 0 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************** Iteration 7 over 20 ****************************** 
+
+54 train samples, 14 test samples
+L-KF finished (54 samples); 26 features selected
+
+L-RP finished (54 samples); 9 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 26 features selected for L-KF
+This fold: 9 features selected for L-RP
+This fold: 3 features selected for SS 03
+This fold: 0 features selected for SS 05
+This fold: 0 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************** Iteration 8 over 20 ****************************** 
+
+54 train samples, 14 test samples
+L-KF finished (54 samples); 2 features selected
+
+L-RP finished (54 samples); 4 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 2 features selected for L-KF
+This fold: 4 features selected for L-RP
+This fold: 5 features selected for SS 03
+This fold: 1 features selected for SS 05
+This fold: 0 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************** Iteration 9 over 20 ****************************** 
+
+55 train samples, 13 test samples
+L-KF finished (55 samples); 10 features selected
+
+L-RP finished (55 samples); 3 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 10 features selected for L-KF
+This fold: 3 features selected for L-RP
+This fold: 2 features selected for SS 03
+This fold: 0 features selected for SS 05
+This fold: 0 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************** Iteration 10 over 20 ***************************** 
+
+55 train samples, 13 test samples
+L-KF finished (55 samples); 10 features selected
+
+L-RP finished (55 samples); 6 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 10 features selected for L-KF
+This fold: 6 features selected for L-RP
+This fold: 5 features selected for SS 03
+This fold: 0 features selected for SS 05
+This fold: 0 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************** Iteration 11 over 20 ***************************** 
+
+54 train samples, 14 test samples
+L-KF finished (54 samples); 4 features selected
+
+L-RP finished (54 samples); 9 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 4 features selected for L-KF
+This fold: 9 features selected for L-RP
+This fold: 2 features selected for SS 03
+This fold: 0 features selected for SS 05
+This fold: 0 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************** Iteration 12 over 20 ***************************** 
+
+54 train samples, 14 test samples
+L-KF finished (54 samples); 2 features selected
+
+L-RP finished (54 samples); 7 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 2 features selected for L-KF
+This fold: 7 features selected for L-RP
+This fold: 4 features selected for SS 03
+This fold: 1 features selected for SS 05
+This fold: 0 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************** Iteration 13 over 20 ***************************** 
+
+54 train samples, 14 test samples
+L-KF finished (54 samples); 30 features selected
+
+L-RP finished (54 samples); 20 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 30 features selected for L-KF
+This fold: 20 features selected for L-RP
+This fold: 1 features selected for SS 03
+This fold: 0 features selected for SS 05
+This fold: 0 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************** Iteration 14 over 20 ***************************** 
+
+55 train samples, 13 test samples
+L-KF finished (55 samples); 0 features selected
+
+L-RP finished (55 samples); 12 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 0 features selected for L-KF
+This fold: 12 features selected for L-RP
+This fold: 5 features selected for SS 03
+This fold: 0 features selected for SS 05
+This fold: 0 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************** Iteration 15 over 20 ***************************** 
+
+55 train samples, 13 test samples
+L-KF finished (55 samples); 0 features selected
+
+L-RP finished (55 samples); 8 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 0 features selected for L-KF
+This fold: 8 features selected for L-RP
+This fold: 3 features selected for SS 03
+This fold: 1 features selected for SS 05
+This fold: 0 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************** Iteration 16 over 20 ***************************** 
+
+54 train samples, 14 test samples
+L-KF finished (54 samples); 2 features selected
+
+L-RP finished (54 samples); 8 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 2 features selected for L-KF
+This fold: 8 features selected for L-RP
+This fold: 3 features selected for SS 03
+This fold: 0 features selected for SS 05
+This fold: 0 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************** Iteration 17 over 20 ***************************** 
+
+54 train samples, 14 test samples
+L-KF finished (54 samples); 8 features selected
+
+L-RP finished (54 samples); 17 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 8 features selected for L-KF
+This fold: 17 features selected for L-RP
+This fold: 4 features selected for SS 03
+This fold: 0 features selected for SS 05
+This fold: 0 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************** Iteration 18 over 20 ***************************** 
+
+54 train samples, 14 test samples
+L-KF finished (54 samples); 14 features selected
+
+L-RP finished (54 samples); 7 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 14 features selected for L-KF
+This fold: 7 features selected for L-RP
+This fold: 4 features selected for SS 03
+This fold: 0 features selected for SS 05
+This fold: 0 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************** Iteration 19 over 20 ***************************** 
+
+55 train samples, 13 test samples
+L-KF finished (55 samples); 13 features selected
+
+L-RP finished (55 samples); 12 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 13 features selected for L-KF
+This fold: 12 features selected for L-RP
+This fold: 4 features selected for SS 03
+This fold: 0 features selected for SS 05
+This fold: 0 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************** Iteration 20 over 20 ***************************** 
+
+55 train samples, 13 test samples
+L-KF finished (55 samples); 8 features selected
+
+L-RP finished (55 samples); 6 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 8 features selected for L-KF
+This fold: 6 features selected for L-RP
+This fold: 5 features selected for SS 03
+This fold: 0 features selected for SS 05
+This fold: 0 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Duration =  865.6622519493103

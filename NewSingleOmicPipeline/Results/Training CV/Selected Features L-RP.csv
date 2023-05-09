@@ -1,0 +1,21 @@
+,Fold selected features,Fold nb of features
+Fold 0,"['CEACAM3', 'CTSV', 'FCRLB', 'IL5RA', 'MZB1']",5
+Fold 1,[],0
+Fold 2,"['CD5', 'NDRG1', 'TNFRSF8']",3
+Fold 3,"['ATF2', 'CDCP1', 'FCRLB', 'IFNGR2', 'KIR2DL3', 'LY9', 'MLN', 'NDRG1', 'RNASET2', 'SLAMF7']",10
+Fold 4,[],0
+Fold 5,[],0
+Fold 6,"['AMY2A', 'AMY2B', 'CEACAM3', 'FCRL5', 'ICAM4']",5
+Fold 7,"['ATF2', 'CDCP1', 'DSG4', 'EBI3_IL27', 'FCRLB', 'IL5RA', 'KIR2DL3', 'MLN', 'RARRES2', 'SLAMF7']",10
+Fold 8,[],0
+Fold 9,"['CLC', 'IFNGR2', 'PDGFC', 'SIGLEC9', 'SLAMF7']",5
+Fold 10,"['CLC', 'DPEP2', 'GGA1', 'IFNGR2', 'LY9', 'NDRG1', 'PDGFC', 'SIGLEC9']",8
+Fold 11,[],0
+Fold 12,"['CEACAM3', 'CRHBP', 'CTSH', 'CTSV', 'HAVCR1', 'ICAM4', 'IL5RA', 'KIR2DL3', 'MZB1', 'TNFRSF8']",10
+Fold 13,[],0
+Fold 14,"['ATF2', 'FCRLB', 'IL5RA', 'ITIH3', 'MLN', 'NDRG1', 'TNFRSF10A', 'TNFRSF8']",8
+Fold 15,"['ICAM4', 'IGF2R']",2
+Fold 16,"['FCRL5', 'ICAM4', 'LY9', 'PDGFC', 'SIGLEC9']",5
+Fold 17,"['CEACAM3', 'FCRLB', 'ICAM4']",3
+Fold 18,"['MZB1', 'NOMO1', 'SLAMF7']",3
+Fold 19,[],0

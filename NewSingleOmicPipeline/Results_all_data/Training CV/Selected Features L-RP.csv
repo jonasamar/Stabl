@@ -1,0 +1,21 @@
+,Fold selected features,Fold nb of features
+Fold 0,"['ANGPTL2', 'CCL15', 'CCL20', 'CRTAC1', 'FBP1', 'FCAR', 'LGALS1', 'MZB1', 'PON3', 'S100A16']",10
+Fold 1,"['CA6', 'CCL20', 'CD1C', 'CXCL8', 'DSG4', 'FOSB', 'JUN', 'MDGA1', 'MZB1', 'PON3', 'S100A16', 'SDC1', 'TNFRSF8']",13
+Fold 2,"['CRTAC1', 'FOSB', 'MDGA1', 'MZB1', 'PON3', 'SIGLEC9', 'TNFRSF8']",7
+Fold 3,"['CPA2', 'CTSH', 'DSG4', 'MZB1']",4
+Fold 4,"['CCL20', 'CRTAC1', 'LGALS1', 'LILRA5', 'MZB1', 'TFPI2']",6
+Fold 5,"['CCL20', 'CNTN1', 'CRTAC1', 'CTSH', 'FBP1', 'MDGA1', 'MZB1', 'NOMO1']",8
+Fold 6,"['CCL20', 'CHIT1', 'CTSH', 'CXCL13', 'MUC13', 'MZB1', 'NDRG1', 'PON3', 'TNFRSF8']",9
+Fold 7,"['CCL20', 'CRTAC1', 'MZB1', 'SSB']",4
+Fold 8,"['LGALS1', 'MZB1', 'TNFRSF8']",3
+Fold 9,"['CCL20', 'FOSB', 'LGALS1', 'LILRB1', 'MZB1', 'PON3']",6
+Fold 10,"['CCL20', 'CRTAC1', 'DSG4', 'FOSB', 'GNLY', 'IL5RA', 'MDGA1', 'MZB1', 'PON3']",9
+Fold 11,"['CCL20', 'CNTN1', 'CRTAC1', 'LGALS1', 'MZB1', 'TNFRSF8', 'XPNPEP2']",7
+Fold 12,"['CD74', 'CEACAM5', 'CTSH', 'CXCL8', 'DSG4', 'FBP1', 'GPA33', 'HPGDS', 'IL16', 'KIR2DL3', 'LGALS1', 'LGALS9', 'MZB1', 'POLR2F', 'PON3', 'SDC1', 'SRP14', 'TNC', 'TNFRSF8', 'VWF']",20
+Fold 13,"['CCL20', 'CRTAC1', 'FABP4', 'FBP1', 'HLA-DRA', 'LGALS1', 'LY96', 'MDGA1', 'MZB1', 'PON3', 'S100A16', 'TMPRSS5']",12
+Fold 14,"['CCL20', 'CTSH', 'CXCL8', 'DSG4', 'FOSB', 'LGALS1', 'MDGA1', 'MZB1']",8
+Fold 15,"['ANGPTL2', 'CCL20', 'CRTAC1', 'FCAR', 'LGALS1', 'MZB1', 'PON3', 'TNFRSF8']",8
+Fold 16,"['CCL20', 'CES2', 'CRTAC1', 'CXCL8', 'FABP4', 'FGF21', 'FOSB', 'GDF15', 'IL22RA1', 'LGALS1', 'LILRA5', 'MDGA1', 'MSLN', 'MZB1', 'PON3', 'PRSS8', 'TFPI2']",17
+Fold 17,"['CCL20', 'CPA2', 'CTSH', 'DSG4', 'MDGA1', 'MZB1', 'SDC1']",7
+Fold 18,"['ADGRG2', 'CCL15', 'CEACAM5', 'CRTAC1', 'CTSH', 'FBP1', 'FOSB', 'LGALS9', 'MDGA1', 'MZB1', 'PON3', 'TNFRSF8']",12
+Fold 19,"['CCL20', 'CRTAC1', 'JUN', 'LGALS1', 'MZB1', 'S100A16']",6

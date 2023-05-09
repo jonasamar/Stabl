@@ -1,0 +1,17 @@
+,Feature Name
+Feature n°1,Bcells_S6
+Feature n°2,CCR2nncMC_Frequency
+Feature n°3,CCR2pcMC_Frequency
+Feature n°4,CD4Tnaive_Frequency
+Feature n°5,CD4Trm_Frequency
+Feature n°6,CD56brightCD16nNKcells_Frequency
+Feature n°7,CD61pCD41pPLT_STAT3
+Feature n°8,CD62LnAgedNeutrophils_S6
+Feature n°9,gdTcells_Frequency
+Feature n°10,mDC_S6
+Feature n°11,mDC_Frequency
+Feature n°12,MDSC_Frequency
+Feature n°13,Th1mem_S6
+Feature n°14,Th1naive_CREB
+Feature n°15,Th1naive_STAT6
+Feature n°16,Th1naive_MAPKAPK2
