@@ -13,7 +13,7 @@ def show_message(type, message):
     window = customtkinter.CTk()
     
     window.title(type)
-    label = customtkinter.CTkLabel(window, text=message)
+    label = customtkinter.CTkLabel(window, justify='left', text=message)
     label.pack(padx=20, pady=20)
     close_button = customtkinter.CTkButton(window, text="Close", command=window.destroy)
     close_button.pack(padx=20, pady=20)
