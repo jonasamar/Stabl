@@ -5,8 +5,9 @@ import customtkinter
 from subframeData import subframeData_display
 from subframeStabl import subframeStabl_display
 from subframePipeline import subframePipeline_display
+from subframeSbatch import subframeSbatch_display
+
 from script_utils import write_scripts
-from subwindows import show_message
 
 def main():
     customtkinter.set_appearance_mode("System")
@@ -44,6 +45,13 @@ def main():
     y_test_col = customtkinter.StringVar(value=None)
     y_test = customtkinter.StringVar(value=None)
     
+    days = customtkinter.StringVar(value="2")
+    hours = customtkinter.StringVar(value="00")
+    minutes = customtkinter.StringVar(value="00")
+    sec = customtkinter.StringVar(value="00")
+    nb_cpu = customtkinter.StringVar(value="2")
+    mem_cpu = customtkinter.StringVar(value="16 GB")
+    
     # Main Window
     label = customtkinter.CTkLabel(master=root, text="Creation of python & sbatch scripts", font=("Roboto", 20)) 
     label.pack(pady=6, padx=10)
@@ -58,14 +66,15 @@ def main():
     foldername.pack(pady=6, padx=10)
     
     ### Python File Settings
-    label1 = customtkinter.CTkLabel(master=leftpanel, text="Python File Settings", font=("Roboto", 15)) 
+    label1 = customtkinter.CTkLabel(master=leftpanel, text="Python File Settings", font=("Roboto", 16)) 
     label1.pack(pady=6, padx=10)
 
     subframeData_display(leftpanel, X_file, y_col, y_file)
     subframePipeline_display(leftpanel, preprocess, outersplitter, n_splits, n_repeat, cv_rd, test_size, train_size, pipeline, task_type, outer_groups, X_test, y_test_col, y_test)
     subframeStabl_display(rightpanel, ratioval, artificial_type, sample_fraction, replace, random_state)
+    subframeSbatch_display(rightpanel, days, hours, minutes, sec, nb_cpu, mem_cpu)
     
-    CreationButton = customtkinter.CTkButton(master=rightpanel, text="Create", command= lambda : write_scripts(foldername.get(), X_file.get(), y_col.get(), y_file.get(), ratioval.get(), artificial_type.get(), sample_fraction.get(), replace.get(), random_state.get(), preprocess.get(), outersplitter.get(), n_splits.get(), n_repeat.get(), cv_rd.get(), test_size.get(), train_size.get(), pipeline.get(), task_type.get(), outer_groups.get(), X_test.get(), y_test_col.get(), y_test.get()))
+    CreationButton = customtkinter.CTkButton(master=rightpanel, text="Create", command= lambda : write_scripts(foldername.get(), X_file.get(), y_col.get(), y_file.get(), ratioval.get(), artificial_type.get(), sample_fraction.get(), replace.get(), random_state.get(), preprocess.get(), outersplitter.get(), n_splits.get(), n_repeat.get(), cv_rd.get(), test_size.get(), train_size.get(), pipeline.get(), task_type.get(), outer_groups.get(), X_test.get(), y_test_col.get(), y_test.get(), days.get(), hours.get(), minutes.get(), sec.get(), nb_cpu.get(), mem_cpu.get()))
     CreationButton.pack(side="top", pady=12, padx=10)
 
     root.mainloop()

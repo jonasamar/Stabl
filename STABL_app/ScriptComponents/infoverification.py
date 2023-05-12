@@ -5,7 +5,13 @@ def has_special_chars_or_spaces(input_string):
     pattern = re.compile('[^A-Za-z0-9]+') 
     return bool(pattern.search(input_string))
 
-def file_info_correct(foldername, X_file, y_col, y_file, artificial_type, outersplitter, stabl_pipeline, task_type, X_test, y_test_col, y_test):
+def is_positive_integer(s):
+    if not s.isdigit():
+        return False
+    n = int(s)
+    return n >= 0
+
+def file_info_correct(foldername, X_file, y_col, y_file, artificial_type, outersplitter, stabl_pipeline, task_type, X_test, y_test_col, y_test, days, hours, minutes, sec):
     if has_special_chars_or_spaces(foldername) or len(foldername) == 0:
         show_message("Error", "Your STABL Run Name contains undesired characters or spaces or is empty, please chose another name.")
         return False
@@ -49,4 +55,7 @@ def file_info_correct(foldername, X_file, y_col, y_file, artificial_type, outers
         elif y_test_col == "" and y_test == "":
             show_message("Error", "You have not specified where to find the VALIDATION outcomes you want to predict. Please, specify the column of your dataset corresponding to the outcomes and/or specify the name of the csv file containing your outcomes,\nin the VALIDATION Data frame.")
             return False
+    elif not (is_positive_integer(days) and is_positive_integer(hours) and is_positive_integer(minutes) and is_positive_integer(sec)) or len(sec) !=2 or len(minutes) !=2:
+        show_message("Error", "Your time limit is not recognized.\nPlease make sure days, hours, minutes and sec are positive integer numbers\nand that minutes and seconds are two digits numbers.")
+        return False
     return True

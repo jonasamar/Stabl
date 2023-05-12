@@ -15,8 +15,8 @@ from ScriptComponents.infoverification import file_info_correct
 from ScriptComponents.writesbatch import write_sbatch
 
 
-def write_scripts(foldername, X_file, y_col, y_file, l1_ratio, artificial_type, sample_fraction, replace, random_state, preprocess, outersplitter, n_splits, n_repeat, cv_rd, test_size, train_size, stabl_pipeline, task_type, outer_groups, X_test, y_test_col, y_test):
-    correct = file_info_correct(foldername, X_file, y_col, y_file, artificial_type, outersplitter, stabl_pipeline, task_type, X_test, y_test_col, y_test)
+def write_scripts(foldername, X_file, y_col, y_file, l1_ratio, artificial_type, sample_fraction, replace, random_state, preprocess, outersplitter, n_splits, n_repeat, cv_rd, test_size, train_size, stabl_pipeline, task_type, outer_groups, X_test, y_test_col, y_test, days, hours, minutes, sec, nb_cpu, mem_cpu):
+    correct = file_info_correct(foldername, X_file, y_col, y_file, artificial_type, outersplitter, stabl_pipeline, task_type, X_test, y_test_col, y_test, days, hours, minutes, sec)
     if correct:
         os.makedirs(foldername)
         with open(Path(foldername, foldername + '.py'), 'w') as fpy:
@@ -33,7 +33,7 @@ def write_scripts(foldername, X_file, y_col, y_file, l1_ratio, artificial_type, 
             fpy.close()
         with open(Path(foldername, foldername + '.sbatch'), 'w') as fsbatch:
             # TO DO write the sbatch file to run the python script
-            write_sbatch(fsbatch,foldername)
+            write_sbatch(fsbatch,foldername, days, hours, minutes, sec, nb_cpu, mem_cpu)
             fsbatch.close()
         if y_col == "" and len(X_test) > 0 and y_test_col == "":
             show_message("Warning", "You have not specified the column of your (VALIDATION nor TRAINING) datafile containing your outcomes :\n\n\t* If there is no column corresponding to your outcomes in this file continue\n\n\t* If there is a column corresponding to your outcomes in your datafile please specify it\n(you'll need to fill the text box 'Outcome column' and then delete the folder that has just been created with your python script and sbatch file and finally clic on create)\n\nMake sure there is no column with your outcome in the data file otherwise you won't get the expected results.")
