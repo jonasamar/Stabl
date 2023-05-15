@@ -1,5 +1,17 @@
+#------------------------------------------------------------------------------------------------------------------------------
+#
+# Function : sample_fraction_tuning
+#
+# Description :
+#       - arguments : subframeStabl, sample_fraction
+#       - effect : Display a scale to tune the the value of the sample fraction of the dataset that is used in each bootstrap
+#                   of the Stabl model.
+#
+#------------------------------------------------------------------------------------------------------------------------------
+
 import customtkinter
-from subwindows import show_message 
+
+from subwindows.MessageWindow import show_message
 
 def sample_fraction_tuning(subframeStabl, sample_fraction):
     subframeFrac = customtkinter.CTkFrame(subframeStabl, width=200, height=100)

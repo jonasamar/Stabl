@@ -1,5 +1,16 @@
+#------------------------------------------------------------------------------------------------------------------------------
+#
+# Function : random_state_tuning
+#
+# Description :
+#       - arguments : subframeStabl, random_state
+#       - effect : Display a scale to tune the the value of the random seed used in the Stabl model.
+#
+#------------------------------------------------------------------------------------------------------------------------------
+
 import customtkinter
-from subwindows import show_message
+
+from subwindows.MessageWindow import show_message
 
 def random_state_tuning(subframeStabl, random_state):
     subframeRand = customtkinter.CTkFrame(subframeStabl, width=200, height=100)

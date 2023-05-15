@@ -1,3 +1,13 @@
+#------------------------------------------------------------------------------------------------------------------------------
+#
+# Function : stabl_class
+#
+# Description :
+#       - arguments : fpy (python file), parameters linked to the stabl model the user wants to build
+#       - effect : Add lines of code to the python script so that the stabl model is initialized with the desired parameters.
+#
+#------------------------------------------------------------------------------------------------------------------------------
+
 def stabl_class(fpy, l1_ratio, artificial_type, sample_fraction, replace, random_state):
     fpy.write("\n")
     fpy.write(f"logit_en = LogisticRegression(penalty='elasticnet', l1_ratio = {l1_ratio}, max_iter=int(1e6), solver='saga', class_weight='balanced')\n")

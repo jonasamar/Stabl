@@ -1,7 +1,15 @@
+#------------------------------------------------------------------------------------------------------------------------------
+#
+# Function : import_lib
+#
+# Description :
+#       - arguments : fpy (python file)
+#       - effect : Add lines of code to the python script to import all the required libraries to run all the different pipelines
+#                   and the univariate analysis
+#
+#------------------------------------------------------------------------------------------------------------------------------
+
 def import_lib(fpy):
-    """
-    Import the necessary libraries to run any stabl pipeline 
-    """
     fpy.write("import warnings \nwarnings.filterwarnings('ignore')\n")
     fpy.write("\n")
     fpy.write("#Basic libraries\n")

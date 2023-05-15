@@ -1,5 +1,17 @@
+#------------------------------------------------------------------------------------------------------------------------------
+#
+# Function : artificial_type_choice
+#
+# Description :
+#       - arguments : subframeStabl, artificial_type
+#       - effect : Display a combobox to chose the random method to generate the artificial features : random permutation or 
+#                   knockoff.
+#
+#------------------------------------------------------------------------------------------------------------------------------
+
 import customtkinter
-from subwindows import show_message 
+
+from subwindows.MessageWindow import show_message
 
 def artificial_type_choice(subframeStabl, artificial_type):
     subframeArti = customtkinter.CTkFrame(subframeStabl, width=200, height=100)

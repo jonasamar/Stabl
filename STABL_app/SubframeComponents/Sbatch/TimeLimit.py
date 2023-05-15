@@ -1,7 +1,19 @@
-import customtkinter
-from subwindows import show_message 
+#------------------------------------------------------------------------------------------------------------------------------
+#
+# Function : time_limit
+#
+# Description :
+#       - arguments : subframeSbatch, parameters linked to the time limit of the job  
+#       - effect : Display
+#                   - 4 textboxes to enter the time limit of the task (format : days-hours:minutes:sec)
+#
+#------------------------------------------------------------------------------------------------------------------------------
 
-def time_entry(subframeSbatch, days, hours, minutes, sec):    
+import customtkinter
+
+from subwindows.MessageWindow import show_message
+
+def time_limit(subframeSbatch, days, hours, minutes, sec):    
     subframeTime = customtkinter.CTkFrame(subframeSbatch, width=200, height=100)
     subframeTime.pack(side="top", fill="both", padx=10, pady=6)
     

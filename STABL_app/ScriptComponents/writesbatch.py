@@ -1,3 +1,13 @@
+#------------------------------------------------------------------------------------------------------------------------------
+#
+# Function : write_sbatch
+#
+# Description : fsbatch, foldername, days, hours, minutes, sec, nb_cpu, mem_cpu
+#       - arguments : fsbatch (sbatch file) and sbatch file parameters
+#       - effect : write in the sbatch file the code to run the python script with sherlock
+#
+#------------------------------------------------------------------------------------------------------------------------------
+
 def write_sbatch(fsbatch, foldername, days, hours, minutes, sec, nb_cpu, mem_cpu):
     fsbatch.write("#!/bin/bash\n")
     fsbatch.write(f"#SBATCH --job-name={foldername}\n")

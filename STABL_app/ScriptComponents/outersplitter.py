@@ -1,3 +1,14 @@
+#------------------------------------------------------------------------------------------------------------------------------
+#
+# Function : outer_splitter
+#
+# Description :
+#       - arguments : fpy (python file), outersplitter, n_splits, n_repeat, cv_rd, test_size, train_size
+#       - effect : Add lines of code to the python script to create the variable outer_splitter and enter the parameters of the
+#                   desired outer splitter
+#
+#------------------------------------------------------------------------------------------------------------------------------
+
 def outer_splitter(fpy, outersplitter, n_splits, n_repeat, cv_rd, test_size, train_size):
     fpy.write("\n")
     fpy.write(f"outer_splitter = {outersplitter}(")

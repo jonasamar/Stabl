@@ -1,25 +1,19 @@
+#------------------------------------------------------------------------------------------------------------------------------
+#
+# Function : outer_splitter_params
+#
+# Description :
+#       - arguments : root, parameters linked to the outersplitter 
+#       - effect : Open a new window in which the user can tune the parameters of the outer splitter
+#
+#------------------------------------------------------------------------------------------------------------------------------
+
 import customtkinter
-from subwindows import show_message
 
-def outer_splitter_tuning(subframePipeline, outersplitter, n_splits, n_repeat, cv_rd, test_size, train_size):
-    subframeSplit = customtkinter.CTkFrame(subframePipeline, width=200, height=100)
-    subframeSplit.pack(side="top", fill="both", padx=10, pady=6)
+from subwindows.MessageWindow import show_message
 
-    labelsplit = customtkinter.CTkLabel(subframeSplit, text="Outer splitter *")
-    labelsplit.pack(side="left", fill="both", padx=(20, 10))
-    labelsplit.bind("<Button-1>", lambda event : show_message("info","Method used to separate the training set during the cross validation. You can chose between:\n\nGroupShuffleSplit : Provides randomized train/test indices to split data according to a third-party provided group.\n\t\tThis group information can be used to encode arbitrary domain specific stratifications of the\n\t\tsamples as integers. For instance the groups could be the year of collection of the samples and thus allow\n\t\tfor cross-validation against time-based splits.\n\nRepeatedStratifiedKFold : Repeats Stratified K-Fold n times with different randomization in each repetition.\n\nLeaveOneOut : Provides train/test indices to split data in train/test sets. Each sample is used\n\t\tonce as a test set (singleton) while the remaining samples form the training set."))
-
-    comboboxsplit = customtkinter.CTkComboBox(subframeSplit, variable=outersplitter, values=["GroupShuffleSplit", "RepeatedStratifiedKFold", "LeaveOneOut"], width=300)
-    comboboxsplit.pack(side="left", fill="both", padx=10, pady=5)
-    
-    ParamButton = customtkinter.CTkButton(master=subframeSplit, text="Parameters", command= lambda : tuning_outersplitter_param(outersplitter, n_splits, n_repeat, cv_rd, test_size, train_size))
-    ParamButton.pack(side="left", padx=(5,10))
-
-
-def tuning_outersplitter_param(outersplitter, n_splits, n_repeat, cv_rd, test_size, train_size):
-    customtkinter.set_appearance_mode("System")
-    customtkinter.set_default_color_theme("dark-blue")
-    
+def outersplitter_params_tuning(outersplitter, n_splits, n_repeat, cv_rd, test_size, train_size):
+        
     paramwindow = customtkinter.CTk()
     paramwindow.geometry("400x400")
     paramwindow.title(outersplitter.get() + ' parameters')

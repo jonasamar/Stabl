@@ -1,5 +1,18 @@
+#------------------------------------------------------------------------------------------------------------------------------
+#
+# Function : preprocess_activation
+#
+# Description :
+#       - arguments : subframe, preprocess (Boolean)
+#       - effect : Display a checkbox in which the user can activate or not a preprocessing step for the data before being fed
+#                   to the model
+#                  Update the variable preprocess with the value selected
+#
+#------------------------------------------------------------------------------------------------------------------------------
+
 import customtkinter
-from subwindows import show_message
+
+from subwindows.MessageWindow import show_message
 
 def preprocess_activation(subframePipeline, preprocess):
     subframePrepro = customtkinter.CTkFrame(subframePipeline, width=200, height=100)

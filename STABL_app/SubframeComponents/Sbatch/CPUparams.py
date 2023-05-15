@@ -1,7 +1,20 @@
-import customtkinter
-from subwindows import show_message
+#------------------------------------------------------------------------------------------------------------------------------
+#
+# Function : cpu_params
+#
+# Description :
+#       - arguments : subframeSbatch, parameters linked to CPUs requirements for the job  
+#       - effect : Display
+#                   - a combobox to chose the number of CPUs required
+#                   - a combobox to chose the memory per CPU required
+#
+#------------------------------------------------------------------------------------------------------------------------------
 
-def cpu_entry(subframeSbatch, nb_cpu, mem_cpu):    
+import customtkinter
+
+from subwindows.MessageWindow import show_message
+
+def cpu_params(subframeSbatch, nb_cpu, mem_cpu):    
     #nb_cpu
     subframeNcpu = customtkinter.CTkFrame(subframeSbatch, width=200, height=100)
     subframeNcpu.pack(side="left", fill="both", padx=(10,5), pady=5)
