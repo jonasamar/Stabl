@@ -46,7 +46,7 @@ def show_settings_and_create_files(foldername,
     else:
         # Window
         window = customtkinter.CTk()
-        window.geometry("800x600")
+        window.geometry("800x700")
         window.title('Confirmation window')
         
         title = customtkinter.CTkLabel(window, justify='center', text=foldername.get())

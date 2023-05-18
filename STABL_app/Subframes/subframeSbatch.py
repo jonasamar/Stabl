@@ -20,8 +20,8 @@ from SubframeComponents.Sbatch.CPUparams import cpu_params
 from SubframeComponents.Sbatch.SbatchFineTuning import sbatch_fine_tuning
 
 def subframeSbatch_display(root, days, hours, minutes, sec, nb_cpu, mem_cpu):
-    labelSbatch = customtkinter.CTkLabel(root, text="Sbatch file parameters *", font=("Roboto", 16))
-    labelSbatch.pack(pady=6, padx=10)
+    labelSbatch = customtkinter.CTkLabel(root, text="Sbatch file parameters *", font=("Roboto", 16, 'bold'))
+    labelSbatch.pack(pady=15, padx=15)
     labelSbatch.bind("<Button-1>", lambda event : show_message("info", "In order to run your python script on Sherlock,\nyou need to create a.sbatch file.\nMost parameters can be left by default,\nbut you can tune them below if needed."))
 
     # Main frame

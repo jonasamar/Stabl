@@ -27,7 +27,7 @@ def subframeStabl_display(root, l1_ratio, artificial_type, sample_fraction, boot
     # Main frame
     subframeStabl = customtkinter.CTkFrame(root, width=200, height=100)
     subframeStabl.pack(side="top", fill="both", padx=10, pady=6)
-    labelStabl = customtkinter.CTkLabel(subframeStabl, text="Stabl : fine tuning")
+    labelStabl = customtkinter.CTkLabel(subframeStabl, text="Stabl model : parameter tuning", font=("Roboto", 14, "bold"))
     labelStabl.pack(pady=0, padx=10)
     
     # Subframes

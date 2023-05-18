@@ -14,16 +14,16 @@ def import_data(version, fpy, foldername, X_file, y_col, y_file, stabl_pipeline)
 
     fpy.write("#Import Data\n")
     if version == 'v1':
-        fpy.write(f"X = pd.read_csv('./{foldername}/{X_file}',index_col=0)\n")
+        fpy.write(f"X = pd.read_csv('../{foldername}/{X_file}',index_col=0)\n")
         if (y_file != "") and (y_col == ""):
-            fpy.write(f"y = pd.read_csv('./{foldername}/{y_file}',index_col=0).iloc[:,0]\n")
+            fpy.write(f"y = pd.read_csv('../{foldername}/{y_file}',index_col=0).iloc[:,0]\n")
             fpy.write("\n")
         elif (y_file == "") and (y_col != ""):
             fpy.write(f"y = X[{y_col}]\n")
             fpy.write(f"X.drop({y_col}, axis=1, inplace=True)\n")
             fpy.write("\n")
         elif (y_file != "") and (y_col != ""):
-            fpy.write(f"y = pd.read_csv('./{foldername}/{y_file}',index_col=0).iloc[:,0]\n")
+            fpy.write(f"y = pd.read_csv('../{foldername}/{y_file}',index_col=0).iloc[:,0]\n")
             fpy.write(f"X.drop('{y_col}', axis=1, inplace=True)\n")
             fpy.write("\n")
         else :
@@ -35,7 +35,7 @@ def import_data(version, fpy, foldername, X_file, y_col, y_file, stabl_pipeline)
         y = y_files[1].split('\t')[0]
         if 'single' in stabl_pipeline:
             X = X_files[1].split('\t')[0]
-            fpy.write(f"X = pd.read_csv('./{foldername}/{X}',index_col=0)\n")
+            fpy.write(f"X = pd.read_csv('../{foldername}/{X}',index_col=0)\n")
             
         if 'multi' in stabl_pipeline:
             file_dict = {}
@@ -46,10 +46,10 @@ def import_data(version, fpy, foldername, X_file, y_col, y_file, stabl_pipeline)
             fpy.write("train_data_dict = {\n")
             for i, el in enumerate(file_dict.keys()):
                 if i < len(file_dict.keys()) - 1:
-                    fpy.write(f"\t'{el}': pd.read_csv('./{foldername}/{file_dict[el]}',index_col=0),\n")
+                    fpy.write(f"\t'{el}': pd.read_csv('../{foldername}/{file_dict[el]}',index_col=0),\n")
                 else:
-                    fpy.write(f"\t'{el}': pd.read_csv('./{foldername}/{file_dict[el]}',index_col=0)\n")
+                    fpy.write(f"\t'{el}': pd.read_csv('../{foldername}/{file_dict[el]}',index_col=0)\n")
             fpy.write("}")
         fpy.write("\n") 
-        fpy.write(f"y = pd.read_csv('./{foldername}/{y}',index_col=0).iloc[:,0]\n")
+        fpy.write(f"y = pd.read_csv('../{foldername}/{y}',index_col=0).iloc[:,0]\n")
         fpy.write("\n") 

@@ -28,7 +28,7 @@ logit_lasso_cv = LogisticRegressionCV(penalty="l1", solver="liblinear", Cs=np.lo
 logit = LogisticRegression(penalty=None, class_weight="balanced", max_iter=int(1e6))
 linreg = LinearRegression()
 
-preprocessing = Pipeline(
+default_preprocessing = Pipeline(
     steps=[
         ("variance", VarianceThreshold(0.01)),
         ("lif", LowInfoFilter()),
@@ -46,7 +46,8 @@ def multi_omic_stabl_cv(
         stability_selection,
         task_type,
         save_path,
-        outer_groups=None
+        outer_groups=None,
+        preprocessing=default_preprocessing
 ):
     """
 
@@ -280,7 +281,8 @@ def multi_omic_stabl(
         task_type,
         save_path,
         X_test=None,
-        y_test=None
+        y_test=None,
+        preprocessing=default_preprocessing
 ):
     """
 
@@ -451,7 +453,13 @@ def multi_omic_stabl(
     return predictions_dict
 
 
-def late_fusion_lasso_cv(train_data_dict, y, outer_splitter, task_type, save_path, groups=None):
+def late_fusion_lasso_cv(train_data_dict, 
+                         y, 
+                         outer_splitter, 
+                         task_type, 
+                         save_path, 
+                         groups=None,
+                        preprocessing=default_preprocessing):
 
     predictions_dict = {model: pd.DataFrame(data=None, index=y.index) for model in train_data_dict.keys()}
     omics_selected_features = {model: [] for model in train_data_dict.keys()}

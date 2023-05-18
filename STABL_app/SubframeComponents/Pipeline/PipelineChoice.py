@@ -28,11 +28,14 @@ def pipeline_choice(version,
                     outersplitter, n_splits, n_repeat, cv_rd, test_size, train_size):
     
     if version == 'v1':
+        names_for_display = ["Single-omic Validation", "Single-omic Training"]
         available_pipelines = ["single_omic_stabl", "single_omic_stabl_cv"]
-    elif version == 'v2':
+    elif version == 'v2' or version =='v3':
+        names_for_display = ["Multi-omic Validation", "Multi-omic Training", "Single-omic Validation", "Single-omic Training"]
         available_pipelines = ["multi_omic_stabl", "multi_omic_stabl_cv", "single_omic_stabl", "single_omic_stabl_cv"]
 
     appear = True
+    pipeline_name = customtkinter.StringVar(value="Single-omic Training")
     
     #outer_groups
     subframegroups = customtkinter.CTkFrame(subframe, width=200, height=100)
@@ -126,7 +129,17 @@ def pipeline_choice(version,
             outergroups.pack_forget()
             
     # Switch between the parameters of the cross validation pipelines and the ones of the validation pipelines
+    # and allow the combobox to show different values that the ones actually taken by the var pipeline
     def show_specific_params(event):
+        if pipeline_name.get() == "Single-omic Training":
+            pipeline.set("single_omic_stabl_cv")
+        elif pipeline_name.get() == "Multi-omic Training":
+            pipeline.set("multi_omic_stabl_cv")
+        elif pipeline_name.get() == "Single-omic Validation":
+            pipeline.set("single_omic_stabl")
+        elif pipeline_name.get() == "Multi-omic Validation":
+            pipeline.set("multi_omic_stabl")
+
         if pipeline.get() in ["multi_omic_stabl_cv",  "single_omic_stabl_cv"]:
             cv_params(True)
             val_params(False)
@@ -144,9 +157,13 @@ def pipeline_choice(version,
     
     labelpip = customtkinter.CTkLabel(subframePip, text="Pipeline *")
     labelpip.pack(side="left", fill="both", padx=(10, 5))
-    labelpip.bind("<Button-1>", lambda event : show_message("info","You can chose a multi or single omic pipeline depending on the data you have.\nIn the name of some pipelines, you have 'cv' which stands for 'cross validation'"))
-                   
-    comboboxpip = customtkinter.CTkComboBox(subframePip, variable=pipeline, values=available_pipelines, width=250, command=show_specific_params)
+    
+    if version == 'v1':
+        labelpip.bind("<Button-1>", lambda event : show_message("info","You can chose a multi or single omic pipeline depending on the data you have.\nIn the name of some pipelines, you have 'cv' which stands for 'cross validation'"))
+    elif version == 'v2':
+        labelpip.bind("<Button-1>", lambda event : show_message("info","Training pipelines are different from the validation ones because they rely on cross validation.\nIn addition, validation pipelines can take in argument validation features and outcomes to evaluate the model."))
+        
+    comboboxpip = customtkinter.CTkComboBox(subframePip, variable=pipeline_name, values=names_for_display, width=250, command=show_specific_params)
     comboboxpip.pack(side="left", fill="both", padx=10, pady=5)
         
     cv_params(appear) #by default the pipeline is single_omic_stab_cv

@@ -20,7 +20,7 @@ def sample_fraction_tuning(subframeStabl, sample_fraction):
     labelval = customtkinter.CTkLabel(subframeFrac, textvariable=sample_fraction)
     labelval.pack()
 
-    labelfrac = customtkinter.CTkLabel(subframeFrac, text="Sample fraction *")
+    labelfrac = customtkinter.CTkLabel(subframeFrac, text="Bootstrap sample fraction *")
     labelfrac.pack(side="left", fill="both", padx=(10, 5))
     labelfrac.bind("<Button-1>", lambda event : show_message("info","STABL is one model but it is powerful because it relies on the construction of 1000 'submodels'.\n All these 'submodels' have the same nature (they are all ElasticNet models with the same l1_ratio you have chosen) but they are trained on different datasets.\n\n Each 'submodel' is trained on a bootstrap of your dataset which is a portion of this dataset.\nThe sample fraction corresponds to the proportion of the training dataset which is used in each bootstrap."))
 

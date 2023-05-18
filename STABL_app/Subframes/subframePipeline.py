@@ -30,11 +30,11 @@ def subframePipeline_display(version,
     # Main frame
     subframePipeline = customtkinter.CTkFrame(root, width=200, height=100)
     subframePipeline.pack(side="top", fill="both", padx=10, pady=6)
-    labelPipeline = customtkinter.CTkLabel(subframePipeline, text="Pipeline and parameters")
+    labelPipeline = customtkinter.CTkLabel(subframePipeline, text="Pipeline and parameters", font=("Roboto", 14, "bold"))
     labelPipeline.pack(pady=0, padx=10)
 
     # Subframes
     task_type_display(subframePipeline, task_type)
-    preprocess_activation(subframePipeline, preprocess)
+    preprocess_activation(version, subframePipeline, preprocess)
     pipeline_choice(version, subframePipeline, pipeline, outer_groups, X_test, y_test_col, y_test, outersplitter, n_splits, n_repeat, cv_rd, test_size, train_size)
     pipeline_fine_tuning(root)

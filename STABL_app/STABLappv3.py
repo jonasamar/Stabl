@@ -16,6 +16,7 @@
 
 import customtkinter
 
+from Subframes.subframeFoldername import subframeFoldername_display
 from Subframes.subframeFiles import subframeFiles_display
 from Subframes.subframeStabl import subframeStabl_display
 from Subframes.subframePipeline import subframePipeline_display
@@ -33,6 +34,7 @@ def app_v3():
     root.title("STABL interface")
     
     # Variables
+    foldername = customtkinter.StringVar()
     file_list = customtkinter.StringVar() # New variable : to contain many file names and descriptions
     
     l1_ratio = customtkinter.DoubleVar(value='1.')
@@ -73,26 +75,23 @@ def app_v3():
     label = customtkinter.CTkLabel(master=root, text="Creation of python & sbatch scripts", font=("Roboto", 20)) 
     label.pack(pady=6, padx=10)
     
-    leftpanel = customtkinter.CTkFrame(root, width=200, height=100)
+    leftpanel = customtkinter.CTkFrame(root, width=200, height=100, border_color="black")
     leftpanel.pack(side="left", fill='both', padx=(10, 5), pady=10)
-    rightpanel = customtkinter.CTkFrame(root, width=200, height=100)
+    rightpanel = customtkinter.CTkFrame(root, width=200, height=100, border_color="black")
     rightpanel.pack(side="left", fill='both', padx=(5, 10), pady=10)
     
     # Subframes
     
     ## left panel
     
-    ### Project Name
-    foldername = customtkinter.CTkEntry(master=leftpanel, width=200, justify='center', placeholder_text="STABL Run Name")
-    foldername.pack(pady=6, padx=10)
+    subframeFoldername_display(leftpanel, foldername, file_list)
     
-    label1 = customtkinter.CTkLabel(master=leftpanel, text="Python File Settings", font=("Roboto", 16)) 
-    label1.pack()
-    ###
+    label1 = customtkinter.CTkLabel(leftpanel, text="Python File Settings", font=("Roboto", 16, "bold")) 
+    label1.pack(padx=15, pady=15)
     
     subframeFiles_display(leftpanel, foldername, file_list)
     
-    subframePipeline_display('v2', 
+    subframePipeline_display('v3', 
                              leftpanel,
                              preprocess, 
                              outersplitter, n_splits, n_repeat, cv_rd, test_size, train_size, 

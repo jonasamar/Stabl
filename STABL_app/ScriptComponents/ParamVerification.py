@@ -56,23 +56,23 @@ def file_info_correct(version,
             return False
         elif stabl_pipeline in ["multi_omic_stabl",  "single_omic_stabl"] and len(X_test) > 0: #when X_test is put as input, we expect all the optional inputs otherwise X_test = None and y_test = None
             if X_test[-4:] != ".csv":
-                show_message("Error", "Your VALIDATION datafile name doesn't correspond to a csv file name. Please convert it to a csv file before creating your python script.")
+                show_message("Error", "Your validation features file name doesn't correspond to a csv file name. Please convert it to a csv file before creating your python script.")
                 return False
             elif y_test[-4:] != ".csv":
                 show_message("Error", "Your VALIDATION outcome file name doesn't correspond to a csv file name. Please convert it to a csv file before creating your python script.")
                 return False
             elif len(X_test) < 5:
-                show_message("Error", "Your VALIDATION datafile name is incorrect. It should be a csv file and the name should contain 5 characters or more.")
+                show_message("Error", "Your validation features file name is incorrect. It should be a csv file and the name should contain 5 characters or more.")
                 return False
             elif len(y_test) < 5:
                 show_message("Error", "Your VALIDATION outcome file name is incorrect. It should be a csv file and the name should contain 5 characters or more.")
                 return False
             elif y_test_col == "" and y_test == "":
-                show_message("Error", "You have not specified where to find the VALIDATION outcomes you want to predict. Please, specify the column of your dataset corresponding to the outcomes and/or specify the name of the csv file containing your outcomes,\nin the VALIDATION Data frame.")
+                show_message("Error", "You have not specified where to find the VALIDATION outcomes you want to predict. Please, specify the column of your dataset corresponding to the outcomes and/or specify the name of the csv file containing your outcomes,\nin the validation features frame.")
                 return False
     elif version == 'v2':
         if len(X_file) == 0:
-            show_message("Error", "You don't have any data files.\nPlease import a 'training data' file and try to create your script again.")
+            show_message("Error", "You are missing data files.\nPlease import a 'training features' file and try to create your script again.")
             return False
         elif len(y_file.split('\n'))-1 != 1:
             n = len(y_file.split('\n'))-1
@@ -99,53 +99,53 @@ def file_info_correct(version,
                             show_message("Error", f"You are running a multi omic pipeline and have not specified the nature\nof the data in {elements[0]} (CyTOF, Proteomics, ...).\nPlease specify the data contained in this file and try creating your script again.")
                             return False
                 if test_file_types != file_types:
-                    show_message("Error", f"Nature of the files in your training dataset : {file_types}.\nNature of the files in your validation dataset : {test_file_types}.\nYou must have the same nature of data in your training and validation dataset.\nPlease change your files and try to create your scripts again.")
+                    show_message("Error", f"Nature of the files in your training features files : {file_types}.\nNature of the files in your validation features files : {test_file_types}.\nYou must have the same nature of data in your training and validation features file.\nPlease change your files and try to create your scripts again.")
                     return False
                 elif len(files) != len(test_files):
-                    show_message("Error", f"You should have the same number of training data files and validation data files.\nYou currently have {len(files)-1} training data files and {len(test_files)-1} validation data files.\nPlease change your files and try creating your scripts again.")
+                    show_message("Error", f"You should have the same number of training features files and validation features files.\nYou currently have {len(files)-1} training features files and {len(test_files)-1} validation features files.\nPlease change your files and try creating your scripts again.")
                     return False
             if not '_cv' in stabl_pipeline:
                 if (len(y_test) > 0) and (len(X_test)==0):
-                    show_message("Error", "You have imported a validation outcomes file and omitted validation data file.")
+                    show_message("Error", "You have imported a validation outcomes file and omitted validation features file.")
                     return False
                 elif (len(X_test) > 0) and (len(y_test.split('\n'))-1 != 1):
                     n = len(y_test.split('\n'))-1
-                    show_message("Error", f"You have imported a validation data file and imported {n} validation ouctomes file instead of one.")
+                    show_message("Error", f"You have imported a validation features file and imported {n} validation ouctomes file instead of one.")
                     return False
                 elif ('single' in stabl_pipeline) and (len(y_test) > 0) and (len(X_test.split('\n'))-1 != 1):
                     n = len(X_test.split('\n'))-1
-                    show_message("Error", f"You have chosen a single omic pipeline and imported {n} validation data files instead of 1.\nPlease chose one validation data file and try creating your scripts again.")
+                    show_message("Error", f"You have chosen a single omic pipeline and imported {n} validation features files instead of 1.\nPlease chose one validation features file and try creating your scripts again.")
                     return False
             if '_cv' in stabl_pipeline:
                 if len(X_test) > 0:
-                    show_message("Error", "You have selected a cross validation pipeline and yet you imported validation data...\nChose the wright pipeline or remove useless data and try creating your scripts again.")
+                    show_message("Error", "You have selected a cross validation pipeline and yet you imported validation features...\nChose the right pipeline or remove useless data and try creating your scripts again.")
                     return False
                 elif len(y_test) > 0:
-                    show_message("Error", "You have selected a cross validation pipeline and yet you imported validation ouctomes...\nChose the wright pipeline or remove useless data and try creating your scripts again.")
+                    show_message("Error", "You have selected a cross validation pipeline and yet you imported validation ouctomes...\nChose the right pipeline or remove useless data and try creating your scripts again.")
                     return False
         elif 'single' in stabl_pipeline :
             if len(X_file.split('\n'))-1 !=1:
                 n = len(X_file.split('\n'))-1
-                show_message("Error", f"You have chosen a single omic pipeline and imported {n} training data files instead of 1.\nPlease chose one training data file and try creating your scripts again.")
+                show_message("Error", f"You have chosen a single omic pipeline and imported {n} training features files instead of 1.\nPlease chose one training features file and try creating your scripts again.")
                 return False
             elif not '_cv' in stabl_pipeline:
                 if (len(y_test) > 0) and (len(X_test)==0):
-                    show_message("Error", "You have imported a validation outcomes file and omitted validation data file.")
+                    show_message("Error", "You have imported a validation outcomes file and omitted validation features file.")
                     return False
                 elif (len(X_test) > 0) and (len(y_test.split('\n'))-1 != 1):
                     n = len(y_test.split('\n'))-1
-                    show_message("Error", f"You have imported a validation data file and imported {n} validation ouctomes file instead of one.")
+                    show_message("Error", f"You have imported a validation features file and imported {n} validation ouctomes file instead of one.")
                     return False
                 elif ('single' in stabl_pipeline) and (len(y_test) > 0) and (len(X_test.split('\n'))-1 != 1):
                     n = len(X_test.split('\n'))-1
-                    show_message("Error", f"You have chosen a single omic pipeline and imported {n} validation data files instead of 1.\nPlease chose one validation data file and try creating your scripts again.")
+                    show_message("Error", f"You have chosen a single omic pipeline and imported {n} validation features files instead of 1.\nPlease chose one validation features file and try creating your scripts again.")
                     return False
             elif '_cv' in stabl_pipeline:
                 if len(X_test) > 0:
-                    show_message("Error", "You have selected a cross validation pipeline and yet you imported validation data...\nChose the wright pipeline or remove useless data and try creating your scripts again.")
+                    show_message("Error", "You have selected a cross validation pipeline and yet you imported validation features...\nChose the right pipeline or remove useless data and try creating your scripts again.")
                     return False
                 elif len(y_test) > 0:
-                    show_message("Error", "You have selected a cross validation pipeline and yet you imported validation ouctomes...\nChose the wright pipeline or remove useless data and try creating your scripts again.")
+                    show_message("Error", "You have selected a cross validation pipeline and yet you imported validation ouctomes...\nChose the right pipeline or remove useless data and try creating your scripts again.")
                     return False
     return True
 

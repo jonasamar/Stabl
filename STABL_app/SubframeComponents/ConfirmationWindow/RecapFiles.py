@@ -4,8 +4,8 @@
 #
 # Description :
 #       - arguments : root, file related variables
-#       - effect : Display the names of the data files which have been imported ordered by categories (training data/ training 
-#                   outcome/ validation data/ validation outcome/ outer groups)
+#       - effect : Display the names of the data files which have been imported ordered by categories (training features/ training 
+#                   outcome/ validation features/ validation outcome/ outer groups)
 #                  Reorganize the variables by putting into X_file and y_file the values of file_list to train the model and in
 #                   X_test and y_test the files to validate the model (and outer  groups if there are outer groups)
 #
@@ -34,18 +34,18 @@ def recap_files_and_var_reorganization(root,
             dict_files[name] = {'type': datatype, 'spe':spe}
     df = pd.DataFrame(dict_files, index=['type', 'spe']).T            
     
-    ## Train Data
-    labelTrainData = customtkinter.CTkLabel(SubframeData, justify='center', text='Training Data', font=('Roboto', 12, "bold"))
+    ## Training features
+    labelTrainData = customtkinter.CTkLabel(SubframeData, justify='center', text='Training features', font=('Roboto', 12, "bold"))
     labelTrainData.pack(padx=10, pady=6)
-    data_display_and_organization(SubframeData, df, 'training data', X_file)
+    data_display_and_organization(SubframeData, df, 'training features', X_file)
     ## Train Ouctomes
     labelTrainOut = customtkinter.CTkLabel(SubframeData, justify='center', text='Training Ouctome', font=('Roboto', 12, "bold"))
     labelTrainOut.pack(padx=10, pady=6)
     data_display_and_organization(SubframeData, df, 'training outcomes', y_file)
-    ## Validation Data
-    labelValData = customtkinter.CTkLabel(SubframeData, justify='center', text='Validation Data', font=('Roboto', 12, "bold"))
+    ## Validation features
+    labelValData = customtkinter.CTkLabel(SubframeData, justify='center', text='validation features', font=('Roboto', 12, "bold"))
     labelValData.pack(padx=10, pady=6)
-    data_display_and_organization(SubframeData, df, 'validation data', X_test)
+    data_display_and_organization(SubframeData, df, 'validation features', X_test)
     ## Train Ouctomes
     labelValOut = customtkinter.CTkLabel(SubframeData, justify='center', text='Validation Ouctome', font=('Roboto', 12, "bold"))
     labelValOut.pack(padx=10, pady=6)

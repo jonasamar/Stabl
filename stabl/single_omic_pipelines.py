@@ -39,7 +39,7 @@ logit_en_cv = LogisticRegressionCV(penalty="elasticnet", solver="saga", Cs=np.lo
 logit = LogisticRegression(penalty=None, class_weight="balanced", max_iter=int(1e6))
 linreg = LinearRegression()
 
-preprocessing = Pipeline(
+default_preprocessing = Pipeline(
     steps=[
         ("variance", VarianceThreshold(0.01)),
         ("lif", LowInfoFilter()),
@@ -57,7 +57,8 @@ def single_omic_stabl_cv(
         stability_selection,
         task_type,
         save_path,
-        outer_groups=None
+        outer_groups=None,
+        preprocessing=default_preprocessing
 ):
     """
 
@@ -244,11 +245,13 @@ def single_omic_stabl_cv(
 
         # __Lasso 1SE__
         if task_type == "binary":
+            # Jonas additional code
             new_best_c_corr = model.C_[0] - model.scores_[True].std() / np.sqrt(inner_splitter.get_n_splits())
             if new_best_c_corr < 0:
                 best_c_corr = abs(model.C_[0])
             else:
                 best_c_corr = new_best_c_corr
+            # end of new code
             model = LogisticRegression(penalty='l1', solver='liblinear', C=best_c_corr, class_weight='balanced',
                                        max_iter=2_000_000)
             predictions = model.fit(X_train, y_train).predict_proba(X_test)[:, 1]
@@ -331,7 +334,8 @@ def single_omic_stabl(
         task_type,
         save_path,
         X_test=None,
-        y_test=None
+        y_test=None,
+        preprocessing=default_preprocessing
 ):
     """
 
@@ -482,12 +486,13 @@ def single_omic_stabl(
 
     # __Lasso 1SE__
     if task_type == "binary":
+        # Jonas additional code
         new_best_c_corr = model_lasso.C_[0] - model_lasso.scores_[True].std() / np.sqrt(inner_splitter.get_n_splits())
         if new_best_c_corr < 0:
             best_c_corr = abs(model_lasso.C_[0])
         else:
             best_c_corr = new_best_c_corr
-        #best_c_corr = model_lasso.C_[0] - model_lasso.scores_[True].std() / np.sqrt(inner_splitter.get_n_splits())        
+        # end of new code
         model_lasso1se = LogisticRegression(penalty='l1', solver='liblinear', C=best_c_corr,
                                             class_weight='balanced', max_iter=2_000_000).fit(X_train_std, y)
 

@@ -25,7 +25,17 @@ def recap_pipeline_params(root, preprocess, outersplitter, n_splits, n_repeat, c
     labelPreprocess = customtkinter.CTkLabel(SubframePip, text='Preprocessing : '+status, justify='left')
     labelPreprocess.pack(side='top', padx=10, pady=6, anchor="w")
     
-    labelPipeline = customtkinter.CTkLabel(SubframePip, text='Pipeline : '+pipeline.get(), justify='left')
+    pipeline_name = ""
+    if pipeline.get()=="multi_omic_stabl":
+        pipeline_name = "Multi-omic Validation"
+    if pipeline.get()=="multi_omic_stabl_cv":
+        pipeline_name = "Multi-omic Training"
+    if pipeline.get()=="single_omic_stabl":
+        pipeline_name = "Single-omic Validation"
+    if pipeline.get()=="single_omic_stabl_cv":
+        pipeline_name = "Single-omic Training"
+
+    labelPipeline = customtkinter.CTkLabel(SubframePip, text='Pipeline : '+pipeline_name, justify='left')
     labelPipeline.pack(side='top', padx=10, pady=6, anchor="w")
     
     labelTaskType = customtkinter.CTkLabel(SubframePip, text='Task type : '+task_type.get(), justify='left')

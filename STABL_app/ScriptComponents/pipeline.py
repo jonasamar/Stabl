@@ -23,16 +23,16 @@ def pipeline(version,
             fpy.write("\n") 
             fpy.write("#Import Validation Data\n")
             if version == 'v1':
-                fpy.write(f"X_test = pd.read_csv('./{foldername}/{X_test}',index_col=0)\n")
+                fpy.write(f"X_test = pd.read_csv('../{foldername}/{X_test}',index_col=0)\n")
                 if (y_test != "") and (y_test_col == ""):
-                    fpy.write(f"y_test = pd.read_csv('./{foldername}/{y_test}',index_col=0).iloc[:,0]\n")
+                    fpy.write(f"y_test = pd.read_csv('../{foldername}/{y_test}',index_col=0).iloc[:,0]\n")
                     fpy.write("\n")
                 elif (y_test == "") and (y_test_col != ""):
                     fpy.write(f"y_test = X_test[{y_test_col}]\n")
                     fpy.write(f"X_test.drop({y_test_col}, axis=1, inplace=True)\n")
                     fpy.write("\n")
                 elif (y_test != "") and (y_test_col != ""):
-                    fpy.write(f"y_test = pd.read_csv('./{foldername}/{y_test}',index_col=0).iloc[:,0]\n")
+                    fpy.write(f"y_test = pd.read_csv('../{foldername}/{y_test}',index_col=0).iloc[:,0]\n")
                     fpy.write(f"X_test.drop('{y_test_col}', axis=1, inplace=True)\n")
                     fpy.write("\n")
                 else :
@@ -44,7 +44,7 @@ def pipeline(version,
                 y = y_files[1].split('\t')[0]
                 if 'single' in stabl_pipeline:
                     X = X_files[1].split('\t')[0]
-                    fpy.write(f"X_test = pd.read_csv('./{foldername}/{X}',index_col=0)\n")
+                    fpy.write(f"X_test = pd.read_csv('../{foldername}/{X}',index_col=0)\n")
                     
                 if 'multi' in stabl_pipeline:
                     file_dict = {}
@@ -55,12 +55,12 @@ def pipeline(version,
                     fpy.write("X_test = {\n")
                     for i, el in enumerate(file_dict.keys()):
                         if i < len(file_dict.keys()) - 1:
-                            fpy.write(f"\t'{el}': pd.read_csv('./{foldername}/{file_dict[el]}',index_col=0),\n")
+                            fpy.write(f"\t'{el}': pd.read_csv('../{foldername}/{file_dict[el]}',index_col=0),\n")
                         else:
-                            fpy.write(f"\t'{el}': pd.read_csv('./{foldername}/{file_dict[el]}',index_col=0)\n")
+                            fpy.write(f"\t'{el}': pd.read_csv('../{foldername}/{file_dict[el]}',index_col=0)\n")
                     fpy.write("}")
                 fpy.write("\n") 
-                fpy.write(f"y_test = pd.read_csv('./{foldername}/{y}',index_col=0).iloc[:,0]\n")
+                fpy.write(f"y_test = pd.read_csv('../{foldername}/{y}',index_col=0).iloc[:,0]\n")
           
     fpy.write("\n")        
     if 'multi' in stabl_pipeline:
@@ -68,7 +68,7 @@ def pipeline(version,
     elif 'single' in stabl_pipeline:
         fpy.write(f"{stabl_pipeline}(\n\tX=X,\n\ty=y.astype(int),\n\t")
     
-    fpy.write(f"outer_splitter=outer_splitter,\n\tstabl=stabl,\n\tstability_selection=stability_selection,\n\ttask_type='{task_type}',\n\tsave_path='./{foldername}/Results'")
+    fpy.write(f"outer_splitter=outer_splitter,\n\tstabl=stabl,\n\tstability_selection=stability_selection,\n\ttask_type='{task_type}',\n\tsave_path='../{foldername}/Results'")
 
     if '_cv' in stabl_pipeline:
         if len(outer_groups) > 0:

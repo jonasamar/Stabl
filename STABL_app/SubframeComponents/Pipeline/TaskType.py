@@ -21,6 +21,15 @@ def task_type_display(subframe, task_type):
     labelttype = customtkinter.CTkLabel(subframettype, text="Task type *")
     labelttype.pack(side="left", fill="both", padx=(10, 5))
     labelttype.bind("<Button-1>", lambda event : show_message("info","binary : you have a classification problem and you want to predict 0 or 1 for a given sample.\n\nregression : you want to predict a value that takes a continous range of values (between  0 and 1 for instance)."))
-                   
-    comboboxttype = customtkinter.CTkComboBox(subframettype, variable=task_type, values=["binary", "regression"], width=150)
+    
+    def update_task_type(event):
+        print("Function")
+        if comboboxttype.get() == "binary":
+            task_type.set("binary")
+            print(task_type.get())
+        elif comboboxttype.get() == "continuous":
+            task_type.set("regression")
+            print(task_type.get())
+
+    comboboxttype = customtkinter.CTkComboBox(subframettype, values=["binary", "continuous"], width=150, command=update_task_type)
     comboboxttype.pack(side="left", fill="both", padx=10, pady=5)

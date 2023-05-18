@@ -33,21 +33,28 @@ def delete_file(foldername,
                 os.remove(file_path)
                 # Updating file_list by removing the deleted file from the list
                 delete(filename, file_list)
-                # Refreshing the subframes containing the files information
+                files = str(file_list.get()).split('\n')
+                # Delete previous display
                 for widget in subframeName.winfo_children():
                     widget.destroy()
                 for widget in subframeType.winfo_children():
                     widget.destroy()
                 for widget in subframeSpe.winfo_children():
                     widget.destroy()
-                files = str(file_list.get()).split('\n')
+                # Create new display
+                labelName = CTkLabel(master=subframeName, text="File name", font=("Roboto", 12, "bold"))
+                labelName.pack(padx = 10, pady=3)
+                labelType = CTkLabel(master=subframeType, text="Type of data", font=("Roboto", 12, "bold"))
+                labelType.pack(padx = 10, pady=3)
+                labelSpe = CTkLabel(master=subframeSpe, text="Type of features", font=("Roboto", 12, "bold"))
+                labelSpe.pack(padx = 10, pady=3)
                 for file in files:
                     display_file(subframeName, subframeType, subframeSpe, file)
             except OSError as e:
                 show_message("Error", f"Error deleting file '{file_path}': {e}")
                 
 def display_file(subframeName, subframeType, subframeSpe, file):
-     if len(file) > 0:
+    if len(file) > 0:
         elements = file.split('\t')
         name, datatype, spe = elements[0], elements[2], elements[3]
         labelname = CTkLabel(master=subframeName, text=name) 

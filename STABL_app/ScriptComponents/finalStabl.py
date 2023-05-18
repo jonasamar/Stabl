@@ -16,8 +16,8 @@ def final_stabl(fpy, foldername, preprocess, stabl_pipeline, task_type):
         if preprocess:
             fpy.write("finalstabl.fit(X_STD,y.astype(int))\n")
             fpy.write("\n")
-            fpy.write(f"save_stabl_results(finalstabl,'./{foldername}/Results'+'/FinalSTABL/',X_STD,y,task_type='{task_type}')\n")
+            fpy.write(f"save_stabl_results(finalstabl,'../{foldername}/Results'+'/FinalSTABL/',X_STD,y,task_type='{task_type}')\n")
         else: 
             fpy.write("finalstabl.fit(X, y.astype(int))\n")
             fpy.write("\n")
-            fpy.write(f"save_stabl_results(finalstabl,'./{foldername}/Results'+'/FinalSTABL/',X,y,task_type='{task_type}')\n")
+            fpy.write(f"save_stabl_results(finalstabl,'../{foldername}/Results'+'/FinalSTABL/',X,y,task_type='{task_type}')\n")
