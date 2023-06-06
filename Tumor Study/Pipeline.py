@@ -20,10 +20,10 @@ from stabl.pipelines_utils import compute_features_table
 # Data
 
 ## 1st Cohort
-Val_Celldensities = pd.read_csv('./DataValidation/Val_celldensities.csv', index_col=0)
-Val_Function = pd.read_csv('./DataValidation/Val_functional.csv', index_col=0)
-Val_Metavariables = pd.read_csv('./DataValidation/Val_metavariables.csv', index_col=0)
-Val_Neighborhood = pd.read_csv('./DataValidation/Val_neighborhood.csv', index_col=0)
+Val_Celldensities = pd.read_csv('./Tumor Study/DataValidation/Val_celldensities.csv', index_col=0)
+Val_Function = pd.read_csv('./Tumor Study/DataValidation/Val_functional.csv', index_col=0)
+Val_Metavariables = pd.read_csv('./Tumor Study/DataValidation/Val_metavariables.csv', index_col=0)
+Val_Neighborhood = pd.read_csv('./Tumor Study/DataValidation/Val_neighborhood.csv', index_col=0)
 
 val_data = {
     'Val_Celldensities': Val_Celldensities,
@@ -37,14 +37,14 @@ for data_name, data_frame in val_data.items():
     numeric_columns = data_frame.select_dtypes(include=['float64', 'int64']).columns
     val_data[data_name][numeric_columns] = val_data[data_name][numeric_columns].apply(zscore)
 
-Val_y = pd.read_csv('./DataValidation/Val_outcome.csv',index_col=0)
+Val_y = pd.read_csv('./Tumor Study/DataValidation/Val_outcome.csv',index_col=0)
 Val_y['site'] = 'Stanford'
 
 ## 2nd Cohort
-UOP_Celldensities = pd.read_csv('./DataTraining/UOPfinal_celldensities.csv', index_col=0)
-UOP_Function = pd.read_csv('./DataTraining/UOPfinal_functional.csv', index_col=0)
-UOP_Metavariables = pd.read_csv('./DataTraining/UOPfinal_metavariables.csv', index_col=0)
-UOP_Neighborhood = pd.read_csv('./DataTraining/UOPfinal_neighborhood.csv', index_col=0)
+UOP_Celldensities = pd.read_csv('./Tumor Study/DataTraining/UOPfinal_celldensities.csv', index_col=0)
+UOP_Function = pd.read_csv('./Tumor Study/DataTraining/UOPfinal_functional.csv', index_col=0)
+UOP_Metavariables = pd.read_csv('./Tumor Study/DataTraining/UOPfinal_metavariables.csv', index_col=0)
+UOP_Neighborhood = pd.read_csv('./Tumor Study/DataTraining/UOPfinal_neighborhood.csv', index_col=0)
 
 UOP_data = {
     'UOP_Celldensities': UOP_Celldensities,
@@ -58,7 +58,7 @@ for data_name, data_frame in UOP_data.items():
     numeric_columns = data_frame.select_dtypes(include=['float64', 'int64']).columns
     UOP_data[data_name][numeric_columns] = UOP_data[data_name][numeric_columns].apply(zscore)
 
-UOP_y = pd.read_csv('./DataTraining/UOPfinal_outcome.csv',index_col=0)
+UOP_y = pd.read_csv('./Tumor Study/DataTraining/UOPfinal_outcome.csv',index_col=0)
 UOP_y['site'] = 'UOP'
 
 ## Concatenating the two cohorts
@@ -77,14 +77,16 @@ data = {
     'Outcome': y
 }
 
-# Pipeline
-global_data = pd.concat([X_Celldensities, X_Function, X_Metavariables, X_Neighborhood], axis=1)
-global_outcome = y['grade'] - 1 # instead of 1-2 -> 0-1 for the grade
+features = {
+    'Celldensities': X_Celldensities,
+    'Function': X_Function,
+    'Metavariables': X_Metavariables,
+    'Neighborhood': X_Neighborhood
+}
 
-for omic_name, X_omic in data.items():
-    X_omic = remove_low_info_samples(X_omic)
-    data[omic_name] = X_omic
-    
+outcome = y['grade'] - 1 # instead of 1-2 -> 0-1 for the grade
+
+# Pipeline    
 stabl = Stabl(
     lambda_name='C',
     lambda_grid=np.linspace(0.01, 5, 10),
@@ -104,11 +106,11 @@ stability_selection = clone(stabl).set_params(artificial_type=None, hard_thresho
 # Multi-omic Training-CV
 
 predictions_dict = multi_omic_stabl_cv(
-    data_dict=data,
-    y=global_outcome,
+    data_dict=features,
+    y=outcome,
     outer_splitter=outer_splitter,
     stabl=stabl,
     stability_selection=stability_selection,
     task_type="binary",
-    save_path="../Tumor Study/Results"
+    save_path=" ./Tumor Study/Results"
 )
