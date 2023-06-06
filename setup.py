@@ -9,16 +9,7 @@ setuptools.setup(
     author='Gregoire Bellan',
     author_email='gbellan@surge.care',
     description='Stabl package',
-    packages=['stabl', 
-              'STABLapp_utils',
-              'STABLapp_utils.subwindows',
-              'STABLapp_utils.ScriptComponents',
-              'STABLapp_utils.Subframes',
-              'STABLapp_utils.SubframeComponents.ConfirmationWindow',
-              'STABLapp_utils.SubframeComponents.Files',
-              'STABLapp_utils.SubframeComponents.Pipeline',
-              'STABLapp_utils.SubframeComponents.Sbatch',
-              'STABLapp_utils.SubframeComponents.Stabl'],
+    packages=['stabl'],
     install_requires=[
         'scikit-learn>=1.1.2',
         'knockpy>=1.2',
@@ -27,7 +18,6 @@ setuptools.setup(
         'joblib>=1.1.0',
         'tqdm>=4.64.0',
         'seaborn>=0.12.0',
-        'matplotlib>=3.5.2',
-        'customtkinter'
+        'matplotlib>=3.5.2'
     ]
 )
