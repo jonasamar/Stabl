@@ -1,0 +1,40 @@
+,Feature Name
+Feature n°1,Tumor non-proliferating_intratumor_cellfrequency
+Feature n°2,Tumor non-proliferating_stromal_cellfrequency
+Feature n°3,Tumor non-proliferating_tumorfront_cellfrequency
+Feature n°4,Tumor proliferating_intratumor_cellfrequency
+Feature n°5,Tumor proliferating_stromal_cellfrequency
+Feature n°6,Tumor proliferating_tumorfront_cellfrequency
+Feature n°7,Vessel_intratumor_cellfrequency
+Feature n°8,Vessel_stromal_cellfrequency
+Feature n°9,Vessel_tumorfront_cellfrequency
+Feature n°10,Fibroblasts_intratumor_cellfrequency
+Feature n°11,Fibroblasts_stromal_cellfrequency
+Feature n°12,Fibroblasts_tumorfront_cellfrequency
+Feature n°13,CD4 T cells naive_stromal_cellfrequency
+Feature n°14,CD4 T cells naive_tumorfront_cellfrequency
+Feature n°15,CD4 T cells memory_stromal_cellfrequency
+Feature n°16,CD4 T cells memory_tumorfront_cellfrequency
+Feature n°17,CD4 T cells regulatory_stromal_cellfrequency
+Feature n°18,CD4 T cells regulatory_tumorfront_cellfrequency
+Feature n°19,B cells_intratumor_cellfrequency
+Feature n°20,B cells_stromal_cellfrequency
+Feature n°21,B cells_tumorfront_cellfrequency
+Feature n°22,CD8 T cells_intratumor_cellfrequency
+Feature n°23,CD8 T cells_stromal_cellfrequency
+Feature n°24,CD8 T cells_tumorfront_cellfrequency
+Feature n°25,Myeloid M1 macrophages_intratumor_cellfrequency
+Feature n°26,Myeloid M1 macrophages_stromal_cellfrequency
+Feature n°27,Myeloid M1 macrophages_tumorfront_cellfrequency
+Feature n°28,Myeloid M2 macrophages_intratumor_cellfrequency
+Feature n°29,Myeloid M2 macrophages_stromal_cellfrequency
+Feature n°30,Myeloid M2 macrophages_tumorfront_cellfrequency
+Feature n°31,Myeloid Granulocytes_intratumor_cellfrequency
+Feature n°32,Myeloid Granulocytes_stromal_cellfrequency
+Feature n°33,Myeloid Granulocytes_tumorfront_cellfrequency
+Feature n°34,Myeloid DCs_intratumor_cellfrequency
+Feature n°35,Myeloid DCs_stromal_cellfrequency
+Feature n°36,Myeloid DCs_tumorfront_cellfrequency
+Feature n°37,Myeloid Monocytes_intratumor_cellfrequency
+Feature n°38,Myeloid Monocytes_stromal_cellfrequency
+Feature n°39,Myeloid Monocytes_tumorfront_cellfrequency

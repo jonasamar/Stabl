@@ -1,0 +1,74 @@
+,Feature Name
+Feature n°1,Tumor non-proliferating_intratumor_area
+Feature n°2,Tumor non-proliferating_stromal_area
+Feature n°3,Tumor non-proliferating_tumorfront_area
+Feature n°4,Tumor proliferating_intratumor_area
+Feature n°5,Tumor proliferating_tumorfront_area
+Feature n°6,Vessel_tumorfront_area
+Feature n°7,Fibroblasts_stromal_area
+Feature n°8,Fibroblasts_tumorfront_area
+Feature n°9,CD4 T cells naive_stromal_area
+Feature n°10,CD4 T cells naive_tumorfront_area
+Feature n°11,CD4 T cells memory_stromal_area
+Feature n°12,CD4 T cells memory_tumorfront_area
+Feature n°13,CD4 T cells regulatory_stromal_area
+Feature n°14,CD4 T cells regulatory_tumorfront_area
+Feature n°15,B cells_stromal_area
+Feature n°16,B cells_tumorfront_area
+Feature n°17,CD8 T cells_intratumor_area
+Feature n°18,CD8 T cells_stromal_area
+Feature n°19,CD8 T cells_tumorfront_area
+Feature n°20,Myeloid M1 macrophages_stromal_area
+Feature n°21,Myeloid M1 macrophages_tumorfront_area
+Feature n°22,Myeloid M2 macrophages_stromal_area
+Feature n°23,Myeloid M2 macrophages_tumorfront_area
+Feature n°24,Myeloid Granulocytes_stromal_area
+Feature n°25,Myeloid Granulocytes_tumorfront_area
+Feature n°26,Myeloid DCs_stromal_area
+Feature n°27,Myeloid DCs_tumorfront_area
+Feature n°28,Myeloid Monocytes_stromal_area
+Feature n°29,Myeloid Monocytes_tumorfront_area
+Feature n°30,Tumor non-proliferating_intratumor_eccentricity
+Feature n°31,Tumor non-proliferating_stromal_eccentricity
+Feature n°32,Tumor non-proliferating_tumorfront_eccentricity
+Feature n°33,Tumor proliferating_intratumor_eccentricity
+Feature n°34,Tumor proliferating_tumorfront_eccentricity
+Feature n°35,Vessel_stromal_eccentricity
+Feature n°36,Vessel_tumorfront_eccentricity
+Feature n°37,Fibroblasts_stromal_eccentricity
+Feature n°38,Fibroblasts_tumorfront_eccentricity
+Feature n°39,CD4 T cells naive_stromal_eccentricity
+Feature n°40,CD4 T cells naive_tumorfront_eccentricity
+Feature n°41,CD4 T cells memory_stromal_eccentricity
+Feature n°42,CD4 T cells memory_tumorfront_eccentricity
+Feature n°43,CD4 T cells regulatory_stromal_eccentricity
+Feature n°44,CD4 T cells regulatory_tumorfront_eccentricity
+Feature n°45,B cells_stromal_eccentricity
+Feature n°46,B cells_tumorfront_eccentricity
+Feature n°47,CD8 T cells_intratumor_eccentricity
+Feature n°48,CD8 T cells_stromal_eccentricity
+Feature n°49,CD8 T cells_tumorfront_eccentricity
+Feature n°50,Myeloid M1 macrophages_stromal_eccentricity
+Feature n°51,Myeloid M1 macrophages_tumorfront_eccentricity
+Feature n°52,Myeloid M2 macrophages_stromal_eccentricity
+Feature n°53,Myeloid M2 macrophages_tumorfront_eccentricity
+Feature n°54,Myeloid Granulocytes_stromal_eccentricity
+Feature n°55,Myeloid Granulocytes_tumorfront_eccentricity
+Feature n°56,Myeloid DCs_stromal_eccentricity
+Feature n°57,Myeloid DCs_tumorfront_eccentricity
+Feature n°58,Myeloid Monocytes_stromal_eccentricity
+Feature n°59,Myeloid Monocytes_tumorfront_eccentricity
+Feature n°60,Tumor non-proliferating_tumorfront_celldistance
+Feature n°61,Tumor proliferating_tumorfront_celldistance
+Feature n°62,Vessel_tumorfront_celldistance
+Feature n°63,Fibroblasts_tumorfront_celldistance
+Feature n°64,CD4 T cells naive_tumorfront_celldistance
+Feature n°65,CD4 T cells memory_tumorfront_celldistance
+Feature n°66,CD4 T cells regulatory_tumorfront_celldistance
+Feature n°67,B cells_tumorfront_celldistance
+Feature n°68,CD8 T cells_tumorfront_celldistance
+Feature n°69,Myeloid M1 macrophages_tumorfront_celldistance
+Feature n°70,Myeloid M2 macrophages_tumorfront_celldistance
+Feature n°71,Myeloid Granulocytes_tumorfront_celldistance
+Feature n°72,Myeloid DCs_tumorfront_celldistance
+Feature n°73,Myeloid Monocytes_tumorfront_celldistance

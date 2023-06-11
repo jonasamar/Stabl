@@ -1,0 +1,75 @@
+,Max Proba
+Tumor non-proliferating_intratumor_area,0.997
+Tumor non-proliferating_tumorfront_celldistance,0.996
+Myeloid Monocytes_tumorfront_celldistance,0.99
+CD8 T cells_intratumor_area,0.975
+Myeloid M2 macrophages_stromal_eccentricity,0.973
+Tumor non-proliferating_tumorfront_area,0.951
+Vessel_tumorfront_eccentricity,0.949
+CD4 T cells naive_stromal_area,0.941
+Fibroblasts_stromal_eccentricity,0.87
+CD4 T cells regulatory_tumorfront_eccentricity,0.868
+Myeloid DCs_stromal_eccentricity,0.865
+Myeloid M1 macrophages_tumorfront_celldistance,0.865
+CD4 T cells memory_stromal_area,0.856
+Tumor proliferating_tumorfront_area,0.849
+Tumor non-proliferating_intratumor_eccentricity,0.843
+Vessel_tumorfront_celldistance,0.83
+CD4 T cells regulatory_tumorfront_area,0.827
+B cells_stromal_area,0.815
+Fibroblasts_tumorfront_area,0.794
+B cells_stromal_eccentricity,0.773
+Fibroblasts_tumorfront_celldistance,0.756
+Myeloid Granulocytes_stromal_eccentricity,0.729
+Myeloid Monocytes_tumorfront_eccentricity,0.723
+CD4 T cells regulatory_tumorfront_celldistance,0.716
+Tumor proliferating_intratumor_eccentricity,0.705
+Myeloid Granulocytes_tumorfront_celldistance,0.705
+Tumor non-proliferating_tumorfront_eccentricity,0.702
+Myeloid M2 macrophages_tumorfront_celldistance,0.701
+CD4 T cells memory_tumorfront_celldistance,0.698
+CD4 T cells naive_tumorfront_area,0.694
+B cells_tumorfront_celldistance,0.688
+Vessel_stromal_eccentricity,0.685
+Myeloid M1 macrophages_tumorfront_area,0.683
+CD8 T cells_tumorfront_celldistance,0.675
+Myeloid DCs_tumorfront_celldistance,0.669
+Myeloid Granulocytes_tumorfront_eccentricity,0.659
+Tumor proliferating_intratumor_area,0.652
+Myeloid M1 macrophages_stromal_eccentricity,0.644
+Fibroblasts_tumorfront_eccentricity,0.636
+Myeloid DCs_stromal_area,0.634
+CD8 T cells_stromal_eccentricity,0.628
+CD4 T cells naive_tumorfront_celldistance,0.619
+Myeloid Granulocytes_stromal_area,0.605
+Myeloid M2 macrophages_tumorfront_eccentricity,0.599
+Tumor non-proliferating_stromal_eccentricity,0.598
+Myeloid M1 macrophages_stromal_area,0.595
+Myeloid M1 macrophages_tumorfront_eccentricity,0.595
+CD4 T cells naive_tumorfront_eccentricity,0.585
+CD4 T cells memory_tumorfront_area,0.578
+Myeloid M2 macrophages_tumorfront_area,0.575
+CD8 T cells_tumorfront_area,0.574
+Myeloid Granulocytes_tumorfront_area,0.569
+Tumor proliferating_tumorfront_celldistance,0.565
+Myeloid Monocytes_stromal_area,0.562
+CD4 T cells regulatory_stromal_area,0.559
+Myeloid DCs_tumorfront_eccentricity,0.552
+B cells_tumorfront_area,0.549
+CD8 T cells_tumorfront_eccentricity,0.548
+CD4 T cells memory_stromal_eccentricity,0.546
+CD4 T cells regulatory_stromal_eccentricity,0.543
+Tumor proliferating_tumorfront_eccentricity,0.529
+Tumor non-proliferating_stromal_area,0.529
+Myeloid DCs_tumorfront_area,0.524
+B cells_tumorfront_eccentricity,0.504
+Myeloid Monocytes_tumorfront_area,0.502
+CD8 T cells_stromal_area,0.483
+Myeloid Monocytes_stromal_eccentricity,0.481
+Fibroblasts_stromal_area,0.446
+Vessel_tumorfront_area,0.445
+CD4 T cells naive_stromal_eccentricity,0.439
+CD4 T cells memory_tumorfront_eccentricity,0.431
+Myeloid M2 macrophages_stromal_area,0.4
+CD8 T cells_intratumor_eccentricity,0.343
+Vessel_stromal_area,0.3

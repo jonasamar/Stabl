@@ -1,0 +1,70 @@
+,Feature Name
+Feature n°1,Tumor non-proliferating_intratumor_VEGF
+Feature n°2,Tumor non-proliferating_intratumor_pCREB
+Feature n°3,Tumor non-proliferating_intratumor_CD44
+Feature n°4,Tumor non-proliferating_stromal_pSTAT1
+Feature n°5,Tumor non-proliferating_stromal_E-Cadherin
+Feature n°6,Tumor non-proliferating_stromal_pERK
+Feature n°7,Tumor non-proliferating_stromal_pS6
+Feature n°8,Tumor non-proliferating_tumorfront_Ki67
+Feature n°9,Tumor non-proliferating_tumorfront_pMAPKAPK2
+Feature n°10,Tumor non-proliferating_tumorfront_pS6
+Feature n°11,Tumor proliferating_intratumor_pSTAT1
+Feature n°12,Tumor proliferating_intratumor_pSTAT3
+Feature n°13,Tumor proliferating_intratumor_CD36
+Feature n°14,Tumor proliferating_intratumor_E-Cadherin
+Feature n°15,Tumor proliferating_intratumor_GranzymeB
+Feature n°16,Tumor proliferating_intratumor_pMAPKAPK2
+Feature n°17,Tumor proliferating_tumorfront_pSTAT1
+Feature n°18,Tumor proliferating_tumorfront_CD36
+Feature n°19,Tumor proliferating_tumorfront_GranzymeB
+Feature n°20,Vessel_stromal_CD36
+Feature n°21,Vessel_stromal_CD44
+Feature n°22,Vessel_stromal_pERK
+Feature n°23,Vessel_tumorfront_pERK
+Feature n°24,Fibroblasts_stromal_pERK
+Feature n°25,Fibroblasts_tumorfront_CD36
+Feature n°26,Fibroblasts_tumorfront_Ki67
+Feature n°27,CD4 T cells naive_stromal_CD44
+Feature n°28,CD4 T cells naive_tumorfront_pS6
+Feature n°29,CD4 T cells memory_stromal_CD44
+Feature n°30,CD4 T cells memory_tumorfront_pp38
+Feature n°31,CD4 T cells regulatory_stromal_pp38
+Feature n°32,CD4 T cells regulatory_stromal_CD44
+Feature n°33,CD4 T cells regulatory_stromal_pS6
+Feature n°34,CD4 T cells regulatory_tumorfront_pSTAT1
+Feature n°35,CD4 T cells regulatory_tumorfront_E-Cadherin
+Feature n°36,CD4 T cells regulatory_tumorfront_GranzymeB
+Feature n°37,CD4 T cells regulatory_tumorfront_pMAPKAPK2
+Feature n°38,CD4 T cells regulatory_tumorfront_pS6
+Feature n°39,B cells_stromal_pSTAT1
+Feature n°40,B cells_stromal_CD44
+Feature n°41,B cells_tumorfront_pp38
+Feature n°42,B cells_tumorfront_CD36
+Feature n°43,CD8 T cells_intratumor_CD36
+Feature n°44,CD8 T cells_intratumor_E-Cadherin
+Feature n°45,CD8 T cells_intratumor_pMAPKAPK2
+Feature n°46,CD8 T cells_tumorfront_pSTAT1
+Feature n°47,CD8 T cells_tumorfront_GranzymeB
+Feature n°48,Myeloid M1 macrophages_stromal_pERK
+Feature n°49,Myeloid M2 macrophages_tumorfront_E-Cadherin
+Feature n°50,Myeloid Granulocytes_stromal_pp38
+Feature n°51,Myeloid Granulocytes_stromal_pSTAT3
+Feature n°52,Myeloid Granulocytes_stromal_GranzymeB
+Feature n°53,Myeloid Granulocytes_stromal_Ki67
+Feature n°54,Myeloid Granulocytes_stromal_pERK
+Feature n°55,Myeloid Granulocytes_tumorfront_CD36
+Feature n°56,Myeloid Granulocytes_tumorfront_GranzymeB
+Feature n°57,Myeloid Granulocytes_tumorfront_Ki67
+Feature n°58,Myeloid DCs_stromal_GranzymeB
+Feature n°59,Myeloid DCs_stromal_CD44
+Feature n°60,Myeloid DCs_stromal_pMAPKAPK2
+Feature n°61,Myeloid DCs_tumorfront_CD36
+Feature n°62,Myeloid DCs_tumorfront_E-Cadherin
+Feature n°63,Myeloid DCs_tumorfront_pS6
+Feature n°64,Myeloid Monocytes_stromal_pp38
+Feature n°65,Myeloid Monocytes_stromal_E-Cadherin
+Feature n°66,Myeloid Monocytes_tumorfront_pp38
+Feature n°67,Myeloid Monocytes_tumorfront_pSTAT1
+Feature n°68,Myeloid Monocytes_tumorfront_CD36
+Feature n°69,Myeloid Monocytes_tumorfront_GranzymeB

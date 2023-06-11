@@ -1,0 +1,66 @@
+Feature,Associated weight
+Tumor non-proliferating_intratumor_cellfrequency,6.230447749925845
+Tumor non-proliferating_stromal_cellfrequency,-1.9820708683250259
+Tumor non-proliferating_tumorfront_cellfrequency,0.004333396756640018
+Tumor proliferating_intratumor_cellfrequency,-5.225878126043769
+Tumor proliferating_stromal_cellfrequency,3.8789942811517917
+Tumor proliferating_tumorfront_cellfrequency,-0.31098217748641577
+Vessel_intratumor_cellfrequency,2.391487489092561
+Vessel_stromal_cellfrequency,-2.261351353267678
+Vessel_tumorfront_cellfrequency,0.37773323129463154
+Fibroblasts_intratumor_cellfrequency,2.2649906869322805
+Fibroblasts_stromal_cellfrequency,1.9101965436473303
+Fibroblasts_tumorfront_cellfrequency,5.696887738646941
+CD4 T cells naive_stromal_cellfrequency,-6.8059181271287095
+CD4 T cells memory_stromal_cellfrequency,-1.5347799580702666
+CD4 T cells regulatory_tumorfront_cellfrequency,-7.9033176732687345
+B cells_intratumor_cellfrequency,-5.588830295982884
+CD8 T cells_intratumor_cellfrequency,0.2240903487938517
+Myeloid M1 macrophages_intratumor_cellfrequency,8.010228277828743
+Myeloid M1 macrophages_stromal_cellfrequency,-1.2764860192639111
+Myeloid M1 macrophages_tumorfront_cellfrequency,10.082056135475424
+Myeloid M2 macrophages_stromal_cellfrequency,6.996730193849208
+Myeloid M2 macrophages_tumorfront_cellfrequency,1.3127817738905416
+Myeloid Granulocytes_intratumor_cellfrequency,3.2465584062076402
+Myeloid Granulocytes_stromal_cellfrequency,-5.102191798533045
+Myeloid Granulocytes_tumorfront_cellfrequency,-0.9970652747787663
+Myeloid DCs_intratumor_cellfrequency,3.3065417655771734
+Myeloid DCs_stromal_cellfrequency,-4.31006115598968
+Myeloid DCs_tumorfront_cellfrequency,-0.6657171824815359
+Myeloid Monocytes_intratumor_cellfrequency,-1.8120353223219816
+Myeloid Monocytes_stromal_cellfrequency,-1.2910617441538703
+Myeloid Monocytes_tumorfront_cellfrequency,3.7378654966714473
+Tumor non-proliferating_intratumor_CD44,3.5629797048941527
+Tumor non-proliferating_tumorfront_pS6,-4.62422249328744
+Tumor proliferating_intratumor_GranzymeB,3.3911147205592944
+CD4 T cells naive_stromal_CD44,-12.744401742749432
+CD4 T cells naive_tumorfront_pS6,15.252606368787077
+CD4 T cells regulatory_stromal_pS6,1.113101761732007
+CD4 T cells regulatory_tumorfront_GranzymeB,4.760023815123646
+Myeloid Granulocytes_stromal_Ki67,6.689731306751245
+Tumor non-proliferating_intratumor_area,1.6309196351918849
+Tumor non-proliferating_tumorfront_area,5.3738448143921005
+Tumor proliferating_tumorfront_area,3.866457901692042
+CD4 T cells naive_stromal_area,-3.6409681367756344
+CD4 T cells memory_stromal_area,-8.983673947715817
+CD4 T cells regulatory_tumorfront_area,-1.3761039114285891
+B cells_stromal_area,-6.7277442537867715
+CD8 T cells_intratumor_area,-1.0698914133209059
+Tumor non-proliferating_intratumor_eccentricity,-2.1720610053173965
+Vessel_tumorfront_eccentricity,-5.982043088695948
+Fibroblasts_stromal_eccentricity,-6.184998119997206
+CD4 T cells regulatory_tumorfront_eccentricity,-9.171359339241942
+Myeloid M2 macrophages_stromal_eccentricity,9.138714846506158
+Myeloid DCs_stromal_eccentricity,-8.379967842864032
+Tumor non-proliferating_tumorfront_celldistance,-14.236079287108188
+Vessel_tumorfront_celldistance,4.113103892560532
+Myeloid M1 macrophages_tumorfront_celldistance,7.605278094066515
+Myeloid Monocytes_tumorfront_celldistance,1.2148830378317659
+Tumor non-proliferating_stromal_aggregatedNeighbors.CD8.T.cells,-6.036030830757918
+Tumor non-proliferating_stromal_aggregatedNeighbors.Myeloid.Granulocytes,9.066078758883478
+CD4 T cells naive_stromal_aggregatedNeighbors.Myeloid.M1.macrophages,13.884911977773228
+Myeloid M2 macrophages_tumorfront_aggregatedNeighbors.Tumor.non.proliferating,9.060487743731157
+Myeloid Granulocytes_stromal_aggregatedNeighbors.B.cells,8.211444801717663
+Myeloid Granulocytes_stromal_aggregatedNeighbors.CD8.T.cells,9.301545082525577
+Myeloid DCs_stromal_aggregatedNeighbors.Vessel,12.20135460022365
+Myeloid DCs_tumorfront_aggregatedNeighbors.CD8.T.cells,-5.113103170626495

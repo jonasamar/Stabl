@@ -1,0 +1,302 @@
+,Selected by STABL,Selected by EF Lasso,Selected by SS 03,Selected by SS 05,Selected by SS 08,Train Mannwithney pvalues,Train T-test pvalues
+B cells_intratumor_cellfrequency,True,True,True,True,True,0.05329339537912474,0.06393352783906261
+B cells_stromal_CD44,False,True,True,True,False,0.00045001224178706727,3.644274343634178e-05
+B cells_stromal_aggregatedNeighbors.CD4.T.cells.memory,False,True,True,False,False,0.33476574065956066,0.9640885372473627
+B cells_stromal_aggregatedNeighbors.CD4.T.cells.regulatory,False,True,False,False,False,0.4773726103223692,0.37631917759923983
+B cells_stromal_aggregatedNeighbors.CD8.T.cells,False,False,True,False,False,0.15987431655024487,0.1877916734174918
+B cells_stromal_aggregatedNeighbors.Myeloid.M2.macrophages,False,True,True,True,False,0.4654896701838568,0.05166511252405937
+B cells_stromal_aggregatedNeighbors.Myeloid.Monocytes,False,True,False,False,False,0.29111465036791495,0.4236687636629368
+B cells_stromal_area,False,False,True,True,True,0.0011996281336050221,0.00967111014134203
+B cells_stromal_cellfrequency,False,False,True,True,False,0.4180898643214135,0.9079076015915866
+B cells_stromal_eccentricity,False,False,True,True,False,0.10800822579974886,0.18023315546299432
+B cells_stromal_pSTAT1,False,False,True,False,False,0.028083935531237177,0.05993639874865289
+B cells_tumorfront_CD36,False,False,True,True,False,0.022092400689533775,0.06750890324219518
+B cells_tumorfront_CD44,False,True,False,False,False,0.007798526218030037,0.0031439820941676646
+B cells_tumorfront_aggregatedNeighbors.CD4.T.cells.regulatory,False,True,True,False,False,0.8784396982851271,0.14063611733459844
+B cells_tumorfront_aggregatedNeighbors.Myeloid.M2.macrophages,False,False,True,False,False,0.7094494336554074,0.5571418139886924
+B cells_tumorfront_aggregatedNeighbors.Myeloid.Monocytes,False,False,True,False,False,0.7330568673490561,0.5863242556014172
+B cells_tumorfront_area,False,False,True,True,False,0.03822117817080519,0.02134354992384343
+B cells_tumorfront_celldistance,False,False,True,True,False,0.10060953749607153,0.07701573288206141
+B cells_tumorfront_cellfrequency,False,False,True,True,False,0.527090890375399,0.6110692466165923
+B cells_tumorfront_eccentricity,False,True,True,True,False,0.13421167425318606,0.07711028948980853
+B cells_tumorfront_pp38,False,True,True,True,False,0.013163762926805775,0.011815834968206939
+CD4 T cells memory_stromal_CD44,False,True,True,True,False,4.57538290536128e-05,4.907873018910689e-06
+CD4 T cells memory_stromal_aggregatedNeighbors.Myeloid.M1.macrophages,False,True,True,False,False,0.028292172567806688,0.011892927042506832
+CD4 T cells memory_stromal_area,False,True,True,True,True,0.000457964888511144,0.0015066354735199545
+CD4 T cells memory_stromal_cellfrequency,False,False,True,True,True,0.01148701683116734,0.028263513485128584
+CD4 T cells memory_stromal_eccentricity,False,False,True,True,False,0.014290415258901621,0.12402437801604299
+CD4 T cells memory_tumorfront_aggregatedNeighbors.B.cells,False,False,True,False,False,0.42430699575555053,0.28079457078197734
+CD4 T cells memory_tumorfront_aggregatedNeighbors.CD4.T.cells.regulatory,False,True,True,True,False,0.02920288230402925,0.029959414164793804
+CD4 T cells memory_tumorfront_aggregatedNeighbors.Myeloid.DCs,False,False,True,True,False,0.6145450585004031,0.17547383801400343
+CD4 T cells memory_tumorfront_aggregatedNeighbors.Myeloid.M2.macrophages,False,True,False,False,False,0.8370715822671497,0.45700940139010837
+CD4 T cells memory_tumorfront_aggregatedNeighbors.Myeloid.Monocytes,False,False,True,True,False,0.8810570196613897,0.5290665392471953
+CD4 T cells memory_tumorfront_aggregatedNeighbors.Tumor.non.proliferating,False,True,True,False,False,0.0027709014777429863,0.0013217515446633337
+CD4 T cells memory_tumorfront_area,False,False,True,True,False,0.1021261941247936,0.15624656264796288
+CD4 T cells memory_tumorfront_celldistance,False,True,True,True,False,0.23516833316282126,0.17480874919319295
+CD4 T cells memory_tumorfront_cellfrequency,False,False,True,True,False,0.005628816631693763,0.0033287513110440508
+CD4 T cells memory_tumorfront_eccentricity,False,False,True,False,False,0.17421424927742335,0.534600356094084
+CD4 T cells memory_tumorfront_pp38,False,False,True,False,False,0.03622701663237696,0.14835783952706075
+CD4 T cells naive_stromal_CD44,False,True,True,True,True,7.201339306208209e-05,1.2738141718905656e-05
+CD4 T cells naive_stromal_aggregatedNeighbors.Myeloid.M1.macrophages,False,True,True,True,True,0.039429443496750295,0.008411550461003508
+CD4 T cells naive_stromal_aggregatedNeighbors.Myeloid.Monocytes,False,True,False,False,False,0.7398649403040976,0.5515670127032524
+CD4 T cells naive_stromal_area,False,True,True,True,True,1.1626350465705781e-05,0.0001106241842941853
+CD4 T cells naive_stromal_cellfrequency,False,False,True,True,True,0.04694335165006721,0.01986805668676341
+CD4 T cells naive_stromal_eccentricity,False,False,True,False,False,0.004729994190990463,0.11720123068519461
+CD4 T cells naive_tumorfront_aggregatedNeighbors.CD8.T.cells,False,True,True,False,False,0.0005015034857037716,0.00042327383242092445
+CD4 T cells naive_tumorfront_aggregatedNeighbors.Myeloid.M2.macrophages,False,False,True,False,False,0.05849594804871272,0.04253056564510897
+CD4 T cells naive_tumorfront_aggregatedNeighbors.Myeloid.Monocytes,False,True,True,False,False,0.6634028327412017,0.7891195770839334
+CD4 T cells naive_tumorfront_aggregatedNeighbors.Vessel,False,True,False,False,False,0.2491679266961312,0.11105504419734268
+CD4 T cells naive_tumorfront_area,False,False,True,True,False,0.0029400256705862365,0.00415541766230371
+CD4 T cells naive_tumorfront_celldistance,False,False,True,True,False,0.008227584860600143,0.010417999713234715
+CD4 T cells naive_tumorfront_cellfrequency,False,False,True,True,False,0.20769386016399194,0.17039312761910533
+CD4 T cells naive_tumorfront_eccentricity,False,False,True,True,False,0.06387061465532623,0.08439637932733805
+CD4 T cells naive_tumorfront_pS6,False,True,True,True,True,0.3858182006896772,0.36299554603523143
+CD4 T cells regulatory_stromal_CD44,False,True,True,False,False,2.5740614902332114e-05,1.2516636346883761e-05
+CD4 T cells regulatory_stromal_VEGF,False,True,False,False,False,0.15968862077607893,0.05629617777749869
+CD4 T cells regulatory_stromal_aggregatedNeighbors.B.cells,False,False,True,False,False,0.12905372106376095,0.24206248765969024
+CD4 T cells regulatory_stromal_aggregatedNeighbors.Myeloid.Monocytes,False,False,True,True,False,0.536391251551142,0.7815862267361591
+CD4 T cells regulatory_stromal_aggregatedNeighbors.Vessel,False,True,False,False,False,0.006053948788428369,0.015519410805698491
+CD4 T cells regulatory_stromal_area,False,False,True,True,False,0.049996994334880945,0.1931967918209973
+CD4 T cells regulatory_stromal_cellfrequency,False,True,True,True,False,0.18948445089168842,0.3085611603201453
+CD4 T cells regulatory_stromal_eccentricity,False,False,True,True,False,0.5091570484192081,0.5060443408934987
+CD4 T cells regulatory_stromal_pS6,False,False,True,True,True,0.2991585890127455,0.6273948589200424
+CD4 T cells regulatory_stromal_pp38,False,False,True,False,False,0.2841237430681003,0.3497734721154393
+CD4 T cells regulatory_tumorfront_E-Cadherin,False,False,True,True,False,0.0037925812746200374,0.007760475693322961
+CD4 T cells regulatory_tumorfront_GranzymeB,False,True,True,True,True,0.35273169934145276,0.6477662341605095
+CD4 T cells regulatory_tumorfront_aggregatedNeighbors.Fibroblasts,False,False,True,False,False,0.4887369134156164,0.09160958037107293
+CD4 T cells regulatory_tumorfront_aggregatedNeighbors.Myeloid.DCs,False,True,False,False,False,0.7783189878103454,0.19702496040904205
+CD4 T cells regulatory_tumorfront_aggregatedNeighbors.Myeloid.M1.macrophages,False,True,False,False,False,0.22909296954230696,0.5239719781478631
+CD4 T cells regulatory_tumorfront_aggregatedNeighbors.Tumor.non.proliferating,False,True,False,False,False,0.8757545273248708,0.955951775359527
+CD4 T cells regulatory_tumorfront_aggregatedNeighbors.Tumor.proliferating,False,False,True,True,False,0.054174564384279776,0.09680614200116625
+CD4 T cells regulatory_tumorfront_area,False,False,True,True,True,0.021996177065996964,0.023855604018950437
+CD4 T cells regulatory_tumorfront_celldistance,False,True,True,True,False,0.38323642424391224,0.40622009031410666
+CD4 T cells regulatory_tumorfront_cellfrequency,False,False,True,True,True,0.014861981156001939,0.008152777277856649
+CD4 T cells regulatory_tumorfront_eccentricity,False,False,True,True,True,0.06788487072592533,0.0268708785009177
+CD4 T cells regulatory_tumorfront_pCREB,False,True,False,False,False,0.02822108711934874,0.023972077846119128
+CD4 T cells regulatory_tumorfront_pMAPKAPK2,False,False,True,True,False,0.017195185678395022,0.02588294916968367
+CD4 T cells regulatory_tumorfront_pS6,False,False,True,True,False,0.623257671067134,0.7894382348824684
+CD4 T cells regulatory_tumorfront_pSTAT1,False,True,True,True,False,0.003232493374133167,0.0005410847163143977
+CD8 T cells_intratumor_CD36,False,False,True,True,False,0.0004813018319182259,0.002483913805854984
+CD8 T cells_intratumor_E-Cadherin,False,False,True,False,False,0.022475724820296614,0.05529254241301655
+CD8 T cells_intratumor_aggregatedNeighbors.CD8.T.cells,False,False,True,True,False,0.0005249731768989395,8.54501449595079e-05
+CD8 T cells_intratumor_area,True,False,True,True,True,0.003416240304460929,0.005603825155399977
+CD8 T cells_intratumor_cellfrequency,False,False,True,True,True,0.15038466500536016,0.034660282557417
+CD8 T cells_intratumor_eccentricity,False,False,True,False,False,0.22053330273001182,0.14596657821152917
+CD8 T cells_intratumor_pMAPKAPK2,False,False,True,True,False,0.21746162560052074,0.7359219879659444
+CD8 T cells_intratumor_pSTAT1,False,True,False,False,False,0.005816633125659559,0.009647031047127448
+CD8 T cells_stromal_CD44,False,True,False,False,False,0.0011505335217622456,0.00013313744288555147
+CD8 T cells_stromal_aggregatedNeighbors.CD4.T.cells.regulatory,False,True,False,False,False,0.041513201365237486,0.06694504248869201
+CD8 T cells_stromal_aggregatedNeighbors.Myeloid.DCs,False,True,False,False,False,0.9231012655306099,0.7146323154809202
+CD8 T cells_stromal_aggregatedNeighbors.Myeloid.M1.macrophages,False,False,True,False,False,0.02917971636911335,0.020906428951086475
+CD8 T cells_stromal_aggregatedNeighbors.Tumor.non.proliferating,False,True,True,True,False,0.29907595442239776,0.8762330877325271
+CD8 T cells_stromal_aggregatedNeighbors.Vessel,False,False,True,False,False,0.007710849410035853,0.006333286362492261
+CD8 T cells_stromal_area,False,False,True,False,False,0.0016864223737349281,0.019938830654906866
+CD8 T cells_stromal_cellfrequency,False,False,True,True,False,0.01787640229864708,0.05834417526066261
+CD8 T cells_stromal_eccentricity,False,False,True,True,False,0.008545801427087982,0.382519095602461
+CD8 T cells_tumorfront_GranzymeB,False,True,True,True,False,0.01608169042694407,0.0251972727091449
+CD8 T cells_tumorfront_aggregatedNeighbors.CD4.T.cells.memory,False,True,False,False,False,0.016917898810761643,0.015282177913265572
+CD8 T cells_tumorfront_aggregatedNeighbors.Myeloid.DCs,False,True,True,True,False,0.5512479463419531,0.17141354291201674
+CD8 T cells_tumorfront_aggregatedNeighbors.Myeloid.Monocytes,False,True,False,False,False,0.3831650171945644,0.8653982893175838
+CD8 T cells_tumorfront_area,False,False,True,True,False,0.0283428648413255,0.0455714054199922
+CD8 T cells_tumorfront_celldistance,False,False,True,True,False,0.44962739633766113,0.8602338248171503
+CD8 T cells_tumorfront_cellfrequency,False,False,True,True,False,0.010896408833942509,0.0011727956495223388
+CD8 T cells_tumorfront_eccentricity,False,False,True,True,False,0.32668944196035843,0.135779659320807
+CD8 T cells_tumorfront_pSTAT1,False,False,True,False,False,0.32267425210321976,0.2869430417178989
+Fibroblasts_intratumor_cellfrequency,False,False,True,True,True,0.3074555435333123,0.2923894448296372
+Fibroblasts_stromal_aggregatedNeighbors.B.cells,False,True,True,False,False,0.07837271125081834,0.06681824894650693
+Fibroblasts_stromal_aggregatedNeighbors.Myeloid.Granulocytes,False,False,True,False,False,0.41361862343002553,0.10701970945809079
+Fibroblasts_stromal_aggregatedNeighbors.Myeloid.M1.macrophages,False,True,False,False,False,0.04245982131573125,0.03593005519426734
+Fibroblasts_stromal_area,False,False,True,False,False,0.07281537577881132,0.1238324208860962
+Fibroblasts_stromal_cellfrequency,False,False,True,True,True,0.4114228466457348,0.758374003140152
+Fibroblasts_stromal_eccentricity,False,False,True,True,True,0.1073776916385408,0.12882153444102398
+Fibroblasts_stromal_pERK,False,True,True,True,False,0.08684957588409577,0.03154764307938338
+Fibroblasts_tumorfront_CD36,False,False,True,False,False,0.3167303330740331,0.34466669779916925
+Fibroblasts_tumorfront_Ki67,False,False,True,True,False,0.9413624739457432,0.9784224559793897
+Fibroblasts_tumorfront_aggregatedNeighbors.B.cells,False,True,False,False,False,0.8718910822151769,0.7098615198072397
+Fibroblasts_tumorfront_aggregatedNeighbors.CD4.T.cells.regulatory,False,True,False,False,False,0.09964088964400968,0.07143868657841308
+Fibroblasts_tumorfront_aggregatedNeighbors.Fibroblasts,False,True,True,False,False,0.7468085966488793,0.9824653059663038
+Fibroblasts_tumorfront_aggregatedNeighbors.Myeloid.DCs,False,True,False,False,False,0.13195333624447658,0.7550361562125423
+Fibroblasts_tumorfront_aggregatedNeighbors.Myeloid.M1.macrophages,False,True,True,True,False,0.17409373422804753,0.1762884148364765
+Fibroblasts_tumorfront_area,False,True,True,True,False,0.01787748143818506,0.17111652135639277
+Fibroblasts_tumorfront_celldistance,False,True,True,True,False,0.08760497638900284,0.35126187382310825
+Fibroblasts_tumorfront_cellfrequency,False,False,True,True,True,0.34726801618032377,0.09131236746961728
+Fibroblasts_tumorfront_eccentricity,False,False,True,True,False,0.13580848784909905,0.4314017214773008
+Fibroblasts_tumorfront_pERK,False,True,False,False,False,0.010522552417699288,0.031012581443870726
+Myeloid DCs_intratumor_cellfrequency,False,False,True,True,True,0.6861532801024295,0.23791599693348822
+Myeloid DCs_stromal_CD44,False,True,True,False,False,0.00027615149123454364,0.0001281231430491236
+Myeloid DCs_stromal_GranzymeB,False,False,True,False,False,0.5263068501932275,0.3246813976912425
+Myeloid DCs_stromal_aggregatedNeighbors.Vessel,True,True,True,True,True,0.007751546682055891,0.0005925727782022409
+Myeloid DCs_stromal_area,False,False,True,True,False,0.6647677156954226,0.8475350169620246
+Myeloid DCs_stromal_cellfrequency,False,False,True,True,True,0.5698691070967016,0.5616190220206776
+Myeloid DCs_stromal_eccentricity,False,False,True,True,True,0.09532762825247777,0.3027647264749048
+Myeloid DCs_stromal_pMAPKAPK2,False,False,True,True,False,0.5533332054271862,0.3210854022217306
+Myeloid DCs_tumorfront_CD36,False,True,True,True,False,0.07955657905465069,0.08850903420172462
+Myeloid DCs_tumorfront_E-Cadherin,False,False,True,True,False,0.977116655699616,0.8119555532850733
+Myeloid DCs_tumorfront_VEGF,False,True,False,False,False,0.09068058081507743,0.059795383621312856
+Myeloid DCs_tumorfront_aggregatedNeighbors.CD4.T.cells.memory,False,False,True,False,False,0.009111334256659753,0.010694862190326433
+Myeloid DCs_tumorfront_aggregatedNeighbors.CD8.T.cells,False,True,True,True,True,0.0015558726874766874,0.00041217544268920797
+Myeloid DCs_tumorfront_aggregatedNeighbors.Myeloid.Granulocytes,False,True,True,True,False,0.04904877841936857,0.31439265933407573
+Myeloid DCs_tumorfront_aggregatedNeighbors.Myeloid.M1.macrophages,False,True,True,True,False,0.0348754842943931,0.214396933604375
+Myeloid DCs_tumorfront_aggregatedNeighbors.Vessel,False,False,True,False,False,0.7641088197869389,0.6499971924781616
+Myeloid DCs_tumorfront_area,False,False,True,True,False,0.6656163974822868,0.4863768365393778
+Myeloid DCs_tumorfront_celldistance,False,False,True,True,False,0.22530642350169694,0.32257488348068386
+Myeloid DCs_tumorfront_cellfrequency,False,False,True,True,True,0.23809293302340062,0.4502398252016919
+Myeloid DCs_tumorfront_eccentricity,False,False,True,True,False,0.8762981196068341,0.5293781785409553
+Myeloid DCs_tumorfront_pCREB,False,True,False,False,False,0.18443004005679442,0.2186205675032597
+Myeloid DCs_tumorfront_pNFkB,False,True,False,False,False,0.4461001142855505,0.2769058553820441
+Myeloid DCs_tumorfront_pS6,False,True,True,False,False,0.2943246398722301,0.3612917714808146
+Myeloid Granulocytes_intratumor_cellfrequency,False,False,True,True,True,0.17428745576235105,0.4335691391075023
+Myeloid Granulocytes_stromal_GranzymeB,False,True,True,True,False,0.001336103630968464,0.0011414078452477664
+Myeloid Granulocytes_stromal_Ki67,False,True,True,True,True,0.001506169113162756,0.0016069251185805444
+Myeloid Granulocytes_stromal_aggregatedNeighbors.B.cells,False,False,True,True,True,0.07590613296823365,0.17485533556456723
+Myeloid Granulocytes_stromal_aggregatedNeighbors.CD8.T.cells,False,True,True,True,True,0.630033217474185,0.9276150760671704
+Myeloid Granulocytes_stromal_aggregatedNeighbors.Myeloid.M2.macrophages,False,False,True,False,False,0.2723238717665005,0.132968389522331
+Myeloid Granulocytes_stromal_area,False,False,True,True,False,0.07444405610484015,0.2096343920743885
+Myeloid Granulocytes_stromal_cellfrequency,False,False,True,True,True,0.6267367833106876,0.18333207923805594
+Myeloid Granulocytes_stromal_eccentricity,False,False,True,True,False,0.8126317054956451,0.6167309473484808
+Myeloid Granulocytes_stromal_pERK,False,True,True,False,False,0.04350160542418389,0.04895617964237648
+Myeloid Granulocytes_stromal_pSTAT3,False,False,True,False,False,0.5026896535270718,0.4908727134581389
+Myeloid Granulocytes_stromal_pp38,False,False,True,False,False,0.16340495204250738,0.12144217264436384
+Myeloid Granulocytes_tumorfront_CD36,False,False,True,False,False,0.2785521692587787,0.7167610003382345
+Myeloid Granulocytes_tumorfront_GranzymeB,False,False,True,False,False,0.05725332423579198,0.02422988204189274
+Myeloid Granulocytes_tumorfront_Ki67,False,False,True,False,False,0.07578021281356952,0.011122389880225028
+Myeloid Granulocytes_tumorfront_VEGF,False,True,False,False,False,0.19350056429269802,0.13247541932703302
+Myeloid Granulocytes_tumorfront_aggregatedNeighbors.CD4.T.cells.naive,False,True,True,False,False,0.5138590027995811,0.25627723076674175
+Myeloid Granulocytes_tumorfront_aggregatedNeighbors.CD4.T.cells.regulatory,False,False,True,True,False,0.02306236510733801,0.0457721022702085
+Myeloid Granulocytes_tumorfront_aggregatedNeighbors.Myeloid.Granulocytes,False,False,True,False,False,0.7670330984767137,0.9388185293245004
+Myeloid Granulocytes_tumorfront_aggregatedNeighbors.Myeloid.M2.macrophages,False,True,False,False,False,0.058805589611038454,0.438701709914316
+Myeloid Granulocytes_tumorfront_aggregatedNeighbors.Tumor.proliferating,False,False,True,True,False,0.9966401451068978,0.45738912486355787
+Myeloid Granulocytes_tumorfront_area,False,False,True,True,False,0.4041938676210417,0.530368854952847
+Myeloid Granulocytes_tumorfront_celldistance,False,False,True,True,False,0.6469777073807592,0.8405575769405935
+Myeloid Granulocytes_tumorfront_cellfrequency,False,False,True,True,True,0.11355097197668136,0.7360950291641664
+Myeloid Granulocytes_tumorfront_eccentricity,False,False,True,True,False,0.9673838151061076,0.8263700186947422
+Myeloid M1 macrophages_intratumor_cellfrequency,True,True,True,True,True,0.05751040117488998,0.011800410674657877
+Myeloid M1 macrophages_stromal_aggregatedNeighbors.CD4.T.cells.naive,False,True,True,True,False,0.011655987711808435,0.002206329101690954
+Myeloid M1 macrophages_stromal_aggregatedNeighbors.CD4.T.cells.regulatory,False,True,False,False,False,0.5404894569602399,0.1825229449444747
+Myeloid M1 macrophages_stromal_aggregatedNeighbors.Myeloid.DCs,False,False,True,False,False,0.7059506318345892,0.986140908574779
+Myeloid M1 macrophages_stromal_area,False,False,True,True,False,0.09667780984247429,0.1212865832141713
+Myeloid M1 macrophages_stromal_cellfrequency,False,False,True,True,True,0.4207930274313477,0.18336857925645605
+Myeloid M1 macrophages_stromal_eccentricity,False,False,True,True,False,0.8733737290019297,0.7925371997559303
+Myeloid M1 macrophages_stromal_pERK,False,True,True,True,False,0.20086764073378072,0.3204228523247242
+Myeloid M1 macrophages_stromal_pSTAT3,False,True,False,False,False,0.10516561725081812,0.09255193951379907
+Myeloid M1 macrophages_tumorfront_VEGF,False,True,False,False,False,0.5105823747798632,0.24541098784595453
+Myeloid M1 macrophages_tumorfront_aggregatedNeighbors.CD4.T.cells.memory,False,False,True,False,False,0.0019669485435102993,0.0006545792517329724
+Myeloid M1 macrophages_tumorfront_aggregatedNeighbors.CD4.T.cells.regulatory,False,True,True,False,False,0.040033211724825546,0.0022138264985182856
+Myeloid M1 macrophages_tumorfront_aggregatedNeighbors.Myeloid.DCs,False,False,True,True,False,0.06473834757726069,0.21477206206748817
+Myeloid M1 macrophages_tumorfront_aggregatedNeighbors.Myeloid.Granulocytes,False,True,True,False,False,0.22553245610689898,0.5914532182968879
+Myeloid M1 macrophages_tumorfront_aggregatedNeighbors.Myeloid.M2.macrophages,False,False,True,False,False,0.17613112119040342,0.0543883097533468
+Myeloid M1 macrophages_tumorfront_aggregatedNeighbors.Tumor.non.proliferating,False,False,True,False,False,0.0006941769251043943,0.0025070624359219856
+Myeloid M1 macrophages_tumorfront_aggregatedNeighbors.Vessel,False,True,False,False,False,0.3829354360081322,0.33996480913599814
+Myeloid M1 macrophages_tumorfront_area,False,False,True,True,False,0.30310091746795087,0.2180434376322729
+Myeloid M1 macrophages_tumorfront_celldistance,False,True,True,True,True,0.0128212514886051,0.00540691859829315
+Myeloid M1 macrophages_tumorfront_cellfrequency,False,False,True,True,True,0.595246412824076,0.6213935587372635
+Myeloid M1 macrophages_tumorfront_eccentricity,False,False,True,True,False,0.5783695143684153,0.26351244017132397
+Myeloid M2 macrophages_intratumor_cellfrequency,False,False,True,True,False,0.8363801363846333,0.17205228422654867
+Myeloid M2 macrophages_stromal_aggregatedNeighbors.CD4.T.cells.regulatory,False,True,False,False,False,0.027975170811180068,0.31860728483554196
+Myeloid M2 macrophages_stromal_aggregatedNeighbors.Myeloid.Monocytes,False,True,True,False,False,0.3912044701476113,0.04954083023230236
+Myeloid M2 macrophages_stromal_aggregatedNeighbors.Vessel,False,True,True,False,False,0.10212260137242109,0.038110440564779906
+Myeloid M2 macrophages_stromal_area,False,False,True,False,False,0.07715698087670918,0.4066351139508818
+Myeloid M2 macrophages_stromal_cellfrequency,False,False,True,True,True,0.6723272317542315,0.8608718445836666
+Myeloid M2 macrophages_stromal_eccentricity,False,True,True,True,True,0.773269743233489,0.23763889849856226
+Myeloid M2 macrophages_stromal_pERK,False,True,False,False,False,0.3567820357153172,0.2582595130725601
+Myeloid M2 macrophages_tumorfront_E-Cadherin,False,False,True,True,False,0.6166217941515555,0.6703961364330906
+Myeloid M2 macrophages_tumorfront_aggregatedNeighbors.Myeloid.Granulocytes,False,False,True,True,False,0.1717356819195065,0.4745425543273655
+Myeloid M2 macrophages_tumorfront_aggregatedNeighbors.Myeloid.M1.macrophages,False,True,True,False,False,0.6476167989941117,0.5598999746117284
+Myeloid M2 macrophages_tumorfront_aggregatedNeighbors.Myeloid.Monocytes,False,True,False,False,False,0.7297233120368387,0.6478692416562717
+Myeloid M2 macrophages_tumorfront_aggregatedNeighbors.Tumor.non.proliferating,True,True,True,True,True,0.00012563988622765027,0.00017339951990804245
+Myeloid M2 macrophages_tumorfront_area,False,True,True,True,False,0.8142163521636361,0.8413204813364519
+Myeloid M2 macrophages_tumorfront_celldistance,False,False,True,True,False,0.3556895511697086,0.33715853541259877
+Myeloid M2 macrophages_tumorfront_cellfrequency,False,False,True,True,True,0.20519166067730665,0.07142017486839453
+Myeloid M2 macrophages_tumorfront_eccentricity,False,False,True,True,False,0.5237758249335361,0.7699308995817875
+Myeloid Monocytes_intratumor_cellfrequency,False,False,True,True,True,0.9058768027015058,0.548425636968481
+Myeloid Monocytes_stromal_E-Cadherin,False,False,True,False,False,0.743726387816,0.6703599740371875
+Myeloid Monocytes_stromal_aggregatedNeighbors.CD4.T.cells.regulatory,False,True,False,False,False,0.19609742765835858,0.8463057795400277
+Myeloid Monocytes_stromal_aggregatedNeighbors.Myeloid.M2.macrophages,False,False,True,False,False,0.7793492547180609,0.8788310561094617
+Myeloid Monocytes_stromal_aggregatedNeighbors.Tumor.non.proliferating,False,True,True,False,False,0.18758693028045892,0.028961491281447354
+Myeloid Monocytes_stromal_area,False,False,True,True,False,0.03159348454146374,0.02797987690577126
+Myeloid Monocytes_stromal_cellfrequency,False,False,True,True,True,0.45209790716666154,0.7557798024025716
+Myeloid Monocytes_stromal_eccentricity,False,False,True,False,False,0.015906468778532898,0.2089387870456469
+Myeloid Monocytes_stromal_pERK,False,True,False,False,False,0.77796523045634,0.922019594828511
+Myeloid Monocytes_stromal_pp38,False,False,True,False,False,0.20086716883128042,0.08745528049411613
+Myeloid Monocytes_tumorfront_CD36,False,True,True,True,False,0.11898957982556911,0.051752422618731385
+Myeloid Monocytes_tumorfront_CD44,False,True,False,False,False,0.11053168536483372,0.03829762220987838
+Myeloid Monocytes_tumorfront_GranzymeB,False,True,True,True,False,0.2743239634846212,0.20034161763678668
+Myeloid Monocytes_tumorfront_VEGF,False,True,False,False,False,0.7576719282044233,0.2953956606692937
+Myeloid Monocytes_tumorfront_aggregatedNeighbors.CD4.T.cells.memory,False,True,True,False,False,0.04656453954452928,0.013516760666858883
+Myeloid Monocytes_tumorfront_aggregatedNeighbors.CD8.T.cells,False,False,True,True,False,0.002010528345324146,9.873550529754101e-05
+Myeloid Monocytes_tumorfront_aggregatedNeighbors.Myeloid.DCs,False,True,True,False,False,0.5484262166694057,0.12059272520543662
+Myeloid Monocytes_tumorfront_aggregatedNeighbors.Myeloid.Granulocytes,False,True,True,True,False,0.05744440888780562,0.5155154635436139
+Myeloid Monocytes_tumorfront_aggregatedNeighbors.Tumor.non.proliferating,False,True,True,True,False,0.000134665483662413,0.0005375621812030014
+Myeloid Monocytes_tumorfront_area,False,False,True,True,False,0.07248265273755632,0.1918186072541505
+Myeloid Monocytes_tumorfront_celldistance,True,True,True,True,True,0.00136556484603418,0.003612632709733309
+Myeloid Monocytes_tumorfront_cellfrequency,False,False,True,True,True,0.9170045336642523,0.6687047205947396
+Myeloid Monocytes_tumorfront_eccentricity,False,False,True,True,False,0.8460879049466936,0.5761515385817678
+Myeloid Monocytes_tumorfront_pSTAT1,False,False,True,False,False,0.0983232723974244,0.08731751736649153
+Myeloid Monocytes_tumorfront_pp38,False,False,True,False,False,0.7514639351984624,0.5378462797537317
+Tumor non-proliferating_intratumor_CD44,False,True,True,True,True,0.10385640850941737,0.09414630947880769
+Tumor non-proliferating_intratumor_VEGF,False,True,True,False,False,0.016266569914206174,0.019161353207052048
+Tumor non-proliferating_intratumor_area,True,False,True,True,True,0.00028923987115682186,0.001637170748018452
+Tumor non-proliferating_intratumor_cellfrequency,True,True,True,True,True,2.66057308969309e-06,5.170465834707076e-07
+Tumor non-proliferating_intratumor_eccentricity,False,True,True,True,True,0.033247514735035955,0.04464683574155971
+Tumor non-proliferating_intratumor_pCREB,False,True,True,False,False,0.07347004604136767,0.16324082054292707
+Tumor non-proliferating_stromal_CD36,False,True,False,False,False,0.5573268253806019,0.9694725937211665
+Tumor non-proliferating_stromal_E-Cadherin,False,False,True,True,False,0.01528052793894309,0.03328418353717884
+Tumor non-proliferating_stromal_aggregatedNeighbors.B.cells,False,False,True,False,False,0.6160378027334856,0.18043483977245137
+Tumor non-proliferating_stromal_aggregatedNeighbors.CD8.T.cells,False,True,True,True,True,0.1108367741869449,0.035594086216066516
+Tumor non-proliferating_stromal_aggregatedNeighbors.Myeloid.Granulocytes,True,True,True,True,True,0.047300000378792305,0.009915838549025481
+Tumor non-proliferating_stromal_aggregatedNeighbors.Vessel,False,False,True,False,False,0.10647471423205052,0.07362200845894006
+Tumor non-proliferating_stromal_area,False,False,True,True,False,0.965753157991863,0.9559386969633685
+Tumor non-proliferating_stromal_cellfrequency,False,False,True,True,True,0.7747002645532938,0.397680566566877
+Tumor non-proliferating_stromal_eccentricity,False,False,True,True,False,0.22457881886187048,0.248875327625327
+Tumor non-proliferating_stromal_pERK,False,True,True,False,False,0.001528661173839128,0.014023040018170875
+Tumor non-proliferating_stromal_pS6,False,False,True,False,False,0.053099355397985507,0.09955196068656187
+Tumor non-proliferating_stromal_pSTAT1,False,True,True,True,False,0.17559411625408272,0.2642991272999575
+Tumor non-proliferating_tumorfront_Ki67,False,False,True,False,False,0.04351370308431639,0.20499397112524786
+Tumor non-proliferating_tumorfront_aggregatedNeighbors.CD4.T.cells.memory,False,True,False,False,False,0.2000930278945393,0.11080301224483848
+Tumor non-proliferating_tumorfront_aggregatedNeighbors.Myeloid.DCs,False,True,False,False,False,0.7332608290962743,0.45059842348244317
+Tumor non-proliferating_tumorfront_aggregatedNeighbors.Myeloid.M1.macrophages,False,True,True,True,False,0.08951298710550042,0.16006830351118978
+Tumor non-proliferating_tumorfront_area,False,False,True,True,True,0.6009215783764661,0.7285109068510611
+Tumor non-proliferating_tumorfront_celldistance,True,False,True,True,True,0.07216548746264098,0.07250717589919466
+Tumor non-proliferating_tumorfront_cellfrequency,False,False,True,True,True,0.00406813224515127,0.003962924914105131
+Tumor non-proliferating_tumorfront_eccentricity,False,False,True,True,False,0.4496444947770881,0.5820139388430682
+Tumor non-proliferating_tumorfront_pMAPKAPK2,False,False,True,False,False,0.6948315610228825,0.23184203015972257
+Tumor non-proliferating_tumorfront_pS6,False,True,True,True,True,0.15030410029997068,0.2850109647154277
+Tumor proliferating_intratumor_CD36,False,True,True,True,False,0.026742329792129392,0.029783679552934563
+Tumor proliferating_intratumor_E-Cadherin,False,True,True,True,False,0.002773151187479821,0.010220504422656006
+Tumor proliferating_intratumor_GranzymeB,False,True,True,True,True,0.4326054376281413,0.3017898009058807
+Tumor proliferating_intratumor_area,False,False,True,True,False,0.12484709816255282,0.20311043870705206
+Tumor proliferating_intratumor_cellfrequency,False,False,True,True,True,0.6917674119022874,0.6266697111860162
+Tumor proliferating_intratumor_eccentricity,False,False,True,True,False,0.11558707927776765,0.23542392819588626
+Tumor proliferating_intratumor_pCREB,False,True,False,False,False,0.012229598676175206,0.05470819734916507
+Tumor proliferating_intratumor_pMAPKAPK2,False,False,True,False,False,0.30687643115944563,0.6353543579652127
+Tumor proliferating_intratumor_pNFkB,False,True,False,False,False,0.006732200999940104,0.01379573076197252
+Tumor proliferating_intratumor_pSTAT1,False,True,True,False,False,0.038628786024002784,0.03815216657854421
+Tumor proliferating_intratumor_pSTAT3,False,False,True,False,False,0.2897897716049642,0.5255132879874354
+Tumor proliferating_stromal_cellfrequency,True,True,True,True,True,0.08212791027290547,0.03641110161518508
+Tumor proliferating_tumorfront_CD36,False,True,True,False,False,0.3420416955351713,0.19099387432307383
+Tumor proliferating_tumorfront_GranzymeB,False,False,True,True,False,0.12290392334493155,0.657323509119193
+Tumor proliferating_tumorfront_aggregatedNeighbors.Fibroblasts,False,False,True,False,False,0.3664904263307023,0.17496455086359494
+Tumor proliferating_tumorfront_aggregatedNeighbors.Myeloid.DCs,False,True,True,True,False,0.8610325607889772,0.3554938780681065
+Tumor proliferating_tumorfront_aggregatedNeighbors.Myeloid.M1.macrophages,False,False,True,False,False,0.595382345078876,0.14788218183860677
+Tumor proliferating_tumorfront_aggregatedNeighbors.Myeloid.Monocytes,False,True,True,True,False,0.08999518700584797,0.12400493089392488
+Tumor proliferating_tumorfront_aggregatedNeighbors.Vessel,False,True,True,False,False,0.07898657787031366,0.152951441971417
+Tumor proliferating_tumorfront_area,False,True,True,True,True,0.5145200741446273,0.36971617407244184
+Tumor proliferating_tumorfront_celldistance,False,False,True,True,False,0.225633951469559,0.5752777001840477
+Tumor proliferating_tumorfront_cellfrequency,False,False,True,True,True,0.0021327598055551136,0.001968674611309273
+Tumor proliferating_tumorfront_eccentricity,False,False,True,True,False,0.4033160747279839,0.9453256175077986
+Tumor proliferating_tumorfront_pS6,False,True,False,False,False,0.18480399371061718,0.2542504079086832
+Tumor proliferating_tumorfront_pSTAT1,False,True,True,False,False,0.03845697991602366,0.0384981435795137
+Vessel_intratumor_cellfrequency,False,True,True,True,True,0.15435446390856808,0.012800489344055034
+Vessel_stromal_CD36,False,True,True,True,False,0.4114228466457348,0.23219126163752454
+Vessel_stromal_CD44,False,False,True,True,False,0.009573662377722853,0.0006850924372876632
+Vessel_stromal_aggregatedNeighbors.CD4.T.cells.regulatory,False,True,False,False,False,0.41008491697988014,0.15000110265316624
+Vessel_stromal_aggregatedNeighbors.Tumor.non.proliferating,False,True,True,False,False,0.8617064717422414,0.9868765217275406
+Vessel_stromal_aggregatedNeighbors.Vessel,False,True,True,False,False,0.05274354847854747,0.04986755510966148
+Vessel_stromal_cellfrequency,False,False,True,True,True,0.060694184559168,0.05752044072214063
+Vessel_stromal_eccentricity,False,False,True,True,False,0.37519909971983445,0.7001772148740723
+Vessel_stromal_pERK,False,True,True,True,False,0.11470348251374538,0.07845524923761264
+Vessel_tumorfront_area,False,False,True,False,False,0.014535726102574026,0.05190287647913882
+Vessel_tumorfront_celldistance,False,False,True,True,True,0.22330545682474467,0.4665502114957577
+Vessel_tumorfront_cellfrequency,False,True,True,True,True,0.017389848382546792,0.012078810510626977
+Vessel_tumorfront_eccentricity,False,True,True,True,True,0.03127149826506698,0.013033432211622748
+Vessel_tumorfront_pERK,False,True,True,False,False,0.10213050541134253,0.07523694025442161

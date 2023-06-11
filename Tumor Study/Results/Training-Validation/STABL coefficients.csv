@@ -1,0 +1,12 @@
+Feature,Associated weight
+Tumor non-proliferating_intratumor_cellfrequency,1.3281040964248452
+Tumor proliferating_stromal_cellfrequency,0.2897362975017711
+B cells_intratumor_cellfrequency,-5.503692799534486
+Myeloid M1 macrophages_intratumor_cellfrequency,0.7919519977664743
+Tumor non-proliferating_intratumor_area,-0.020711410129596194
+CD8 T cells_intratumor_area,-0.6704275879356205
+Tumor non-proliferating_tumorfront_celldistance,-0.7375708700514059
+Myeloid Monocytes_tumorfront_celldistance,0.846680212744462
+Tumor non-proliferating_stromal_aggregatedNeighbors.Myeloid.Granulocytes,0.7066130147025016
+Myeloid M2 macrophages_tumorfront_aggregatedNeighbors.Tumor.non.proliferating,1.0362320686108195
+Myeloid DCs_stromal_aggregatedNeighbors.Vessel,0.6110598985073689

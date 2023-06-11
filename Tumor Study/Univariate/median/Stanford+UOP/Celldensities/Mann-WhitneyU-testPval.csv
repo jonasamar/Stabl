@@ -1,0 +1,43 @@
+,Mann-Whitney U-test,p-value
+Tumor non-proliferating_intratumor_cellfrequency,1363.0,2.66057308969309e-06
+Tumor proliferating_tumorfront_cellfrequency,3264.5,0.0021327598055551136
+Tumor non-proliferating_tumorfront_cellfrequency,1809.0,0.00406813224515127
+CD4 T cells memory_tumorfront_cellfrequency,3190.5,0.005628816631693763
+CD8 T cells_tumorfront_cellfrequency,3136.0,0.010896408833942509
+CD4 T cells memory_stromal_cellfrequency,3131.5,0.01148701683116734
+CD4 T cells regulatory_tumorfront_cellfrequency,3108.0,0.014861981156001939
+Vessel_tumorfront_cellfrequency,1930.0,0.017389848382546792
+CD8 T cells_stromal_cellfrequency,3092.5,0.01787640229864708
+CD4 T cells naive_stromal_cellfrequency,2999.0,0.04694335165006721
+B cells_intratumor_cellfrequency,2938.0,0.05329339537912474
+Myeloid M1 macrophages_intratumor_cellfrequency,2060.5,0.05751040117488998
+Vessel_stromal_cellfrequency,2053.0,0.060694184559168
+Tumor proliferating_stromal_cellfrequency,2113.0,0.08212791027290547
+Myeloid Granulocytes_tumorfront_cellfrequency,2900.0,0.11355097197668136
+CD8 T cells_intratumor_cellfrequency,2864.0,0.15038466500536016
+Vessel_intratumor_cellfrequency,2174.0,0.15435446390856808
+Myeloid Granulocytes_intratumor_cellfrequency,2826.0,0.17428745576235105
+CD4 T cells regulatory_stromal_cellfrequency,2834.0,0.18948445089168842
+Myeloid M2 macrophages_tumorfront_cellfrequency,2823.0,0.20519166067730665
+CD4 T cells naive_tumorfront_cellfrequency,2821.0,0.20769386016399194
+Myeloid DCs_tumorfront_cellfrequency,2801.0,0.23809293302340062
+Fibroblasts_intratumor_cellfrequency,2286.0,0.3074555435333123
+Fibroblasts_tumorfront_cellfrequency,2282.0,0.34726801618032377
+Fibroblasts_stromal_cellfrequency,2714.0,0.4114228466457348
+B cells_stromal_cellfrequency,2711.0,0.4180898643214135
+Myeloid M1 macrophages_stromal_cellfrequency,2315.0,0.4207930274313477
+Myeloid Monocytes_stromal_cellfrequency,2697.0,0.45209790716666154
+B cells_tumorfront_cellfrequency,2666.5,0.527090890375399
+Myeloid DCs_stromal_cellfrequency,2373.0,0.5698691070967016
+Myeloid M1 macrophages_tumorfront_cellfrequency,2382.0,0.595246412824076
+Myeloid Granulocytes_stromal_cellfrequency,2393.0,0.6267367833106876
+Myeloid M2 macrophages_stromal_cellfrequency,2616.5,0.6723272317542315
+Myeloid DCs_intratumor_cellfrequency,2606.0,0.6861532801024295
+Tumor proliferating_intratumor_cellfrequency,2415.0,0.6917674119022874
+Tumor non-proliferating_stromal_cellfrequency,2442.0,0.7747002645532938
+Myeloid M2 macrophages_intratumor_cellfrequency,2464.0,0.8363801363846333
+Myeloid Monocytes_intratumor_cellfrequency,2484.0,0.9058768027015058
+Myeloid Monocytes_tumorfront_cellfrequency,2486.5,0.9170045336642523
+CD4 T cells naive_intratumor_cellfrequency,,
+CD4 T cells memory_intratumor_cellfrequency,,
+CD4 T cells regulatory_intratumor_cellfrequency,,

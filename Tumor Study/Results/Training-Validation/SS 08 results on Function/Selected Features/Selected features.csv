@@ -1,0 +1,9 @@
+,Feature Name
+Feature n°1,Tumor non-proliferating_intratumor_CD44
+Feature n°2,Tumor non-proliferating_tumorfront_pS6
+Feature n°3,Tumor proliferating_intratumor_GranzymeB
+Feature n°4,CD4 T cells naive_stromal_CD44
+Feature n°5,CD4 T cells naive_tumorfront_pS6
+Feature n°6,CD4 T cells regulatory_stromal_pS6
+Feature n°7,CD4 T cells regulatory_tumorfront_GranzymeB
+Feature n°8,Myeloid Granulocytes_stromal_Ki67

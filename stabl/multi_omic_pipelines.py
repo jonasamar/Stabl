@@ -241,6 +241,8 @@ def multi_omic_stabl_cv(
     for model in models:
 
         jaccard_matrix_dict[model] = jaccard_matrix(selected_features_dict[model])
+        print(f"jaccard matrix for model : {model}")
+        print(jaccard_matrix_dict[model])
 
         formatted_features_dict[model] = pd.DataFrame(
             data={
@@ -259,6 +261,8 @@ def multi_omic_stabl_cv(
         task_type=task_type,
         selected_features_dict=formatted_features_dict
     )
+    
+    print('table_of_scores created !')
 
     table_of_scores.to_csv(Path(summary_res_path, "Scores training CV.csv"))
     table_of_scores.to_csv(Path(cv_res_path, "Scores training CV.csv"))
@@ -269,6 +273,8 @@ def multi_omic_stabl_cv(
         task_type=task_type,
         save_path=cv_res_path
     )
+    
+    print('plots created !')
 
     return predictions_dict
 
