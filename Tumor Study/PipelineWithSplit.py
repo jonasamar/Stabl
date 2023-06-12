@@ -77,6 +77,12 @@ data = {
     'Outcome': y
 }
 
+## Removing features with only NAN values:
+for omic_name, X_omic in data.items():
+    if omic_name != 'Outcome':
+        X_omic = remove_low_info_samples(X_omic)
+        data[omic_name] = X_omic
+
 ## Splitting the Data
 unique_patients = pd.DataFrame(y['patient_id'].unique(), columns=['patient_id'])
 unique_patients = unique_patients.merge(y, on='patient_id', how = 'left') 
@@ -107,33 +113,6 @@ test_outcome = test_outcome.grade-1 # So that we get values that are 0 and 1 ins
 
 # Pipeline    
 
-## Multi-omic Training-CV
-stabl = Stabl(
-    lambda_name='C',
-    lambda_grid=np.linspace(0.01, 5, 10),
-    n_bootstraps=1000,
-    artificial_type="random_permutation",
-    artificial_proportion=1.,
-    replace=False,
-    fdr_threshold_range=np.arange(0.2, 1, 0.01),
-    sample_fraction=.5,
-    random_state=42
- )
-
-outer_splitter = RepeatedStratifiedKFold(n_splits=5, n_repeats=20, random_state=1)
-
-stability_selection = clone(stabl).set_params(artificial_type=None, hard_threshold=0.5)
-
-predictions_dict = multi_omic_stabl_cv(
-    data_dict=train_data_dict,
-    y=train_outcome,
-    outer_splitter=outer_splitter,
-    stabl=stabl,
-    stability_selection=stability_selection,
-    task_type="binary",
-    save_path="../Tumor Study/Results_with_split"
-)
-
 ## Multi-omic Validation
 stabl_multi = Stabl(
     lambda_grid=np.linspace(0.01, 5, 30),
@@ -156,7 +135,7 @@ predictions_dict = multi_omic_stabl(
     stability_selection=stability_selection,
     task_type="binary",
     save_path="../Tumor Study/Results_with_split",
-    X_test = test_data_dict,
+    X_test = pd.concat(test_data_dict.values(), axis=1),
     y_test = test_outcome
 )
 
@@ -173,7 +152,7 @@ features_table = compute_features_table(
     selected_features_dict,
     X_train=pd.concat(train_data_dict.values(), axis=1),
     y_train=train_outcome,
-    X_test = test_data_dict,
+    X_test = pd.concat(test_data_dict.values(), axis=1),
     y_test = test_outcome,
     task_type="binary"
 )

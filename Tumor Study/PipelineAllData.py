@@ -86,6 +86,12 @@ features = {
 
 outcome = y['grade'] - 1 # instead of 1-2 -> 0-1 for the grade
 
+## Removing features with only NAN values
+for omic_name, X_omic in features.items():
+    X_omic = remove_low_info_samples(X_omic)
+    data[omic_name] = X_omic
+
+
 # Pipeline    
 
 ## Multi-omic Training-CV
