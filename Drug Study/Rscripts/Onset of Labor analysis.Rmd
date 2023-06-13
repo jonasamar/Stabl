@@ -36,7 +36,7 @@ head(MyData)
 
 ```{r}
 MyData= MyData %>% 
-  rename("stimulation" = "Stims") %>% 
+  rename("stimulation" = "Stims") %>%
   dplyr::mutate(ID = paste0("P",ID, "_", GA)) %>% # Creating a new index ID
   filter(ID != "Pinternalcontrol_na") %>%
   select(-c(EGA, GA, DOS))
@@ -82,7 +82,7 @@ for(timepoint in unique(MyData$ID)){
 ```
 
 ```{r}
-write.csv(final_data, paste(out_path, "preprocessed_OOL.csv", sep = "/"))
+write.csv(final_data, paste(out_path, "preprocessed_OOL.csv", sep = "/"), row.names=FALSE)
 ```
 
 ## Creating data files
@@ -111,21 +111,29 @@ TTL = TTL %>%
 im_noEGA = x 
 
 # Dataset with Estimator of EGA
-im_EGA = cbind(x, TTL$EGA) 
+im_EGA = merge(x, select(TTL, "EGA"), by = "ID")
 ```
 
 Creating the csv files.
 
 ```{r}
-write.csv(im_noEGA, paste(out_path, "immunome_noEGA_OOL.csv", sep = "/"))
-write.csv(im_EGA, paste(out_path, "immunome_EGA_OOL.csv", sep = "/"))
+write.csv(im_noEGA, paste(out_path, "immunome_noEGA_OOL.csv", sep = "/"), row.names=FALSE)
+write.csv(im_EGA, paste(out_path, "immunome_EGA_OOL.csv", sep = "/"), row.names=FALSE)
 ```
 
-Creating the csv file for the outcome
+Creating the csv file for the outcomes
 
 ```{r}
-DOS = subset(TTL, select = c(DOS, ID))
-write.csv(DOS, paste(out_path, "outcome_OOL.csv", sep = "/"))
+DOS = subset(TTL, select = c(ID, DOS))
+EGA = subset(TTL, select = c(EGA, ID))
+
+# Building a first estimate of time to labor based on EGA : 7*(EGA - 40)
+EGA_error = merge(DOS, EGA, by="ID") %>%
+            mutate(error = DOS - 7*(EGA-40)) %>%
+            select(c("ID", "error"))
+
+write.csv(DOS, paste(out_path, "outcome_OOL.csv", sep = "/"), row.names=FALSE)
+write.csv(EGA_error, paste(out_path, "EGA_error.csv", sep = "/"), row.names=FALSE)
 ```
 
 ### Penalized Data
@@ -164,8 +172,8 @@ im_EGA_pen  <- select(im_EGA, -one_of(discard))
 ```
 
 ```{r}
-write.csv(im_noEGA_pen, paste(out_path, "immunome_noEGA_pen_OOL.csv", sep = "/"))
-write.csv(im_EGA_pen, paste(out_path, "immunome_EGA_pen_OOL.csv", sep = "/"))
+write.csv(im_noEGA_pen, paste(out_path, "immunome_noEGA_pen_OOL.csv", sep = "/"), row.names=FALSE)
+write.csv(im_EGA_pen, paste(out_path, "immunome_EGA_pen_OOL.csv", sep = "/"), row.names=FALSE)
 ```
 
 ## Features selected by STABL : analysis

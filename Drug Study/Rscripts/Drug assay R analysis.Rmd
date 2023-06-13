@@ -441,16 +441,17 @@ summary.score %>% arrange(desc(score))
 summary.score
 ```
 
-\`\`\`{r}
+```{r}
 
 #scoretable.ina = as.data.frame(drug_pred_feature[, (names(drug_pred_feature) %in% ina.features$feature)]) #scoretable.model = as.data.frame(drug_pred_feature[, (colnames(drug_pred_feature) %in% predictive.features$feature)])
 
-score.ina = rowSums(abs(scoretable.ina))*100 score.model= rowSums(abs(scoretable.model))*100
+#score.ina = rowSums(abs(scoretable.ina))*100 score.model= rowSums(abs(scoretable.model))*100
 
-new.row \<- data.frame(drug = i, score.ina = score.ina, score.model = score.model) summary.score \<- rbind(summary.score, new.row)}
+#new.row <- data.frame(drug = i, score.ina = score.ina, score.model = score.model) 
+#summary.score <- rbind(summary.score, new.row)}
 
-scoretable.test = data.frame(matrix(ncol = 11, nrow = 0)) colnames(scoretable.test) = c("drug", "CD56loCD16negNK_153Eu_STAT1_IFNa", "CD4Tnaive_159Tb_MAPKAPK2_IFNa", "ncMCs_149Sm_CREB_GM-CSF", "CD8Tem_159Tb_MAPKAPK2_IFNa", "pDCs_153Eu_STAT1_IFNa", "Bcells_159Tb_MAPKAPK2_LPS", "CD4Tem_159Tb_MAPKAPK2_Unstim", "CD8Tem_159Tb_MAPKAPK2_Unstim", "pDCs_168Yb_STAT6_IFNa", "pDCs_159Tb_MAPKAPK2_IFNa")
+#scoretable.test = data.frame(matrix(ncol = 11, nrow = 0)) colnames(scoretable.test) = c("drug", #"CD56loCD16negNK_153Eu_STAT1_IFNa", "CD4Tnaive_159Tb_MAPKAPK2_IFNa", "ncMCs_149Sm_CREB_GM-CSF", #"CD8Tem_159Tb_MAPKAPK2_IFNa", "pDCs_153Eu_STAT1_IFNa", "Bcells_159Tb_MAPKAPK2_LPS", #"CD4Tem_159Tb_MAPKAPK2_Unstim", "CD8Tem_159Tb_MAPKAPK2_Unstim", "pDCs_168Yb_STAT6_IFNa", #"pDCs_159Tb_MAPKAPK2_IFNa")
 
-scoretable.test1 = merge(scoretable.test, drug_pred_feature, all.x = T)
+#scoretable.test1 = merge(scoretable.test, drug_pred_feature, all.x = T)
 
-\`\`\`
+```
