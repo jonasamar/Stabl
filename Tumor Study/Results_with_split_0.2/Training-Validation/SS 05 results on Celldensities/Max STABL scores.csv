@@ -1,0 +1,40 @@
+,Max Proba
+Tumor non-proliferating_intratumor_cellfrequency,1.0
+Fibroblasts_stromal_cellfrequency,0.989
+Tumor proliferating_tumorfront_cellfrequency,0.988
+Myeloid M1 macrophages_intratumor_cellfrequency,0.978
+Vessel_intratumor_cellfrequency,0.938
+Tumor non-proliferating_tumorfront_cellfrequency,0.914
+CD4 T cells regulatory_tumorfront_cellfrequency,0.908
+Myeloid M1 macrophages_tumorfront_cellfrequency,0.906
+Fibroblasts_tumorfront_cellfrequency,0.904
+Tumor proliferating_stromal_cellfrequency,0.893
+Myeloid M1 macrophages_stromal_cellfrequency,0.884
+Myeloid Monocytes_intratumor_cellfrequency,0.859
+Myeloid Granulocytes_stromal_cellfrequency,0.856
+Myeloid DCs_intratumor_cellfrequency,0.855
+B cells_intratumor_cellfrequency,0.835
+Vessel_tumorfront_cellfrequency,0.823
+Fibroblasts_intratumor_cellfrequency,0.807
+Vessel_stromal_cellfrequency,0.805
+Tumor non-proliferating_stromal_cellfrequency,0.787
+CD4 T cells memory_stromal_cellfrequency,0.778
+CD4 T cells naive_stromal_cellfrequency,0.777
+Myeloid M2 macrophages_intratumor_cellfrequency,0.745
+CD4 T cells naive_tumorfront_cellfrequency,0.741
+Myeloid M2 macrophages_stromal_cellfrequency,0.715
+Myeloid Granulocytes_intratumor_cellfrequency,0.706
+CD4 T cells memory_tumorfront_cellfrequency,0.702
+Myeloid Monocytes_stromal_cellfrequency,0.701
+CD8 T cells_stromal_cellfrequency,0.678
+Myeloid M2 macrophages_tumorfront_cellfrequency,0.675
+CD4 T cells regulatory_stromal_cellfrequency,0.673
+Myeloid Monocytes_tumorfront_cellfrequency,0.672
+B cells_stromal_cellfrequency,0.66
+Myeloid DCs_stromal_cellfrequency,0.65
+CD8 T cells_intratumor_cellfrequency,0.649
+Myeloid Granulocytes_tumorfront_cellfrequency,0.611
+Tumor proliferating_intratumor_cellfrequency,0.585
+Myeloid DCs_tumorfront_cellfrequency,0.555
+B cells_tumorfront_cellfrequency,0.516
+CD8 T cells_tumorfront_cellfrequency,0.501

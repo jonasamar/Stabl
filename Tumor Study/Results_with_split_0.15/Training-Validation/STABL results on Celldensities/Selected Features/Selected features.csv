@@ -1,0 +1,8 @@
+,Feature Name
+Feature n°1,Tumor non-proliferating_intratumor_cellfrequency
+Feature n°2,Tumor proliferating_stromal_cellfrequency
+Feature n°3,CD4 T cells memory_stromal_cellfrequency
+Feature n°4,CD4 T cells regulatory_tumorfront_cellfrequency
+Feature n°5,B cells_intratumor_cellfrequency
+Feature n°6,Myeloid M1 macrophages_intratumor_cellfrequency
+Feature n°7,Myeloid M1 macrophages_tumorfront_cellfrequency

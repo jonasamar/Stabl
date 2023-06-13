@@ -1,0 +1,7 @@
+,Feature Name
+Feature n°1,Tumor proliferating_intratumor_aggregatedNeighbors.CD8.T.cells
+Feature n°2,CD4 T cells regulatory_stromal_aggregatedNeighbors.Myeloid.Monocytes
+Feature n°3,Myeloid Granulocytes_stromal_aggregatedNeighbors.CD8.T.cells
+Feature n°4,Myeloid Granulocytes_stromal_aggregatedNeighbors.Myeloid.M1.macrophages
+Feature n°5,Myeloid Monocytes_tumorfront_aggregatedNeighbors.Tumor.proliferating
+Feature n°6,Myeloid Monocytes_tumorfront_aggregatedNeighbors.CD8.T.cells

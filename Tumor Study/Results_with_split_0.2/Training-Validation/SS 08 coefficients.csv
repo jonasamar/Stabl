@@ -1,0 +1,44 @@
+Feature,Associated weight
+Tumor non-proliferating_intratumor_cellfrequency,2.1164176477577286
+Tumor non-proliferating_tumorfront_cellfrequency,2.9643944641866353
+Tumor proliferating_stromal_cellfrequency,6.922537711929728
+Tumor proliferating_tumorfront_cellfrequency,-3.6571258950479897
+Vessel_intratumor_cellfrequency,3.0286660520363426
+Vessel_stromal_cellfrequency,-1.7923394261069074
+Vessel_tumorfront_cellfrequency,4.778397382026743
+Fibroblasts_intratumor_cellfrequency,5.262206529219479
+Fibroblasts_stromal_cellfrequency,-6.614582319260148
+Fibroblasts_tumorfront_cellfrequency,0.57602522995675
+CD4 T cells regulatory_tumorfront_cellfrequency,-10.475128244184246
+B cells_intratumor_cellfrequency,-6.440402547103878
+Myeloid M1 macrophages_intratumor_cellfrequency,4.486929937586299
+Myeloid M1 macrophages_stromal_cellfrequency,1.812075534677415
+Myeloid M1 macrophages_tumorfront_cellfrequency,7.039446838048372
+Myeloid Granulocytes_stromal_cellfrequency,3.6619702960017193
+Myeloid DCs_intratumor_cellfrequency,1.9870937645667306
+Myeloid Monocytes_intratumor_cellfrequency,-2.9846064802013466
+Tumor non-proliferating_intratumor_CD44,3.239256103411261
+Tumor non-proliferating_tumorfront_pS6,-5.120548698735466
+CD4 T cells naive_stromal_CD44,-12.158438916676872
+CD4 T cells naive_tumorfront_pS6,2.9732781691843413
+Myeloid M1 macrophages_stromal_pERK,11.117139926738789
+Myeloid Granulocytes_stromal_GranzymeB,-3.9740372716552406
+Myeloid Monocytes_tumorfront_CD36,-4.502429704824768
+Tumor non-proliferating_intratumor_area,-6.0456106915156145
+Tumor non-proliferating_tumorfront_area,6.307689042364457
+CD4 T cells naive_stromal_area,-2.7234468633648006
+CD8 T cells_intratumor_area,1.0514982330667668
+Fibroblasts_stromal_eccentricity,1.9292931397498214
+CD4 T cells memory_stromal_eccentricity,-3.08648355401797
+Myeloid M2 macrophages_stromal_eccentricity,12.391104570749564
+Myeloid DCs_stromal_eccentricity,-6.697062850460302
+Myeloid Monocytes_tumorfront_eccentricity,-1.396774502778749
+Tumor non-proliferating_tumorfront_celldistance,-4.526428093411905
+Vessel_tumorfront_celldistance,-2.881367009327013
+Myeloid Monocytes_tumorfront_celldistance,6.0807407285632635
+Tumor proliferating_intratumor_aggregatedNeighbors.CD8.T.cells,-6.3502192569187415
+CD4 T cells regulatory_stromal_aggregatedNeighbors.Myeloid.Monocytes,-3.0522595915190367
+Myeloid Granulocytes_stromal_aggregatedNeighbors.CD8.T.cells,5.923007313869963
+Myeloid Granulocytes_stromal_aggregatedNeighbors.Myeloid.M1.macrophages,7.124296894756617
+Myeloid Monocytes_tumorfront_aggregatedNeighbors.Tumor.proliferating,-6.345282736792961
+Myeloid Monocytes_tumorfront_aggregatedNeighbors.CD8.T.cells,-5.454867386749311

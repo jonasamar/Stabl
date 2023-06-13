@@ -1,0 +1,19 @@
+,Feature Name
+Feature n°1,Tumor non-proliferating_intratumor_cellfrequency
+Feature n°2,Tumor non-proliferating_tumorfront_cellfrequency
+Feature n°3,Tumor proliferating_stromal_cellfrequency
+Feature n°4,Tumor proliferating_tumorfront_cellfrequency
+Feature n°5,Vessel_intratumor_cellfrequency
+Feature n°6,Vessel_stromal_cellfrequency
+Feature n°7,Vessel_tumorfront_cellfrequency
+Feature n°8,Fibroblasts_intratumor_cellfrequency
+Feature n°9,Fibroblasts_stromal_cellfrequency
+Feature n°10,Fibroblasts_tumorfront_cellfrequency
+Feature n°11,CD4 T cells regulatory_tumorfront_cellfrequency
+Feature n°12,B cells_intratumor_cellfrequency
+Feature n°13,Myeloid M1 macrophages_intratumor_cellfrequency
+Feature n°14,Myeloid M1 macrophages_stromal_cellfrequency
+Feature n°15,Myeloid M1 macrophages_tumorfront_cellfrequency
+Feature n°16,Myeloid Granulocytes_stromal_cellfrequency
+Feature n°17,Myeloid DCs_intratumor_cellfrequency
+Feature n°18,Myeloid Monocytes_intratumor_cellfrequency

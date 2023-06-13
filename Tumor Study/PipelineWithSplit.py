@@ -114,6 +114,33 @@ test_outcome = test_outcome.grade-1 # So that we get values that are 0 and 1 ins
 # Pipeline    
 
 ## Multi-omic Validation
+stabl = Stabl(
+    lambda_name='C',
+    lambda_grid=np.linspace(0.01, 5, 10),
+    n_bootstraps=1000,
+    artificial_type="random_permutation",
+    artificial_proportion=1.,
+    replace=False,
+    fdr_threshold_range=np.arange(0.2, 1, 0.01),
+    sample_fraction=.5,
+    random_state=42
+ )
+
+outer_splitter = RepeatedStratifiedKFold(n_splits=5, n_repeats=20, random_state=1)
+
+stability_selection = clone(stabl).set_params(artificial_type=None, hard_threshold=0.5)
+
+predictions_dict = multi_omic_stabl_cv(
+    data_dict=train_data_dict,
+    y=train_outcome,
+    outer_splitter=outer_splitter,
+    stabl=stabl,
+    stability_selection=stability_selection,
+    task_type="binary",
+    save_path="../Tumor Study/Results_with_split"
+)
+
+## Multi-omic Validation
 stabl_multi = Stabl(
     lambda_grid=np.linspace(0.01, 5, 30),
     n_bootstraps=1000,

@@ -1,0 +1,13 @@
+,Feature Name
+Feature n°1,Tumor non-proliferating_intratumor_area
+Feature n°2,Tumor non-proliferating_tumorfront_area
+Feature n°3,CD4 T cells naive_stromal_area
+Feature n°4,CD8 T cells_intratumor_area
+Feature n°5,Fibroblasts_stromal_eccentricity
+Feature n°6,CD4 T cells memory_stromal_eccentricity
+Feature n°7,Myeloid M2 macrophages_stromal_eccentricity
+Feature n°8,Myeloid DCs_stromal_eccentricity
+Feature n°9,Myeloid Monocytes_tumorfront_eccentricity
+Feature n°10,Tumor non-proliferating_tumorfront_celldistance
+Feature n°11,Vessel_tumorfront_celldistance
+Feature n°12,Myeloid Monocytes_tumorfront_celldistance

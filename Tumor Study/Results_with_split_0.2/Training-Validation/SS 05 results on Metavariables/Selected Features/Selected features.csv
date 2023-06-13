@@ -1,0 +1,42 @@
+,Feature Name
+Feature n°1,Tumor non-proliferating_intratumor_area
+Feature n°2,Tumor non-proliferating_stromal_area
+Feature n°3,Tumor non-proliferating_tumorfront_area
+Feature n°4,Fibroblasts_tumorfront_area
+Feature n°5,CD4 T cells naive_stromal_area
+Feature n°6,CD4 T cells naive_tumorfront_area
+Feature n°7,CD4 T cells memory_stromal_area
+Feature n°8,CD4 T cells regulatory_tumorfront_area
+Feature n°9,CD8 T cells_intratumor_area
+Feature n°10,Tumor non-proliferating_intratumor_eccentricity
+Feature n°11,Tumor non-proliferating_tumorfront_eccentricity
+Feature n°12,Tumor proliferating_intratumor_eccentricity
+Feature n°13,Vessel_tumorfront_eccentricity
+Feature n°14,Fibroblasts_stromal_eccentricity
+Feature n°15,Fibroblasts_tumorfront_eccentricity
+Feature n°16,CD4 T cells naive_stromal_eccentricity
+Feature n°17,CD4 T cells naive_tumorfront_eccentricity
+Feature n°18,CD4 T cells memory_stromal_eccentricity
+Feature n°19,CD4 T cells regulatory_tumorfront_eccentricity
+Feature n°20,B cells_stromal_eccentricity
+Feature n°21,CD8 T cells_stromal_eccentricity
+Feature n°22,CD8 T cells_tumorfront_eccentricity
+Feature n°23,Myeloid M1 macrophages_stromal_eccentricity
+Feature n°24,Myeloid M1 macrophages_tumorfront_eccentricity
+Feature n°25,Myeloid M2 macrophages_stromal_eccentricity
+Feature n°26,Myeloid Granulocytes_stromal_eccentricity
+Feature n°27,Myeloid Granulocytes_tumorfront_eccentricity
+Feature n°28,Myeloid DCs_stromal_eccentricity
+Feature n°29,Myeloid Monocytes_tumorfront_eccentricity
+Feature n°30,Tumor non-proliferating_tumorfront_celldistance
+Feature n°31,Tumor proliferating_tumorfront_celldistance
+Feature n°32,Vessel_tumorfront_celldistance
+Feature n°33,Fibroblasts_tumorfront_celldistance
+Feature n°34,CD4 T cells memory_tumorfront_celldistance
+Feature n°35,CD4 T cells regulatory_tumorfront_celldistance
+Feature n°36,B cells_tumorfront_celldistance
+Feature n°37,Myeloid M1 macrophages_tumorfront_celldistance
+Feature n°38,Myeloid M2 macrophages_tumorfront_celldistance
+Feature n°39,Myeloid Granulocytes_tumorfront_celldistance
+Feature n°40,Myeloid DCs_tumorfront_celldistance
+Feature n°41,Myeloid Monocytes_tumorfront_celldistance

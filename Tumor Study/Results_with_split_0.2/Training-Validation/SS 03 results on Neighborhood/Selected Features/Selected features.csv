@@ -1,0 +1,62 @@
+,Feature Name
+Feature n°1,Tumor non-proliferating_stromal_aggregatedNeighbors.Tumor.non.proliferating
+Feature n°2,Tumor non-proliferating_stromal_aggregatedNeighbors.Vessel
+Feature n°3,Tumor non-proliferating_stromal_aggregatedNeighbors.Myeloid.Granulocytes
+Feature n°4,Tumor non-proliferating_tumorfront_aggregatedNeighbors.Tumor.proliferating
+Feature n°5,Tumor proliferating_intratumor_aggregatedNeighbors.CD8.T.cells
+Feature n°6,Tumor proliferating_tumorfront_aggregatedNeighbors.Vessel
+Feature n°7,Vessel_stromal_aggregatedNeighbors.CD4.T.cells.memory
+Feature n°8,Vessel_tumorfront_aggregatedNeighbors.Fibroblasts
+Feature n°9,Vessel_tumorfront_aggregatedNeighbors.CD4.T.cells.memory
+Feature n°10,CD4 T cells naive_stromal_aggregatedNeighbors.Fibroblasts
+Feature n°11,CD4 T cells naive_stromal_aggregatedNeighbors.CD4.T.cells.naive
+Feature n°12,CD4 T cells naive_tumorfront_aggregatedNeighbors.Tumor.proliferating
+Feature n°13,CD4 T cells naive_tumorfront_aggregatedNeighbors.B.cells
+Feature n°14,CD4 T cells naive_tumorfront_aggregatedNeighbors.CD8.T.cells
+Feature n°15,CD4 T cells naive_tumorfront_aggregatedNeighbors.Myeloid.Granulocytes
+Feature n°16,CD4 T cells memory_stromal_aggregatedNeighbors.Vessel
+Feature n°17,CD4 T cells memory_stromal_aggregatedNeighbors.Myeloid.M1.macrophages
+Feature n°18,CD4 T cells memory_tumorfront_aggregatedNeighbors.Tumor.non.proliferating
+Feature n°19,CD4 T cells memory_tumorfront_aggregatedNeighbors.CD4.T.cells.naive
+Feature n°20,CD4 T cells regulatory_stromal_aggregatedNeighbors.B.cells
+Feature n°21,CD4 T cells regulatory_stromal_aggregatedNeighbors.Myeloid.Granulocytes
+Feature n°22,CD4 T cells regulatory_stromal_aggregatedNeighbors.Myeloid.Monocytes
+Feature n°23,CD4 T cells regulatory_tumorfront_aggregatedNeighbors.Tumor.non.proliferating
+Feature n°24,CD4 T cells regulatory_tumorfront_aggregatedNeighbors.Tumor.proliferating
+Feature n°25,CD4 T cells regulatory_tumorfront_aggregatedNeighbors.Myeloid.Granulocytes
+Feature n°26,CD4 T cells regulatory_tumorfront_aggregatedNeighbors.Myeloid.DCs
+Feature n°27,B cells_stromal_aggregatedNeighbors.Vessel
+Feature n°28,B cells_stromal_aggregatedNeighbors.Myeloid.M1.macrophages
+Feature n°29,B cells_stromal_aggregatedNeighbors.Myeloid.Granulocytes
+Feature n°30,B cells_tumorfront_aggregatedNeighbors.Myeloid.M1.macrophages
+Feature n°31,CD8 T cells_intratumor_aggregatedNeighbors.Tumor.non.proliferating
+Feature n°32,CD8 T cells_stromal_aggregatedNeighbors.Tumor.non.proliferating
+Feature n°33,CD8 T cells_stromal_aggregatedNeighbors.Myeloid.M1.macrophages
+Feature n°34,CD8 T cells_tumorfront_aggregatedNeighbors.Vessel
+Feature n°35,CD8 T cells_tumorfront_aggregatedNeighbors.Fibroblasts
+Feature n°36,CD8 T cells_tumorfront_aggregatedNeighbors.Myeloid.M1.macrophages
+Feature n°37,Myeloid M1 macrophages_tumorfront_aggregatedNeighbors.CD4.T.cells.memory
+Feature n°38,Myeloid M2 macrophages_stromal_aggregatedNeighbors.CD4.T.cells.memory
+Feature n°39,Myeloid M2 macrophages_tumorfront_aggregatedNeighbors.Tumor.non.proliferating
+Feature n°40,Myeloid M2 macrophages_tumorfront_aggregatedNeighbors.CD4.T.cells.naive
+Feature n°41,Myeloid M2 macrophages_tumorfront_aggregatedNeighbors.Myeloid.DCs
+Feature n°42,Myeloid Granulocytes_stromal_aggregatedNeighbors.Fibroblasts
+Feature n°43,Myeloid Granulocytes_stromal_aggregatedNeighbors.CD8.T.cells
+Feature n°44,Myeloid Granulocytes_stromal_aggregatedNeighbors.Myeloid.M1.macrophages
+Feature n°45,Myeloid Granulocytes_stromal_aggregatedNeighbors.Myeloid.M2.macrophages
+Feature n°46,Myeloid Granulocytes_stromal_aggregatedNeighbors.Myeloid.Monocytes
+Feature n°47,Myeloid Granulocytes_tumorfront_aggregatedNeighbors.CD8.T.cells
+Feature n°48,Myeloid Granulocytes_tumorfront_aggregatedNeighbors.Myeloid.Monocytes
+Feature n°49,Myeloid DCs_stromal_aggregatedNeighbors.Vessel
+Feature n°50,Myeloid DCs_stromal_aggregatedNeighbors.Myeloid.M1.macrophages
+Feature n°51,Myeloid DCs_tumorfront_aggregatedNeighbors.Myeloid.M1.macrophages
+Feature n°52,Myeloid DCs_tumorfront_aggregatedNeighbors.Myeloid.Granulocytes
+Feature n°53,Myeloid Monocytes_stromal_aggregatedNeighbors.B.cells
+Feature n°54,Myeloid Monocytes_stromal_aggregatedNeighbors.CD8.T.cells
+Feature n°55,Myeloid Monocytes_tumorfront_aggregatedNeighbors.Tumor.non.proliferating
+Feature n°56,Myeloid Monocytes_tumorfront_aggregatedNeighbors.Tumor.proliferating
+Feature n°57,Myeloid Monocytes_tumorfront_aggregatedNeighbors.CD4.T.cells.memory
+Feature n°58,Myeloid Monocytes_tumorfront_aggregatedNeighbors.B.cells
+Feature n°59,Myeloid Monocytes_tumorfront_aggregatedNeighbors.CD8.T.cells
+Feature n°60,Myeloid Monocytes_tumorfront_aggregatedNeighbors.Myeloid.M2.macrophages
+Feature n°61,Myeloid Monocytes_tumorfront_aggregatedNeighbors.Myeloid.Monocytes

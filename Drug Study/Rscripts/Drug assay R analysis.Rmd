@@ -23,7 +23,7 @@ library(tidyr)
 library(janitor)
 ```
 
-#Restructuring the Data
+## Restructuring the Data
 
 ```{r}
 MyData = read.csv(funct_path)
@@ -39,7 +39,8 @@ MyData = subset(MyData, select = -c(filename, uniquePopulationName, parentPopula
 Rewriting the Drug used on each Plate
 
 ```{r}
-Drugs <- c( #This vector contains the name of the drugs in the order corresponding to the plate number they were tested
+#This vector contains the name of the drugs in the order corresponding to the plate number they were tested
+Drugs <- c( 
   "Cefotaxime",
   "Lansoprazole",
   "Iopamidol",
@@ -57,12 +58,14 @@ Drugs <- c( #This vector contains the name of the drugs in the order correspondi
   "Methylpredonisolone"
 )
 
-for (i in seq(1, 15)){ #Plate values are going from 1 to 15
+# We associate the name of tje drug corresponding to its plate number in MyData
+for (i in seq(1, 15)){
     MyData = MyData %>%
     mutate(Drug =  ifelse(Plate == i, Drugs[i], Drug))
 }
 
-MyData = subset(MyData, select = -c(Plate)) #Now that the Plate contained in information is transfered in the Drug column, we can remove column Plate
+# Removing the Plate column
+MyData = subset(MyData, select = -c(Plate)) 
 ```
 
 Getting rid of the units for the doses and associating 0.5% to the null dose (it corresponds DMSO)
@@ -112,7 +115,7 @@ for(dosepoint in unique(MyData$dose)){
   # asinh transformation
   MyData_dosepoint = MyData_dosepoint %>% mutate(feature = asinh(median/5))
 
-  # Removing the median column & Stimulated - Unstimulated
+  # Removing the median column and calculating Stimulated - Unstimulated
   MyData_dosepoint = MyData_dosepoint[, names(MyData_dosepoint) != "median"] %>%
     pivot_wider(names_from = stimulation, values_from = feature)
 
@@ -140,34 +143,42 @@ Here we want to quantify the behavior of the drugs into three categories : 'Inhi
 
 ### Dataframes
 
+**+++ Maybe we were a bit to hard with the way we characetrized inhibitor and activators...**
+
 ```{r}
 Doseresponse = final_data %>%
   dplyr::mutate(dose = paste0("D", dose)) %>% # adds a D in front of the dose value
-  dcast(population + reagent +drug + stimulation ~ dose, value.var = "feature") %>% # dcast(new rows ~ new columns, values)
-  # mutate(dose_response = case_when(D1 > D10 & D10 > D100   ~ T,
-  #                            TRUE ~ F)) %>%
+  dcast(population + reagent +drug + stimulation ~ dose, value.var = "feature") %>% 
   mutate(dose_response = case_when(is.na(D1000) == T & D1 > D10 & D10 > D100   ~ 'Inhibitor',
                                   is.na(D1000) == T & D1 < D10 & D10 < D100   ~ 'Activation',
                                   is.na(D1) == T & D10 > D100 & D100 > D1000   ~ 'Inhibitor',
                                   is.na(D1) == T & D10 < D100 & D100 < D1000   ~ 'Activation',
-                                  TRUE ~ 'FALSE')) 
+                                  TRUE ~ 'FALSE'))
 ```
 
 Now, we can look at the drugs that are actually inhibiting a lot of reagents or not...
 
 ```{r}
 InhibitionRatio <- Doseresponse %>% group_by(drug, dose_response) %>%
-  dplyr::summarise(N = n()) %>% # calculate the number of reagent and stimulation where it has the dose_response behavior
+  # calculate the number of reagent and stimulation where it has the dose_response behavior
+  dplyr::summarise(N = n()) %>% 
   arrange(desc(N)) %>%
   dcast(drug ~ dose_response, value.var = "N") %>%
   mutate(total = `FALSE`+ `Activation` + `Inhibitor`) %>%
-  mutate(prop = `Inhibitor` / total*100)%>% # calculate the % of the time the drug behave as an inhibitor
-  arrange(desc(prop))
+  # calculate the % of the time the drug behave as an inhibitor
+  mutate(inhib_prop = `Inhibitor` / total*100)%>% 
+  # calculate the % of the time the drug behave as an activator
+  mutate(activ_prop = `Activation` / total*100)%>% 
+  arrange(desc(inhib_prop + activ_prop))
 
 head(InhibitionRatio)
 ```
 
 We can now look more precisely to each row (1 drug, 1stim, 1reagent, 4doses) if the inhibitor or activation behavior seems to be linear. The rsq ($R^2$) score is a good way to know if the linear fit is a good one and consequently if the effect of the drug is "real" (proportional to the concentration).
+
+**+++ Maybe we can use other models than only linear model to be sure we tried several options to capture the trend of a drug on a specific reagent**
+
+**+++ We have 4 patients now so we should build thos regressions using all the available data and even this step could come before the inhibitorscore calculated previously (looking at the slope of the approximation would help us determine if a drug behave like an activator/inhibitor or FALSE).**
 
 ```{r}
 Potency = Doseresponse %>% 
@@ -178,8 +189,10 @@ Potency = Doseresponse %>%
   group_by(feature) %>% 
   mutate(x=name) %>% 
   nest() %>% 
-  mutate(model = map(data, ~ lm(value ~ x, data = .)), # linear model fitting
-         result = map(model, function(x) list(intercept= x$coef[1], # summary of the linear model
+  mutate(# linear model fitting
+         model = map(data, ~ lm(value ~ x, data = .)), 
+         # summary of the linear model
+         result = map(model, function(x) list(intercept= x$coef[1], 
                                               slope = x$coef[2],
                                               rsq = summary(x)$r.squared))) %>% 
   unnest_wider(result) %>%
@@ -197,14 +210,18 @@ drug <- "Clotrimazole"
 ```{r}
 ## Creating a dataframe of the slopes (DrugPopulation ~ stimulation + reagent)
 mat <- Potency %>%
-  dplyr::filter(name == "D10") %>% # choosing one arbitrary dose (all the doses are part of the same model)
+  # choosing one arbitrary dose (all the doses are part of the same model)
+  dplyr::filter(name == "D10") %>% 
   dplyr::filter(drug == drug) %>%
   dplyr::select(drug, population, reagent, stimulation, slope) %>%
   dcast(drug + population ~ reagent + stimulation, value.var = "slope") %>%
-  tidyr::unite(rowname, drug, population) %>% #concatenate the metadata
+  # concatenate the metadata
+  tidyr::unite(rowname, drug, population) %>%
   tibble::column_to_rownames() %>%
   t()
-mat[is.na(mat)] <- 0 # Replacing missing values with 0
+
+# Replacing missing values with 0
+mat[is.na(mat)] <- 0 
 
 ## Plot
 
@@ -250,6 +267,40 @@ pheatmap(
 
 Here we want to visualize if the effect of a drug on the features selected in preterm birth (PTB) study are opposite to the behavior these features have in preterm pregnant women. This will help us score the different drugs and find the ones that should be able to postpone the onset of labor and so prevent pregnant women from going into labor too early.
 
+-   Making sure we have comparable features on the drugs and on the OOL Study
+
+```{r}
+OOLfeatures <- colnames(read.csv("/Users/jonasamar/Stabl/Drug Study/Onset of Labor csv/immunome_EGA_OOL.csv"))[-c(1,2)]
+
+drug <- "Clotrimazole" #all the drugs have the same features
+drug_pred_features <- Potency %>%
+                        dplyr::filter(name == "D10") %>% # D1, D10, D100, D1000 are part of the same model
+                        dplyr::filter(drug == drug) %>%
+                        dplyr::select(population, reagent, drug, stimulation, slope) %>%
+                        dcast(drug  ~ population + reagent + stimulation, value.var = "slope") %>% 
+                        select(-c("drug")) %>%
+                        colnames() %>%
+                        str_replace_all(c("GM-CSF" = "GMCSF",
+                                          "Unstim" = "unstim",
+                                          "164Dy" = "156Gd",
+                                          "168Yb" = "168Er"))
+
+intersection <- intersect(drug_pred_features, OOLfeatures)
+
+print("")
+print(paste0("Number of features in OOL Study : ",length(OOLfeatures)))
+print(paste0("Number of features in the Drug Study : ",length(drug_pred_features)))
+print(paste0("Number of commmon features : ",length(intersection)))
+```
+
+Given that all the features in the OOL Study are not used in the Drug Study, it is very important to only consider the features that are actually in the Drug Study when building the model to predict the time to labor.
+
+We create a file with the list of those features:
+
+```{r}
+write.csv(intersection, paste(out_path, "features.csv", sep = "/"))
+```
+
 -   First score : $\Sigma_{features}|MaxProp*slope|$
 
 ```{r}
@@ -263,7 +314,6 @@ featuretable0_2 <- featuretable[1:18,]
 # Drug slopes on the PTB features 
 Drugs = unique(Potency$drug)
 test <- NULL
-#i= "Lansoprazole"
 
 for (drug in Drugs){
   # population + reagent + stimulation ~ slopes
@@ -296,7 +346,9 @@ colnames(summary.score) = c("drug", "score")
 
 for(drug in Drugs){
   cal = featuretable %>% dplyr::select(c(drug))
-  score <- as.numeric(featuretable$Max.Proba)*as.numeric(unlist(cal)) #feature importance * drug effect on the feature
+  
+  # feature importance * drug effect on the feature
+  score <- as.numeric(featuretable$Max.Proba)*as.numeric(unlist(cal)) 
   score_f <- sum(abs(score)*100)
   
   new.row <- data.frame(drug = drug, score = score_f)
@@ -312,7 +364,7 @@ summary.score
 -   Second score : $\Sigma_{features}|FeatureCoeff*slope|$
 
 ```{r}
-#List of features from own TTL model:
+# List of features from own TTL model:
 ina.features <- data.frame(feature = c("CD56loCD16posNK_153Eu_STAT1_IFNa",
                                        "CD4Tnaive_159Tb_MAPKAPK2_IFNa",
                                        "ncMCs_149Sm_CREB_GM-CSF",
@@ -342,7 +394,6 @@ featuretable <- data.frame(feature = c("CD56loCD16posNK_153Eu_STAT1_IFNa",
 # Drug slopes on the PTB features 
 Drugs = unique(Potency$drug)
 test <- NULL
-#i= "Lansoprazole"
 
 for (drug in Drugs){
   # population + reagent + stimulation ~ slopes
@@ -375,7 +426,9 @@ colnames(summary.score) = c("drug", "score")
 
 for(drug in Drugs){
   cal = featuretable %>% dplyr::select(c(drug))
-  score <- as.numeric(featuretable$coefficient)*as.numeric(unlist(cal)) #feature importance * drug effect on the feature
+  
+  # feature importance * drug effect on the feature
+  score <- as.numeric(featuretable$coefficient)*as.numeric(unlist(cal)) 
   score_f <- sum(abs(score)*100)
   
   new.row <- data.frame(drug = drug, score = score_f)

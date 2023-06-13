@@ -1,0 +1,169 @@
+Feature,Associated weight
+Tumor non-proliferating_intratumor_cellfrequency,1.1136245844263224
+Tumor non-proliferating_tumorfront_cellfrequency,0.07984341020568435
+Tumor proliferating_tumorfront_cellfrequency,-0.089802629971011
+Vessel_intratumor_cellfrequency,0.871527959376312
+Vessel_tumorfront_cellfrequency,0.0016364799739511512
+Fibroblasts_intratumor_cellfrequency,0.0747833962643868
+CD4 T cells memory_intratumor_cellfrequency,-0.2638381573025719
+CD4 T cells regulatory_tumorfront_cellfrequency,-0.31591402077051667
+B cells_intratumor_cellfrequency,-0.029759110208521497
+Myeloid M1 macrophages_intratumor_cellfrequency,0.0746694691687669
+Myeloid M1 macrophages_stromal_cellfrequency,0.26106702184318803
+Myeloid M1 macrophages_tumorfront_cellfrequency,0.3443624434420014
+Myeloid DCs_tumorfront_cellfrequency,0.05195937979303916
+Myeloid Monocytes_tumorfront_cellfrequency,0.22468210662409793
+Tumor non-proliferating_intratumor_VEGF,-0.10475489610879715
+Tumor non-proliferating_intratumor_pNFkB,-0.1296420218307386
+Tumor non-proliferating_stromal_E-Cadherin,0.6831820540583817
+Tumor non-proliferating_stromal_pERK,0.14900881233951058
+Tumor non-proliferating_tumorfront_pNFkB,-0.007981129711357587
+Tumor non-proliferating_tumorfront_GranzymeB,-0.007938657962966061
+Tumor non-proliferating_tumorfront_pMAPKAPK2,0.3769413387312041
+Tumor non-proliferating_tumorfront_pS6,-0.3479208850648401
+Tumor proliferating_intratumor_pp38,-0.16730375649161236
+Tumor proliferating_intratumor_CD36,-0.03748784661202448
+Tumor proliferating_intratumor_E-Cadherin,-0.15937652593013085
+Tumor proliferating_tumorfront_pSTAT1,-0.0209815228296256
+Tumor proliferating_tumorfront_CD36,-0.045967005305366376
+Tumor proliferating_tumorfront_E-Cadherin,-0.13829565243934747
+Tumor proliferating_tumorfront_pS6,-0.47798030924959556
+Vessel_stromal_pERK,0.22345580408161508
+Vessel_tumorfront_pERK,0.4210047572660622
+Fibroblasts_stromal_pERK,0.6963060811737792
+Fibroblasts_tumorfront_pSTAT1,-0.42547223494043296
+Fibroblasts_tumorfront_pSTAT3,-0.36015651798496645
+Fibroblasts_tumorfront_pERK,0.6575880837543187
+Fibroblasts_tumorfront_pS6,-0.019577239935899108
+CD4 T cells naive_stromal_GranzymeB,-0.024954386247446794
+CD4 T cells naive_stromal_CD44,-0.5585679955944668
+CD4 T cells naive_tumorfront_GranzymeB,-0.008038464952057785
+CD4 T cells naive_tumorfront_pS6,0.23780125197630372
+CD4 T cells memory_stromal_GranzymeB,-0.17789294314748982
+CD4 T cells memory_stromal_CD44,-0.2991981882350544
+CD4 T cells memory_tumorfront_pSTAT1,-0.18376732084236222
+B cells_stromal_CD44,-0.16722698100590064
+B cells_tumorfront_CD36,-0.19332097377639904
+CD8 T cells_intratumor_GranzymeB,-0.1646844828235724
+CD8 T cells_intratumor_pMAPKAPK2,0.21385266076049414
+Myeloid M1 macrophages_stromal_pERK,0.3645556859868226
+Myeloid M2 macrophages_stromal_E-Cadherin,-0.12016999602825391
+Myeloid Granulocytes_stromal_E-Cadherin,-0.03133131492136548
+Myeloid Granulocytes_stromal_GranzymeB,0.05571709770178296
+Myeloid Granulocytes_stromal_Ki67,0.25916657770788437
+Myeloid Granulocytes_tumorfront_VEGF,-0.1955437463979336
+Myeloid DCs_stromal_GranzymeB,-0.10458853680160216
+Myeloid DCs_stromal_CD44,-0.20548458928481544
+Myeloid DCs_tumorfront_pNFkB,-0.10755501441393356
+Myeloid DCs_tumorfront_pS6,-0.12111992239462215
+Myeloid Monocytes_stromal_pSTAT1,-0.037922917742146914
+Myeloid Monocytes_stromal_pSTAT3,-0.13550630948143771
+Myeloid Monocytes_stromal_CD44,-0.07799222835335327
+Myeloid Monocytes_tumorfront_CD36,-0.5267157912419161
+Myeloid Monocytes_tumorfront_GranzymeB,-0.5659493914389199
+Tumor non-proliferating_intratumor_area,-0.4136860784295104
+Vessel_stromal_area,-0.11348819089910744
+Fibroblasts_stromal_area,-0.07766597100140435
+Fibroblasts_tumorfront_area,-0.1979655930507221
+CD4 T cells naive_stromal_area,-0.06267489165085918
+CD4 T cells memory_stromal_area,-0.9201117722254148
+Myeloid Monocytes_stromal_area,-0.03954953612266951
+Tumor non-proliferating_tumorfront_eccentricity,-0.34116928224167936
+Vessel_stromal_eccentricity,-0.19749410600415107
+Vessel_tumorfront_eccentricity,-0.1366115492944997
+CD4 T cells naive_stromal_eccentricity,-0.17537849178081527
+CD4 T cells memory_stromal_eccentricity,-0.4862732295774541
+CD8 T cells_stromal_eccentricity,-0.08843703824749083
+CD8 T cells_tumorfront_eccentricity,0.23409982846875121
+Myeloid M2 macrophages_stromal_eccentricity,0.5916725083027918
+CD4 T cells memory_tumorfront_celldistance,0.4537707562590632
+B cells_tumorfront_celldistance,0.33202027816603424
+Myeloid M1 macrophages_tumorfront_celldistance,0.24550285773809621
+Myeloid Monocytes_tumorfront_celldistance,0.8912770745012518
+Tumor non-proliferating_stromal_aggregatedNeighbors.Vessel,0.1909591177006983
+Tumor non-proliferating_stromal_aggregatedNeighbors.CD4.T.cells.regulatory,0.008638578812673277
+Tumor non-proliferating_stromal_aggregatedNeighbors.Myeloid.M2.macrophages,-0.09677773752130074
+Tumor non-proliferating_stromal_aggregatedNeighbors.Myeloid.Granulocytes,1.150634571026272
+Tumor non-proliferating_stromal_aggregatedNeighbors.Myeloid.DCs,-0.07219833723778533
+Tumor non-proliferating_tumorfront_aggregatedNeighbors.Fibroblasts,0.14533612124626383
+Tumor non-proliferating_tumorfront_aggregatedNeighbors.CD4.T.cells.naive,-0.2679029821683506
+Tumor non-proliferating_tumorfront_aggregatedNeighbors.CD4.T.cells.memory,0.8482383196015562
+Tumor non-proliferating_tumorfront_aggregatedNeighbors.CD4.T.cells.regulatory,0.6099567726738367
+Tumor non-proliferating_tumorfront_aggregatedNeighbors.CD8.T.cells,-0.06401232761342346
+Tumor proliferating_intratumor_aggregatedNeighbors.CD8.T.cells,-0.7399060485766571
+Tumor proliferating_tumorfront_aggregatedNeighbors.Tumor.proliferating,-0.08829259362575637
+Tumor proliferating_tumorfront_aggregatedNeighbors.Vessel,0.507641270873704
+Tumor proliferating_tumorfront_aggregatedNeighbors.B.cells,-0.03706704851339166
+Vessel_stromal_aggregatedNeighbors.CD4.T.cells.naive,-0.02227381552454861
+Vessel_stromal_aggregatedNeighbors.CD4.T.cells.memory,-0.10630530204294798
+Vessel_stromal_aggregatedNeighbors.Myeloid.Monocytes,-0.050310260392168245
+Vessel_tumorfront_aggregatedNeighbors.CD4.T.cells.regulatory,-0.16610869316829185
+Fibroblasts_stromal_aggregatedNeighbors.Vessel,0.36622473071988537
+Fibroblasts_stromal_aggregatedNeighbors.Fibroblasts,-0.3636416094925073
+Fibroblasts_stromal_aggregatedNeighbors.CD4.T.cells.memory,-0.2837260487302872
+Fibroblasts_stromal_aggregatedNeighbors.CD4.T.cells.regulatory,-0.23673040734279427
+Fibroblasts_stromal_aggregatedNeighbors.Myeloid.M1.macrophages,0.2017195223810878
+Fibroblasts_tumorfront_aggregatedNeighbors.Fibroblasts,-0.3885040725762347
+Fibroblasts_tumorfront_aggregatedNeighbors.CD4.T.cells.regulatory,-0.10351772605155797
+Fibroblasts_tumorfront_aggregatedNeighbors.Myeloid.DCs,0.02347796399937379
+CD4 T cells naive_stromal_aggregatedNeighbors.Myeloid.M1.macrophages,0.33560264904314213
+CD4 T cells naive_stromal_aggregatedNeighbors.Myeloid.M2.macrophages,-0.1970452507353105
+CD4 T cells naive_tumorfront_aggregatedNeighbors.Tumor.proliferating,-0.4880508421835089
+CD4 T cells naive_tumorfront_aggregatedNeighbors.B.cells,-0.19434372615814574
+CD4 T cells naive_tumorfront_aggregatedNeighbors.CD8.T.cells,-0.3198360655798441
+CD4 T cells naive_tumorfront_aggregatedNeighbors.Myeloid.Granulocytes,-0.11467329048649666
+CD4 T cells memory_stromal_aggregatedNeighbors.Myeloid.M1.macrophages,0.477813988231904
+CD4 T cells memory_stromal_aggregatedNeighbors.Myeloid.Granulocytes,0.19448915534540037
+CD4 T cells memory_stromal_aggregatedNeighbors.Myeloid.DCs,-0.14768445662376362
+CD4 T cells memory_tumorfront_aggregatedNeighbors.CD4.T.cells.naive,-0.4242177161000513
+CD4 T cells memory_tumorfront_aggregatedNeighbors.CD4.T.cells.memory,-0.05881170000768781
+CD4 T cells memory_tumorfront_aggregatedNeighbors.CD8.T.cells,-0.6687412279851426
+CD4 T cells memory_tumorfront_aggregatedNeighbors.Myeloid.M1.macrophages,-0.029168025465748926
+CD4 T cells memory_tumorfront_aggregatedNeighbors.Myeloid.M2.macrophages,0.48181887266082624
+CD4 T cells regulatory_stromal_aggregatedNeighbors.Vessel,0.09679898035472209
+CD4 T cells regulatory_stromal_aggregatedNeighbors.Fibroblasts,-0.1299217854808032
+CD4 T cells regulatory_stromal_aggregatedNeighbors.CD4.T.cells.memory,0.09315476913057844
+CD4 T cells regulatory_stromal_aggregatedNeighbors.B.cells,-0.23076476469199425
+CD4 T cells regulatory_stromal_aggregatedNeighbors.Myeloid.Granulocytes,0.29903275350386405
+CD4 T cells regulatory_stromal_aggregatedNeighbors.Myeloid.Monocytes,-0.40855803080408504
+CD4 T cells regulatory_tumorfront_aggregatedNeighbors.CD8.T.cells,-0.061903972636589984
+CD4 T cells regulatory_tumorfront_aggregatedNeighbors.Myeloid.DCs,0.7778268055456886
+B cells_stromal_aggregatedNeighbors.Vessel,-0.44429242120033496
+B cells_stromal_aggregatedNeighbors.Myeloid.Granulocytes,0.45445399862928315
+B cells_tumorfront_aggregatedNeighbors.Vessel,-0.2067058228459791
+B cells_tumorfront_aggregatedNeighbors.CD4.T.cells.regulatory,-0.12945138154045432
+CD8 T cells_stromal_aggregatedNeighbors.Tumor.non.proliferating,-0.02830104687752776
+CD8 T cells_stromal_aggregatedNeighbors.Myeloid.Granulocytes,0.05539360854829263
+CD8 T cells_tumorfront_aggregatedNeighbors.Vessel,0.14307902136989453
+CD8 T cells_tumorfront_aggregatedNeighbors.Myeloid.DCs,0.13503985254711853
+Myeloid M1 macrophages_stromal_aggregatedNeighbors.CD4.T.cells.naive,-0.22450943100240459
+Myeloid M1 macrophages_stromal_aggregatedNeighbors.Myeloid.DCs,-0.3417940562533123
+Myeloid M1 macrophages_tumorfront_aggregatedNeighbors.Myeloid.M1.macrophages,0.15248280696810826
+Myeloid M1 macrophages_tumorfront_aggregatedNeighbors.Myeloid.M2.macrophages,-0.1277694784660463
+Myeloid M1 macrophages_tumorfront_aggregatedNeighbors.Myeloid.DCs,-0.6034652706156675
+Myeloid M2 macrophages_stromal_aggregatedNeighbors.CD4.T.cells.memory,-0.5211451351356317
+Myeloid M2 macrophages_tumorfront_aggregatedNeighbors.CD8.T.cells,-0.04395227271270227
+Myeloid M2 macrophages_tumorfront_aggregatedNeighbors.Myeloid.DCs,-0.1815177617558317
+Myeloid M2 macrophages_tumorfront_aggregatedNeighbors.Myeloid.Monocytes,0.11041357273905747
+Myeloid Granulocytes_stromal_aggregatedNeighbors.Vessel,-0.07686832212555471
+Myeloid Granulocytes_stromal_aggregatedNeighbors.CD8.T.cells,0.22631996011612204
+Myeloid Granulocytes_stromal_aggregatedNeighbors.Myeloid.M1.macrophages,0.1337811770747597
+Myeloid Granulocytes_stromal_aggregatedNeighbors.Myeloid.M2.macrophages,-0.23114303686343043
+Myeloid Granulocytes_stromal_aggregatedNeighbors.Myeloid.Monocytes,0.1448543419235411
+Myeloid Granulocytes_tumorfront_aggregatedNeighbors.CD8.T.cells,-0.28367229912733
+Myeloid DCs_stromal_aggregatedNeighbors.Vessel,0.33629776404805767
+Myeloid DCs_tumorfront_aggregatedNeighbors.CD4.T.cells.memory,-0.07200057274546824
+Myeloid DCs_tumorfront_aggregatedNeighbors.CD8.T.cells,-0.0362578834896213
+Myeloid DCs_tumorfront_aggregatedNeighbors.Myeloid.M1.macrophages,-0.0932814088807187
+Myeloid DCs_tumorfront_aggregatedNeighbors.Myeloid.Granulocytes,-0.2927488652039163
+Myeloid DCs_tumorfront_aggregatedNeighbors.Myeloid.DCs,0.010916775642548662
+Myeloid Monocytes_stromal_aggregatedNeighbors.CD4.T.cells.regulatory,0.3185752289283118
+Myeloid Monocytes_stromal_aggregatedNeighbors.CD8.T.cells,-0.10495959762527342
+Myeloid Monocytes_tumorfront_aggregatedNeighbors.Tumor.non.proliferating,0.5963654603718433
+Myeloid Monocytes_tumorfront_aggregatedNeighbors.Tumor.proliferating,-0.8064627670134068
+Myeloid Monocytes_tumorfront_aggregatedNeighbors.CD4.T.cells.memory,-0.33696641892818824
+Myeloid Monocytes_tumorfront_aggregatedNeighbors.B.cells,-0.30898078287836295
+Myeloid Monocytes_tumorfront_aggregatedNeighbors.CD8.T.cells,-0.42273612497298396
+Myeloid Monocytes_tumorfront_aggregatedNeighbors.Myeloid.M1.macrophages,-0.22570713023966935
+Myeloid Monocytes_tumorfront_aggregatedNeighbors.Myeloid.DCs,0.008259214941917876
+Myeloid Monocytes_tumorfront_aggregatedNeighbors.Myeloid.Monocytes,-0.594803693772343
