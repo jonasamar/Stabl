@@ -26,13 +26,13 @@ from sklearn.feature_selection import VarianceThreshold
 from stabl.preprocessing import LowInfoFilter, remove_low_info_samples
 
 # Import Data
-X_EGA_pen = pd.read_csv('Onset of Labor csv/immunome_EGA_pen_OOL.csv',index_col="ID")
-X_EGA = pd.read_csv('Onset of Labor csv/immunome_EGA_OOL.csv',index_col="ID")
+X_EGA_pen = pd.read_csv('../Onset of Labor csv/immunome_EGA_pen_OOL.csv',index_col="ID")
+X_EGA = pd.read_csv('../Onset of Labor csv/immunome_EGA_OOL.csv',index_col="ID")
 
 X = X_EGA_pen
 data_name = "immunome_EGA_pen_OOL"
 
-y = pd.read_csv('./Onset of Labor csv/outcome_OOL.csv',index_col="ID").iloc[:,0]
+y = pd.read_csv('../Onset of Labor csv/outcome_OOL.csv',index_col="ID").iloc[:,0]
 # Preprocessing
 remove_low_info_samples(X)
 preprocessing = Pipeline(

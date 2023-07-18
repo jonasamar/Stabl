@@ -6,7 +6,7 @@ import os
 import numpy as np
 import pandas as pd
 from pathlib import Path
-from sklearn.model_selection import GroupShuffleSplit, RepeatedStratifiedKFold, LeaveOneOut
+from sklearn.model_selection import GroupShuffleSplit, RepeatedStratifiedKFold, LeaveOneOut, RepeatedKFold
 from sklearn.base import clone
 from scipy.stats import mannwhitneyu, spearmanr
 from stabl.visualization import scatterplot_features, boxplot_features
@@ -26,13 +26,13 @@ from sklearn.feature_selection import VarianceThreshold
 from stabl.preprocessing import LowInfoFilter, remove_low_info_samples
 
 # Import Data
-X_noEGA_pen = pd.read_csv('Onset of Labor csv/immunome_noEGA_pen_OOL.csv',index_col="ID")
-X_noEGA = pd.read_csv('Onset of Labor csv/immunome_noEGA_OOL.csv',index_col="ID")
+X_noEGA_pen = pd.read_csv('../Onset of Labor csv/immunome_noEGA_pen_OOL.csv',index_col="ID")
+X_noEGA = pd.read_csv('../Onset of Labor csv/immunome_noEGA_OOL.csv',index_col="ID")
 
 X = X_noEGA_pen
 data_name = "immunome_noEGA_pen_OOL"
 
-EGA_error = pd.read_csv('./Onset of Labor csv/EGA_error.csv',index_col="ID").iloc[:,0]
+EGA_error = pd.read_csv('../Onset of Labor csv/EGA_error.csv',index_col="ID").iloc[:,0]
 # Preprocessing
 remove_low_info_samples(X)
 preprocessing = Pipeline(
@@ -63,7 +63,7 @@ stabl = Stabl(base_estimator=clone(logit_en),
 	random_state=42)
 
 stability_selection = clone(stabl).set_params(artificial_type=None, hard_threshold=0.3)
-outer_splitter = RepeatedStratifiedKFold(n_splits=5, n_repeats=10, random_state=42)
+outer_splitter = RepeatedKFold(n_splits=5, n_repeats=10, random_state=42)
 
 single_omic_stabl_cv(
 	X=X,
