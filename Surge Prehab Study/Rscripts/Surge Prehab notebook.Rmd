@@ -1,0 +1,59 @@
+---
+title: "Surge Prehab Notebook"
+output: html_notebook
+---
+
+## Paths
+
+```{r}
+setwd("/Users/jonasamar/Stabl/Surge Prehab Study/Rscripts")
+data_path <- "/Users/jonasamar/Stabl/Surge Prehab Study/Data"
+plot_path <- "/Users/jonasamar/Stabl/Surge Prehab Study/Plots"
+```
+
+## Libraries
+
+```{r}
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+```
+
+## Data
+
+```{r}
+data <- read.csv(file=paste0(data_path, "/Surge_internal_controls.csv"), sep=";", dec=",")
+head(data)
+```
+```{r}
+data <- data %>% 
+          # We are only interested in CD4Tcells and cMC populations
+          filter(population %in% c("cMC", "CD4Tcells")) %>%
+          # Creating the name of the features
+          mutate(feature.name = paste(population, reagent, sep="_")) %>%
+          # Selecting relevant information
+          select(feature.name, plate, stimulation, median) %>%
+          # Arcinsh ratio
+          pivot_wider(names_from=stimulation, values_from=median) %>%
+          mutate(Unstim = asinh(Unstim/5),
+                 Stim = asinh(Stim/5),
+                 Ratio = Stim - Unstim) %>%
+          pivot_longer(cols=c(Unstim, Stim, Ratio), names_to="stimulation")
+
+head(data)
+```
+## Plots
+
+```{r}
+# Data to plot
+target.feature <- "cMC_166Er"
+plot_data <- data[data$feature.name == target.feature, ]
+
+# Plot
+ggplot(plot_data, aes(x=plate, y=value, color=stimulation)) +
+  geom_point()
+```
+
+
+
+

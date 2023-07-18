@@ -1,0 +1,51 @@
+,Fold selected features,Fold nb of features
+Fold 0,"['Bcells_155Gd_pS6_Unstim', 'CD4Temra_154Sm_pSTAT3_IL']",2
+Fold 1,['CXCR4pos_neutrophils_159Tb_pMAPKAPK2_TNFa'],1
+Fold 2,"['Bcells_155Gd_pS6_Unstim', 'CXCR4pos_neutrophils_155Gd_pS6_IL']",2
+Fold 3,"['Baso_149Sm_pCREB_LPS', 'DC_154Sm_pSTAT3_IL', 'MDSC_Frequency_Unstim']",3
+Fold 4,"['Bcells_155Gd_pS6_Unstim', 'granulocytes_151Eu_pp38_TNFa']",2
+Fold 5,['Bcells_155Gd_pS6_Unstim'],1
+Fold 6,"['CD56dimCD16posNK_Frequency_Unstim', 'granulocytes_151Eu_pp38_TNFa', 'mDC_166Er_pNFkB_LPS', 'MDSC_Frequency_Unstim']",4
+Fold 7,"['Bcells_155Gd_pS6_Unstim', 'CD4Tem_Frequency_Unstim']",2
+Fold 8,"['Bcells_155Gd_pS6_Unstim', 'CD8TnaiveCD45RAposCD62Lpos_Frequency_Unstim', 'mDC_154Sm_pSTAT3_IL']",3
+Fold 9,"['CXCR4pos_neutrophils_159Tb_pMAPKAPK2_TNFa', 'granulocytes_151Eu_pp38_LPS']",2
+Fold 10,"['CD4Temra_154Sm_pSTAT3_IL', 'CD56dimCD16posNK_Frequency_Unstim']",2
+Fold 11,"['Bcells_155Gd_pS6_Unstim', 'CXCR4pos_neutrophils_155Gd_pS6_IL']",2
+Fold 12,['Bcells_155Gd_pS6_Unstim'],1
+Fold 13,"['Baso_151Eu_pp38_LPS', 'CD7negCD14neg_Frequency_Unstim', 'granulocytes_151Eu_pp38_TNFa']",3
+Fold 14,"['Bcells_155Gd_pS6_Unstim', 'CXCR4pos_neutrophils_155Gd_pS6_IL', 'CXCR4pos_neutrophils_159Tb_pMAPKAPK2_TNFa']",3
+Fold 15,"['Baso_159Tb_pMAPKAPK2_LPS', 'Bcells_155Gd_pS6_Unstim', 'CD4Temra_154Sm_pSTAT3_IL', 'CXCR4pos_neutrophils_159Tb_pMAPKAPK2_TNFa']",4
+Fold 16,['Bcells_155Gd_pS6_Unstim'],1
+Fold 17,['granulocytes_151Eu_pp38_TNFa'],1
+Fold 18,['CXCR4pos_neutrophils_159Tb_pMAPKAPK2_TNFa'],1
+Fold 19,"['Bcells_155Gd_pS6_Unstim', 'DC_154Sm_pSTAT3_IL', 'granulocytes_151Eu_pp38_TNFa']",3
+Fold 20,"['Bcells_155Gd_pS6_Unstim', 'granulocytes_151Eu_pp38_TNFa']",2
+Fold 21,['Bcells_155Gd_pS6_Unstim'],1
+Fold 22,['CXCR4pos_neutrophils_159Tb_pMAPKAPK2_TNFa'],1
+Fold 23,"['Bcells_155Gd_pS6_Unstim', 'CD4Temra_154Sm_pSTAT3_IL', 'DC_154Sm_pSTAT3_IL']",3
+Fold 24,"['Bcells_155Gd_pS6_Unstim', 'CD56dimCD16posNK_Frequency_Unstim', 'CXCR4pos_neutrophils_159Tb_pMAPKAPK2_TNFa']",3
+Fold 25,['Bcells_155Gd_pS6_Unstim'],1
+Fold 26,"['Baso_149Sm_pCREB_LPS', 'CD7negCD14neg_Frequency_Unstim', 'granulocytes_151Eu_pp38_TNFa']",3
+Fold 27,['CXCR4pos_neutrophils_159Tb_pMAPKAPK2_TNFa'],1
+Fold 28,"['CXCR4pos_neutrophils_159Tb_pMAPKAPK2_TNFa', 'DC_154Sm_pSTAT3_IL']",2
+Fold 29,"['Bcells_155Gd_pS6_Unstim', 'CD56dimCD16posNK_Frequency_Unstim']",2
+Fold 30,"['Bcells_155Gd_pS6_Unstim', 'granulocytes_151Eu_pp38_LPS']",2
+Fold 31,['CD4Tnaive_Frequency_Unstim'],1
+Fold 32,"['Bcells_155Gd_pS6_Unstim', 'CXCR4pos_neutrophils_159Tb_pMAPKAPK2_TNFa']",2
+Fold 33,"['Bcells_155Gd_pS6_Unstim', 'MAITCD8pos_Frequency_Unstim']",2
+Fold 34,"['Bcells_155Gd_pS6_Unstim', 'CD56dimCD16posNK_Frequency_Unstim', 'DC_154Sm_pSTAT3_IL']",3
+Fold 35,['Bcells_155Gd_pS6_Unstim'],1
+Fold 36,['Bcells_155Gd_pS6_Unstim'],1
+Fold 37,"['Bcells_155Gd_pS6_Unstim', 'mDC_154Sm_pSTAT3_IL']",2
+Fold 38,"['CXCR4pos_neutrophils_155Gd_pS6_IL', 'granulocytes_151Eu_pp38_TNFa']",2
+Fold 39,"['Baso_149Sm_pCREB_LPS', 'granulocytes_151Eu_pp38_TNFa']",2
+Fold 40,"['Baso_151Eu_pp38_LPS', 'Bcells_155Gd_pS6_Unstim', 'CXCR4pos_neutrophils_155Gd_pS6_IL']",3
+Fold 41,"['Bcells_155Gd_pS6_Unstim', 'CD56dimCD16posNK_Frequency_Unstim', 'CXCR4pos_neutrophils_159Tb_pMAPKAPK2_TNFa', 'DC_154Sm_pSTAT3_IL']",4
+Fold 42,"['Baso_149Sm_pCREB_LPS', 'granulocytes_151Eu_pp38_TNFa']",2
+Fold 43,['Baso_151Eu_pp38_LPS'],1
+Fold 44,['Bcells_155Gd_pS6_Unstim'],1
+Fold 45,['CXCR4pos_neutrophils_155Gd_pS6_IL'],1
+Fold 46,"['Bcells_155Gd_pS6_Unstim', 'CD56dimCD16posNK_Frequency_Unstim', 'CXCR4pos_neutrophils_155Gd_pS6_IL']",3
+Fold 47,['CD56dimCD16posNK_Frequency_Unstim'],1
+Fold 48,"['Baso_149Sm_pCREB_LPS', 'Bcells_155Gd_pS6_Unstim', 'granulocytes_151Eu_pp38_TNFa']",3
+Fold 49,"['Bcells_155Gd_pS6_Unstim', 'granulocytes_151Eu_pp38_TNFa', 'Tregnaive_154Sm_pSTAT3_IL']",3
