@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from sklearn.base import BaseEstimator
+from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.feature_selection import SelectorMixin
 from sklearn.utils.validation import check_is_fitted
 
@@ -36,7 +36,87 @@ def remove_low_info_samples(X, threshold=1.0):
         nan_fraction = np.isnan(X).sum(1) / X.shape[1]
         mask = nan_fraction < threshold
         return X[mask]
+    
+class Winsorizer(BaseEstimator, TransformerMixin):
+    """
+    Winsorizer: A feature preprocessing technique that performs winsorization on the input features (X).
 
+    Winsorization is used to handle extreme values (outliers) in each feature column by capping them
+    at specified percentiles, thereby minimizing the impact of outliers without removing them entirely.
+    This technique is suitable for unsupervised learning tasks, where the focus is on feature transformation
+    without considering the output labels (y).
+
+    Parameters
+    ----------
+    winsor_percentile : float, default=5
+        Features with extreme values beyond this percentile will be capped during winsorization.
+        The extreme values will be replaced with the values at this percentile.
+
+    Attributes
+    ----------
+    winsor_low_ : dict
+        A dictionary that stores the winsor low values for each individual feature.
+        The winsor low value is the threshold below which extreme values in the feature will be capped during winsorization.
+
+    winsor_high_ : dict
+        A dictionary that stores the winsor high values for each individual feature.
+        The winsor high value is the threshold above which extreme values in the feature will be capped during winsorization.
+
+    n_features_in_ : int
+        Number of features seen during fit.
+
+    feature_names_in_ : ndarray of shape (n_features_in_,)
+        Names of features seen during the fit. Defined only when X has feature names that are all strings.
+
+    Example Usage
+    -------------
+    # Instantiate the Winsorizer with a winsorization percentile of 5
+    winsorizer = Winsorizer(winsor_percentile=5)
+
+    # Fit and transform the Winsorizer to the training data
+    X_train_winsorized = winsorizer.fit_transform(X_train)
+
+    # Apply the same Winsorizer to the testing data
+    X_test_winsorized = winsorizer.transform(X_test)
+    """
+    
+    def __init__(self, winsor_percentile=5):
+        self.winsor_percentile = winsor_percentile
+        self.winsor_low_ = None
+        self.winsor_high_ = None
+
+    def fit(self, X, y=None):
+        if isinstance(X, pd.DataFrame):
+            X_data = X
+            self.feature_names_in_ = X.columns
+        else:
+            X_data = pd.DataFrame(X)
+            self.feature_names_in_ = None
+
+        self.winsor_low_ = {}
+        self.winsor_high_ = {}
+        for col in X_data.columns:
+            winsor_low = np.percentile(X_data[col], self.winsor_percentile)
+            winsor_high = np.percentile(X_data[col], 100 - self.winsor_percentile)
+            self.winsor_low_[col] = winsor_low
+            self.winsor_high_[col] = winsor_high
+
+        self.n_features_in_ = X_data.shape[1]
+        return self
+
+    def transform(self, X):
+        if isinstance(X, pd.DataFrame):
+            X_data = X.copy()
+        else:
+            X_data = pd.DataFrame(X)
+
+        for col in X_data.columns:
+            X_data[col] = np.clip(X_data[col], self.winsor_low_[col], self.winsor_high_[col])
+
+        return X_data.values if self.feature_names_in_ is None else X_data
+
+    def fit_transform(self, X, y=None):
+        return self.fit(X).transform(X)
 
 
 class LowInfoFilter(SelectorMixin, BaseEstimator):

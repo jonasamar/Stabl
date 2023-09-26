@@ -100,6 +100,11 @@ def single_omic_stabl_cv(
     # Initializing the df containing the data of all omics
     predictions_dict = dict()
     selected_features_dict = dict()
+    
+    # Jonas : getting the step of preprocessing where X is standardized
+    # Essential to call get_feature_names_out() when user wants to add preprocessing steps
+    std_step_index = [index for index, (name, _) in enumerate(preprocessing.steps) if name == 'std'][0]
+    # end additional code
 
     for model in models:
         predictions_dict[model] = pd.DataFrame(data=None, index=y.index)
@@ -107,12 +112,16 @@ def single_omic_stabl_cv(
 
     i = 1
     for train, test in outer_splitter.split(X, y, groups=outer_groups):
-        # Jonas additional code in case outer_splitter is LeaveOneOut
+        
+        # Jonas additional code in case outer_splitter is LeaveOneOut or LeaveOneGroupOut
         if isinstance(outer_splitter, LeaveOneOut):
             print(f" Iteration {i} over {X.shape[0]} ".center(80, '*'), "\n")
+        elif isinstance(outer_groups, (list, tuple, np.ndarray, pd.Series, pd.DataFrame)):
+            print(f" Iteration {i} over {outer_splitter.get_n_splits(groups=outer_groups)} ".center(80, '*'), "\n")
         else:
             print(f" Iteration {i} over {outer_splitter.get_n_splits()} ".center(80, '*'), "\n")
         # end additional code
+
         train_idx, test_idx = y.iloc[train].index, y.iloc[test].index
 
         fold_selected_features = dict()
@@ -130,7 +139,7 @@ def single_omic_stabl_cv(
         X_tmp_std = pd.DataFrame(
             data=preprocessing.fit_transform(X_tmp),
             index=X_tmp.index,
-            columns=preprocessing.get_feature_names_out()
+            columns=preprocessing[:std_step_index+1].get_feature_names_out()
         )
 
         # __STABL__
@@ -220,13 +229,13 @@ def single_omic_stabl_cv(
         X_test = X.loc[test_idx]
         X_train = pd.DataFrame(
             data=preprocessing.fit_transform(X_train),
-            columns=preprocessing.get_feature_names_out(),
+            columns=preprocessing[:std_step_index+1].get_feature_names_out(),
             index=X_train.index
         )
 
         X_test = pd.DataFrame(
             data=preprocessing.transform(X_test),
-            columns=preprocessing.get_feature_names_out(),
+            columns=preprocessing[:std_step_index+1].get_feature_names_out(),
             index=X_test.index
         )
 
@@ -245,15 +254,18 @@ def single_omic_stabl_cv(
 
         # __Lasso 1SE__
         if task_type == "binary":
-            # Jonas additional code
+            
+            # Jonas additional code for error : Hyperparameter taking negative values
             new_best_c_corr = model.C_[0] - model.scores_[True].std() / np.sqrt(inner_splitter.get_n_splits())
             if new_best_c_corr < 0:
                 best_c_corr = abs(model.C_[0])
             else:
                 best_c_corr = new_best_c_corr
             # end of new code
+            
             model = LogisticRegression(penalty='l1', solver='liblinear', C=best_c_corr, class_weight='balanced',
-                                       max_iter=2_000_000)
+                                       max_iter=1_000_000)
+
             predictions = model.fit(X_train, y_train).predict_proba(X_test)[:, 1]
 
         selected_features_dict["Lasso 1SE"].append(list(X_train.columns[np.where(model.coef_.flatten())]))
@@ -287,10 +299,12 @@ def single_omic_stabl_cv(
     for model in models:
 
         jaccard_matrix_dict[model] = jaccard_matrix(selected_features_dict[model])
-        
-        # Jonas additional code in case outer_splitter is LeaveOneOut
+
+        # Jonas additional code in case outer_splitter is LeaveOneOut or LeaveOneGroupOut
         if isinstance(outer_splitter, LeaveOneOut):
             index=[f"Fold {i}" for i in range(X.shape[0])]
+        elif isinstance(outer_groups, (list, tuple, np.ndarray, pd.Series, pd.DataFrame)):
+            index=[f"Fold {i}" for i in range(outer_splitter.get_n_splits(groups=outer_groups))]
         else:
             index=[f"Fold {i}" for i in range(outer_splitter.get_n_splits())]
         # end additional code
@@ -335,8 +349,7 @@ def single_omic_stabl(
         save_path,
         X_test=None,
         y_test=None,
-        preprocessing=default_preprocessing
-):
+        preprocessing=default_preprocessing):
     """
 
     Parameters
@@ -364,6 +377,11 @@ def single_omic_stabl(
 
     os.makedirs(Path(save_path, "Training-Validation"), exist_ok=True)
     os.makedirs(Path(save_path, "Summary"), exist_ok=True)
+    
+    # Jonas : getting the step of preprocessing where X is standardized
+    # Essential to call get_feature_names_out() when user wants to add preprocessing steps
+    std_step_index = [index for index, (name, _) in enumerate(preprocessing.steps) if name == 'std'][0]
+    # end additional code
 
     predictions_dict = dict()
     selected_features_dict = dict()
@@ -373,7 +391,7 @@ def single_omic_stabl(
     X_omic_std = pd.DataFrame(
         data=preprocessing.fit_transform(X),
         index=X.index,
-        columns=preprocessing.get_feature_names_out()
+        columns=preprocessing[:std_step_index+1].get_feature_names_out()
     )
     y_omic = y.loc[X_omic_std.index]
 
@@ -465,7 +483,7 @@ def single_omic_stabl(
     X_train_std = pd.DataFrame(
         data=preprocessing.fit_transform(X),
         index=X.index,
-        columns=preprocessing.get_feature_names_out()
+        columns=preprocessing[:std_step_index+1].get_feature_names_out()
     )
 
     if task_type == "binary":
@@ -486,15 +504,18 @@ def single_omic_stabl(
 
     # __Lasso 1SE__
     if task_type == "binary":
-        # Jonas additional code
+        
+        # Jonas additional code for error : Hyperparameter taking negative values
         new_best_c_corr = model_lasso.C_[0] - model_lasso.scores_[True].std() / np.sqrt(inner_splitter.get_n_splits())
         if new_best_c_corr < 0:
             best_c_corr = abs(model_lasso.C_[0])
         else:
             best_c_corr = new_best_c_corr
         # end of new code
+        
         model_lasso1se = LogisticRegression(penalty='l1', solver='liblinear', C=best_c_corr,
-                                            class_weight='balanced', max_iter=2_000_000).fit(X_train_std, y)
+                                            class_weight='balanced', max_iter=1_000_000
+                                            ).fit(X_train_std, y)
 
     selected_features_dict["Lasso 1SE"] += list(X_train_std.columns[np.where(model_lasso1se.coef_.flatten())])
 
@@ -525,7 +546,7 @@ def single_omic_stabl(
         X_test_std = pd.DataFrame(
             data=preprocessing.transform(X_test),
             index=X_test.index,
-            columns=preprocessing.get_feature_names_out()
+            columns=preprocessing[:std_step_index+1].get_feature_names_out()
         )
 
         predictions_dict["Lasso"] = pd.Series(
